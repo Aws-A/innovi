@@ -1,0 +1,219 @@
+body {
+      margin: 0px;
+      max-width: 100%;
+      overflow-x: hidden;
+}
+
+body a:hover{
+       color: #24B0FF;
+}
+
+body a:click{
+       color: black;
+}
+
+#allTop{
+        background-image: url("../images/headerTrans.png");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        margin-right: -0.5%;
+        height: 475px;
+}
+
+
+.logo {
+    width: 23%;
+    height: 50px;
+    padding: 1%;
+    text-align: left;
+    margin-top: 0.5%;
+    margin-left: 0.5%;
+}
+
+.navigation {
+             display: flex;
+             justify-content: space-between;
+}
+
+nav {
+     display: flex;
+     color: #767576;
+     margin-right: 1%;
+     margin-top: -1%;
+}
+
+nav a {
+    padding: 50px;
+    font-size: 20px;
+    font-family: Inter;
+    color: black;
+}
+
+a{
+  text-decoration: none;
+}
+
+.dropdown {
+    padding: 50px;
+    font-size: 20px;
+    font-family: Inter;
+    color: Black;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 200px;
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 5px 7px;
+  text-decoration: none;
+  display: block;
+  font-size: 17px;
+  border-bottom: 1px solid;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: none;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: none;}
+
+.ii {
+     width: 3%;
+     margin-right: 1%;
+     margin-top: -3.5%;
+     float: right;
+}
+
+
+.Pro1 {
+      display: flex;
+      margin-left: 5%;
+      margin-top: -5%;
+}
+
+.Pro1 p{
+       color: #565656;
+       font-family: inter;
+       font-size: 20px;
+}
+
+.Pro2 {
+      display: flex;
+      margin-left: 5%;
+      margin-top: 0;
+}
+
+.Pro2 p{
+       color: #565656;
+       font-family: inter;
+       font-size: 20px;
+}
+
+.TravelZ {
+          margin-top: 2%;
+}
+
+.Travel {
+         margin-top: -1.5%;
+}
+
+.ShareAll {
+           margin-top: -2.5%;
+}
+
+.Share {
+       margin-left: -23%;
+       margin-top: 3.4%;
+
+}
+
+.Share p{
+         margin-top: 6%;
+}
+
+h3{
+    font-family: inter;
+    text-decoration: underline;
+    font-size: 25px;
+    margin-top: 0px;
+    margin-bottom: 5%;
+    color: #C0C0C0;
+}
+
+
+h5{
+    font-size: 14px;
+    font-family: inter thin;
+    margin: 0 0 2% 12%;
+    color: white;
+}
+
+
+footer {
+        display: flex;
+        background-color: #000000;
+        color: white;
+        margin: 50px 0px 0px -50px;
+        padding: 30px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        justify-content: space-evenly;
+        font-family: inter;
+}
+
+
+.footerA {
+          margin-left: -14%;
+
+}
+.footerA p{
+           font-size: 20px;
+}
+
+.footerC {
+          margin-left: -9%;
+
+}
+
+.footerC p{
+           font-size: 20px;
+}
+
+.con {
+      display: flex;
+}
+
+.con p{
+       margin-left: 5%;
+       margin-top: 3%;
+}
+
+.copyright {
+         background-color: #565656;
+         height: 30px;
+         color: #FFFFFF;
+         text-align: center;
+         font-family: Philosopher;
+         font-size: 22px;
+         padding: 30px 0px 0px 0px;
+}
+
+.copyright p{
+             margin-top: -0.7%;
+}
