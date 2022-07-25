@@ -40,6 +40,8 @@ nav {
      color: #767576;
      margin-right: 5%;
      margin-top: -1%;
+     white-space: nowrap;
+     height: 5%;
 }
 
 nav a {
@@ -140,24 +142,40 @@ a{
       margin-left: 5%;
       margin-top: -9%;
       height: 450px;
+      margin-bottom: -75;
 }
-
-
+.enVisionLogo{
+      width: 25%;
+}
+.TravelZLogo{
+    width: 25%;
+}
+.SantoLogo{
+    width: 25%;
+}
+.shareAllLogo{
+    width: 25%;
+}
 .enVisionImg {
         margin-right: 6%;
 }
-
 .TravelZImg {
         margin-right: 6%;
+        width: 70%;
+        height: 70%; 
 }
 
 
 .SantoImg {
         margin-right: 6%;
+        width: 50%;
+        height: 50%;
 }
 
 .ShareAllImg {
         margin-right: 6%;
+        width: 50%;
+        height: 50%; 
 }
 
 h3{
@@ -180,7 +198,7 @@ h5{
 .ii {
      width: 3%;
      margin-right: 2%;
-     margin-top: -3.5%;
+     margin-top: -5%;
      float: right;
 }
 
@@ -188,7 +206,7 @@ footer {
         display: flex;
         background-color: #000000;
         color: white;
-        margin: 50px 0px 0px -50px;
+        margin: 50px -3.5px 0px -50px;
         padding: 30px;
         background-repeat: no-repeat;
         background-size: 100%;
@@ -239,8 +257,319 @@ footer {
          font-family: Philosopher;
          font-size: 22px;
          padding: 30px 0px 0px 0px;
+         margin-right: -0.3%;
 }
 
 .copyright p{
              margin-top: -0.7%;
+}
+
+@media only screen and (max-width: 500px){
+        #allTop{
+            width: 1000px;
+        }
+        footer{
+            width: 990px;
+        }
+        .copyright{
+            width: 1000px;
+        }
+        .Proto{
+        display: unset;
+        }
+        .ProtoEn{
+            margin-left: 5%;
+        }
+        .card{
+            padding: 15%;
+        }
+        .enVisionImg{
+            width: 170%;
+            margin-left: 48%;
+        }
+        .TravelZImg{
+            width: unset;
+            height: 70%;
+            margin-left: 64%;
+        }
+        .santoImg{
+            width: unset;
+            height: 50%;
+            margin-left: 64%;
+        }
+        .ShareAllImg{
+            width: unset;
+            height: 55%;
+            margin-left: 64%;
+        }
+        .ii{
+            display: none;
+        }
+        .innoviSilver{
+            display: none;
+        }
+        .threeS{
+            margin-left: 17%;
+        }
+        .textIn{
+            text-align: center;
+            margin-left: 83%;
+            width: 100%;
+            margin-top: 105;
+        }
+        .textIn p{
+            font-size: 25px;
+        }
+        .enVisionLogo{
+            width: 100%;
+        }
+        .SantoLogo{
+            width: 70%;
+        }
+        .TravelZLogo{
+            width: 70%;
+        }
+        .shareAllLogo{
+            width: 70%;
+        }
+}
+
+@media (min-width: 389px) and (max-width: 400px){
+        .TravelZImg{
+            margin-left: 50%;
+        }
+        .santoImg{
+
+            margin-left: 50%;
+        }
+        .ShareAllImg{
+            margin-left: 50%;
+        }
+}
+
+@media (min-width: 410px) and (max-width: 415px){
+        .enVisionImg{
+            margin-left: 40%;
+        }
+        .TravelZImg{
+            margin-left: 40%;
+        }
+        .santoImg{
+
+            margin-left: 40%;
+        }
+        .ShareAllImg{
+            margin-left: 40%;
+        }
+        .textIn{
+            margin-left: 70%;
+        }
+}
+
+@media (min-width: 890px) and (max-width: 916px){
+       #allTop{
+        width: 1000px;
+       }
+       footer{
+        width: 990px;
+       }
+       .copyright{
+        width: 1000px;
+       }
+       .card{
+        width: 150px;
+       }
+       .enVisionImg{
+        width: 85%;
+        margin-right: -5%;
+       }
+       .TravelZImg{
+        margin-right: -5%;
+       }
+       .santoImg{
+        margin-right: -5%;
+       }
+       .ShareAllImg{
+        margin-right: -5%;
+       }
+       .ii{
+        margin-right: -7%;
+       }
+}
+
+@media (min-width: 279px) and (max-width: 281px){
+        .enVisionImg{
+            margin-left: 90%;
+        }
+        .TravelZImg{
+            margin-left: 90%;
+        }
+        .santoImg{
+
+            margin-left: 90%;
+        }
+        .ShareAllImg{
+            margin-left: 90%;
+        }
+        .textIn{
+            margin-left: 130%;
+        }
+}
+
+@media (min-width: 500px) and (max-width: 852px){
+        #allTop{
+            width: 1000px;
+        }
+        footer{
+        width: 1000px;
+        padding: 25px;
+        }
+        .copyright{
+            width: 1000px;
+        }
+        .ii{
+            margin-right: -47%;
+        }
+        .card{
+            width: 150px;
+        }
+        .enVisionImg{
+            width: 80%;
+            margin-left: 12%;
+        }
+        .threeS{
+            margin-left: 3%;
+        }
+        .Travel{
+            margin-left: 3%;
+        }
+        .TravelZImg{
+            margin-right: -40%;
+        }
+        .ProtoS{
+            margin-left: 8%;
+        }
+        .santoImg{
+            margin-right: -40%;
+        }
+        .ProtoSh{
+            margin-left: 8%;
+        }
+        .ShareAllImg{
+            margin-right: -40%;
+        }
+        .innoviSilver{
+            margin-top: -36%;
+        }
+}
+
+@media (min-width: 719px) and (max-width: 770px){
+       .ii{
+        margin-right: -32%;
+       }
+       .enVisionImg{
+        margin-right: -27%;
+       }
+       .TravelZImg{
+        margin-right: -27%;
+       }
+       .santoImg{
+        margin-right: -27%;
+       }
+       .ShareAllImg{
+        margin-right: -27%;
+       }
+}
+
+@media (min-width: 719px) and (max-width: 725px){
+       .ii{
+        margin-right: -36%;
+       }
+       .enVisionImg{
+        margin-right: -36%;
+       }
+       .TravelZImg{
+        margin-right: -36%;
+       }
+       .santoImg{
+        margin-right: -36%;
+       }
+       .ShareAllImg{
+        margin-right: -36%;
+       }
+}
+
+@media (min-width: 539px) and (max-width: 541px){
+       .ii{
+        margin-right: -80%;
+       }
+       .enVisionImg{
+        margin-right: -80%;
+       }
+       .TravelZImg{
+        margin-right: -80%;
+       }
+       .santoImg{
+        margin-right: -80%;
+       }
+       .ShareAllImg{
+        margin-right: -80%;
+       }
+}
+
+@media (min-width: 890px) and (max-width: 1025px){
+        .enVisionImg{
+        margin-right: 5%;
+       }
+       .card{
+        width: 150px;
+       }
+    .innoviSilver{
+        margin-top: -36%;
+    }
+}
+
+@media (min-width: 1330px) and (max-width: 1370px){
+    .innoviSilver{
+        margin-top: -30%;
+        margin-right: -5%;
+    }
+}
+
+@media (min-width: 767px) and (max-width: 769px){
+        .ii{
+            margin-right: -28%;
+        }
+        .innoviSilver{
+        margin-top: -36%;
+    }
+}
+
+@media (min-width: 819px) and (max-width: 852px){
+        .ii{
+            margin-right: -19%;
+        }
+        .enVisionImg{
+            margin-left: 10%;
+        }
+        .TravelZImg{
+            margin-right: -17%;
+        }
+        .santoImg{
+            margin-right: -17%;
+        }
+        .ShareAllImg{
+            margin-right: -17%;
+        }
+}
+
+@media (min-width: 843px) and (max-width: 845px){
+        .ii{
+            margin-right: -16%;
+        }
+}
+
+@media (min-width: 850px) and (max-width: 852px){
+        .ii{
+            margin-right: -15%;
 }
