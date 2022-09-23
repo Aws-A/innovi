@@ -1,0 +1,425 @@
+body {
+      margin: 0px;
+      max-width: 100%;
+      overflow-x: hidden;
+}
+
+body a:hover{
+       color: #FF8A66;
+}
+
+body a:click{
+       color: black;
+}
+
+#allTop{
+        background-image: url("../images/headerTrans.png");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        margin-right: -0.5%;
+        height: 475px;
+}
+
+
+.logo {
+    width: 23%;
+    height: 50px;
+    padding: 1%;
+    text-align: left;
+    margin-top: -0.5%;
+    margin-left: 0.5%;
+}
+
+.navigation {
+             display: flex;
+             justify-content: space-between;
+}
+
+nav {
+     display: flex;
+     color: #767576;
+     margin-right: 5%;
+     margin-top: -1%;
+     white-space: nowrap;
+     height: 5%;
+}
+
+nav a {
+    padding: 50px;
+    font-size: 20px;
+    font-family: Inter;
+    color: black;
+}
+
+a{
+  text-decoration: none;
+}
+
+.dropdown {
+    padding: 50px;
+    font-size: 20px;
+    font-family: Inter;
+    color: Black;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 125px;
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 5px 7px;
+  text-decoration: none;
+  display: block;
+  font-size: 17px;
+  border-bottom: 1px solid;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: none;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: none;}
+
+.Proto{
+       color: #565656;
+       font-family: inter;
+       font-size: 20px;
+       display: flex;
+       margin-left: 5%;
+       margin-top: 11%;
+       height: 450px;
+}
+
+.enVisionLogo{
+    width: 25%;
+}
+
+.enVisionImg{
+    margin-right: 6%;
+    width: 70%;
+    height: 70%;
+}
+
+
+
+footer {
+        display: flex;
+        background-color: #000000;
+        color: white;
+        margin: 50px -3.5px 0px -50px;
+        padding: 30px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        justify-content: space-evenly;
+        font-family: inter;
+}
+
+
+.footerA {
+          margin-left: 7%;
+
+}
+.footerA p{
+           font-size: 20px;
+}
+
+.footerC {
+          margin-left: 14%;
+
+}
+
+.footerC p{
+           font-size: 20px;
+}
+
+.con {
+      display: flex;
+}
+
+.con p{
+       margin-left: 5%;
+       margin-top: 0.5%;
+}
+
+.innoviSilver {
+               width: 25%;
+               height: 30%;
+               float: right;
+               margin-right: -4%;
+               margin-top: -30%;
+}
+
+.copyright {
+         background-color: #565656;
+         height: 30px;
+         color: #FFFFFF;
+         text-align: center;
+         font-family: Philosopher;
+         font-size: 22px;
+         padding: 30px 0px 0px 0px;
+         margin-right: -0.3%;
+}
+
+.copyright p{
+             margin-top: -0.7%;
+}
+
+@media only screen and (max-width: 500px){
+        #allTop{
+            width: 1000px;
+            margin-bottom: -50%;
+        }
+        footer{
+            width: 990px;
+        }
+        .copyright{
+            width: 1000px;
+        }
+        .Proto{
+        display: unset;
+        }
+        .enVisionImg{
+            width: 170%;
+            margin-left: 45%;
+        }
+        .innoviSilver{
+            display: none;
+        }
+        .threeS{
+            margin-left: 17%;
+        }
+        .textIn{
+            text-align: center;
+            margin-left: 83%;
+            width: 100%;
+            margin-top: 105;
+        }
+        .textIn p{
+            font-size: 25px;
+        }
+        .enVisionLogo{
+            width: 100%;
+        }
+}
+
+@media (min-width: 410px) and (max-width: 415px){
+        .enVisionImg{
+            margin-left: 40%;
+        }
+        .textIn{
+            margin-left: 70%;
+        }
+}
+
+@media (min-width: 890px) and (max-width: 916px){
+       #allTop{
+        width: 1000px;
+       }
+       footer{
+        width: 990px;
+       }
+       .copyright{
+        width: 1000px;
+       }
+       .card{
+        width: 150px;
+       }
+       .enVisionImg{
+        width: 85%;
+        margin-right: -5%;
+       }
+       .TravelZImg{
+        margin-right: -5%;
+       }
+       .santoImg{
+        margin-right: -5%;
+       }
+       .ShareAllImg{
+        margin-right: -5%;
+       }
+       .ii{
+        margin-right: -7%;
+       }
+}
+
+@media (min-width: 279px) and (max-width: 281px){
+        .enVisionImg{
+            margin-left: 90%;
+        }
+        .textIn{
+            margin-left: 130%;
+        }
+}
+
+@media (min-width: 500px) and (max-width: 852px){
+        #allTop{
+            width: 1000px;
+        }
+        footer{
+        width: 1000px;
+        padding: 25px;
+        }
+        .copyright{
+            width: 1000px;
+        }
+        .enVisionImg{
+            width: 80%;
+            margin-right: -15%;
+        }
+        .innoviSilver{
+            margin-top: -36%;
+        }
+}
+
+@media (min-width: 650px) and (max-width: 670px){
+        #allTop{
+            width: 1000px;
+            margin-bottom: -20%;
+        }
+        footer{
+        width: 1000px;
+        padding: 25px;
+        }
+        .copyright{
+            width: 1000px;
+        }
+        .enVisionImg{
+            width: 80%;
+            margin-right: -45%;
+        }
+        .innoviSilver{
+            margin-top: -36%;
+        }
+}
+
+
+
+
+
+@media (min-width: 719px) and (max-width: 770px){
+       .ii{
+        margin-right: -32%;
+       }
+       .enVisionImg{
+        margin-right: -27%;
+       }
+       .TravelZImg{
+        margin-right: -27%;
+       }
+       .santoImg{
+        margin-right: -27%;
+       }
+       .ShareAllImg{
+        margin-right: -27%;
+       }
+}
+
+@media (min-width: 719px) and (max-width: 725px){
+       .ii{
+        margin-right: -36%;
+       }
+       .enVisionImg{
+        margin-right: -36%;
+       }
+       .TravelZImg{
+        margin-right: -36%;
+       }
+       .santoImg{
+        margin-right: -36%;
+       }
+       .ShareAllImg{
+        margin-right: -36%;
+       }
+}
+
+@media (min-width: 539px) and (max-width: 541px){
+       .ii{
+        margin-right: -80%;
+       }
+       .enVisionImg{
+        margin-right: -80%;
+       }
+       .TravelZImg{
+        margin-right: -80%;
+       }
+       .santoImg{
+        margin-right: -80%;
+       }
+       .ShareAllImg{
+        margin-right: -80%;
+       }
+}
+
+@media (min-width: 890px) and (max-width: 1025px){
+        .enVisionImg
+        {
+        width: 60%;
+        height: 60%;
+       }
+       .card{
+        width: 150px;
+       }
+    .innoviSilver{
+        margin-top: -36%;
+    }
+}
+
+@media (min-width: 1330px) and (max-width: 1370px){
+    .innoviSilver{
+        margin-top: -30%;
+        margin-right: -5%;
+    }
+}
+
+@media (min-width: 767px) and (max-width: 769px){
+        .ii{
+            margin-right: -28%;
+        }
+        .innoviSilver{
+        margin-top: -36%;
+    }
+}
+
+@media (min-width: 819px) and (max-width: 852px){
+        .ii{
+            margin-right: -19%;
+        }
+        .enVisionImg{
+            margin-left: 10%;
+        }
+        .TravelZImg{
+            margin-right: -17%;
+        }
+        .santoImg{
+            margin-right: -17%;
+        }
+        .ShareAllImg{
+            margin-right: -17%;
+        }
+}
+
+@media (min-width: 843px) and (max-width: 845px){
+        .ii{
+            margin-right: -16%;
+        }
+}
+
+@media (min-width: 850px) and (max-width: 852px){
+        .ii{
+            margin-right: -15%;
+}
