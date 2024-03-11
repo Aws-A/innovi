@@ -2,6 +2,7 @@ body {
       margin: 0px;
       max-width: 100%;
       overflow-x: hidden;
+      font-family: optima;
 }
 
 body a:hover{
@@ -17,7 +18,7 @@ body a:click{
         background-size: 100%;
         background-repeat: no-repeat;
         margin-right: -0.5%;
-        height: 475px;
+        height: 626px;
 }
 
 
@@ -30,36 +31,117 @@ body a:click{
     margin-left: 0.5%;
 }
 
-.navigation {
+.heroNav {
+    display: flex;
+}
+
+header {
              display: flex;
              justify-content: space-between;
 }
 
+.navigation {
+    display: flex;
+}
+
+#heroLine {
+     margin-left: 17%;
+     width:50%;
+     height: 100%;
+}
+
 nav {
-     display: flex;
-     color: #767576;
-     margin-right: 5%;
-     margin-top: -1%;
+     display: grid;
+    font-family: Optima;
      white-space: nowrap;
      height: 5%;
+     text-align: right;
+     margin-left: -30%;
 }
 
 nav a {
-    padding: 50px;
+    padding: 20px;
     font-size: 20px;
-    font-family: Inter;
-    color: black;
+    color: #575757;
 }
 
 a{
   text-decoration: none;
 }
 
+#HP{
+    margin-right: -30%;
+    animation: floatAnimation1 5s infinite;
+}
+
+#AU {
+    margin-right: -70%;
+    animation: floatAnimation2 5s infinite;
+}
+
+#PT {
+    margin-right: -100%;
+    animation: floatAnimation3 5s infinite;
+}
+
+#CT {
+    margin-right: -120%;
+    animation: floatAnimation4 5s infinite;
+}
+
+@keyframes floatAnimation1 {
+    0% {
+        transform: translate(0, 0);
+    }
+    50% {
+        transform: translate(2px, 2px);
+    }
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+@keyframes floatAnimation2 {
+    0% {
+        transform: translate(0, 0);
+    }
+    50% {
+        transform: translate(-2px, 2px);
+    }
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+@keyframes floatAnimation3 {
+    0% {
+        transform: translate(0, 0);
+    }
+    50% {
+        transform: translate(2px, -2px);
+    }
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+@keyframes floatAnimation4 {
+    0% {
+        transform: translate(0, 0);
+    }
+    50% {
+        transform: translate(-2px, -2px);
+    }
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+
 .dropdown {
     padding: 50px;
     font-size: 20px;
-    font-family: Inter;
-    color: Black;
+    color: #575757;
 }
 
 /* The container <div> - needed to position the dropdown content */
@@ -74,16 +156,16 @@ a{
   position: absolute;
   min-width: 125px;
   z-index: 1;
+  margin-left: -5%;
 }
 
 /* Links inside the dropdown */
 .dropdown-content a {
-  color: black;
+  color: #575757;
   padding: 5px 7px;
   text-decoration: none;
   display: block;
   font-size: 17px;
-  border-bottom: 1px solid;
 }
 
 /* Change color of dropdown links on hover */
@@ -93,144 +175,215 @@ a{
 .dropdown:hover .dropdown-content {display: block;}
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color: none;}
+.dropdown:hover .dropbtn {color: none;}
+
+.dropdown:hover {color: #FF8A66;}
 
 
-.Proto p{
-       color: #565656;
-       font-family: inter;
-       font-size: 20px;
+#heroContent {
+    width: 75%;
+    margin-top: 3%;
+    margin-left: 7%;
 }
 
-.ProtoEn {
-      display: flex;
-      margin-left: 5%;
-      margin-top: -5%;
-      height: 550px;
+#identity {
+    background-image: url("../images/filterId.png");
+    background-size: cover;
+    height: 50%;
+    margin-top: -14%;
+    position: relative;
+    z-index: -1;
+    padding-top: 14%;
+    padding-bottom: 10%;
 }
 
-
-.ThreePr {
-          display: flex;
-          margin-left: -2%;
+.allId {
+    margin-left: 15%;
 }
 
-.card {   display: flex;
-          width: 190px;
-          flex-direction: column;
-          text-align: center;
-          padding: 2%;
+.pvm {
+    display: flex;
 }
 
-
-.ProtoTZ {
-      display: flex;
-      margin-left: 5%;
-      margin-top: 11%;
-      height: 450px;
+.pvm h4{
+    margin-bottom: -1%;
 }
 
-.ProtoS {
-      display: flex;
-      margin-left: 5%;
-      margin-top: 0;
-      height: 450px;
+.pvmCards {
+    margin-right: 10%;
+    padding: 1%;
+    width: 500px;
+    height: 200px;
+    border: solid 1px;
+    border-radius: 10px;
 }
 
-.ProtoSh {
-      display: flex;
-      margin-left: 5%;
-      margin-top: -9%;
-      height: 450px;
-      margin-bottom: -75;
+.idCard1 {
+    background-image: url("../images/purposeBg.png");
+    background-size: cover;
 }
-.enVisionLogo{
-      width: 25%;
+
+.idCard2 {
+    background-image: url("../images/visionBg.png");
+    background-size: cover;
 }
-.TravelZLogo{
+
+.idCard3 {
+    background-image: url("../images/missionBg.png");
+    background-size: cover;
+}
+
+#values {
+    background-color: #F5F5F5;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* horizontal-offset vertical-offset blur spread color */
+}
+
+.allValues {
+    margin-left: 15%;
+}
+
+.allValues h3{
+    margin-left: 35.5%;
+    margin-right: 40%;
+}
+
+.val {
+    display: flex;
+}
+
+.valCards {
+    width: 200px;
+    margin-right: 7%;
+}
+
+.valCards img{
+    height: 25%;
+}
+
+.projects {
+    margin-top: 5%;
+    margin-left: 15%;
+}
+
+.envision {
+    display: flex;
+}
+
+.envisionLogo {
     width: 25%;
 }
-.SantoLogo{
+
+.protoEN {
+    width: 44%;
+}
+
+.gardengate {
+    display: flex;
+    margin-top: 5%;
+}
+
+.gardengateLogo {
     width: 25%;
 }
-.shareAllLogo{
-    width: 25%;
-}
-.enVisionImg {
-        margin-right: 6%;
-}
-.TravelZImg {
-        margin-right: 6%;
-        width: 70%;
-        height: 70%; 
+
+.gardengatePr {
+    width: 22%;
+    margin-left: 15%;
 }
 
-
-.SantoImg {
-        margin-right: 6%;
-        width: 50%;
-        height: 50%;
+.content {
+    margin-left: 2%;
+    width: 500px;
 }
 
-.ShareAllImg {
-        margin-right: 6%;
-        width: 50%;
-        height: 50%; 
+h1 {
+    font-family: Philosopher;
+    color: #FF8A66;
+    font-size: 38px;
+    font-weight: 300;
+}
+
+h2 {
+    font-family: Philosopher;
+    font-size: 28px;
+    font-weight: 300;
 }
 
 h3{
-    font-family: inter;
-    text-decoration: underline;
+    font-family: Philosopher;
+    font-size: 33px;
+    margin-top: 0px;
+    margin-bottom: 5%;
+    color: #3E3E3E;
+}
+
+h4 {
+    font-family: Philosopher;
+    font-size: 22px;
+}
+
+
+h5{
+    font-family: Philosopher;
     font-size: 25px;
     margin-top: 0px;
     margin-bottom: 5%;
     color: #C0C0C0;
 }
 
-
-h5{
-    font-size: 14px;
-    font-family: inter thin;
-    margin: 0 0 2% 12%;
-    color: white;
+p {
+    font-family: optima;
+    font-size: 20px;
 }
 
-.ii {
-     width: 3%;
-     margin-right: 2%;
-     margin-top: -5%;
-     float: right;
+.footerBlack {
+            display: flex;
+            background: linear-gradient(to bottom right, #575757, #000000);
+            color: white;
+            height: 200px;
+            margin: 0px -3.5px 0px -50px;
+            padding: 30px;
+            background-repeat: no-repeat;
+            background-size: 100%;
+            justify-content: space-evenly;
+            font-family: optima;
+            clip-path: polygon(0% 0%, 100% 17%, 100% 100%, 0% 100%);
 }
 
-footer {
-        display: flex;
-        background-color: #000000;
-        color: white;
-        margin: 50px -3.5px 0px -50px;
-        padding: 30px;
-        background-repeat: no-repeat;
-        background-size: 100%;
-        justify-content: space-evenly;
-        font-family: inter;
+.footerOrange {
+            display: flex;
+            background: linear-gradient(to top right, #FCC8B8, #FD5B29);
+            color: white;
+            height: 222px;
+            margin: 100px -3.5px -227px -50px;
+            padding: 30px;
+            background-repeat: no-repeat;
+            background-size: 100%;
+            justify-content: space-evenly;
+            font-family: optima;
+            clip-path: polygon(0% 30%, 100% 0%, 100% 100%, 0% 100%);
 }
 
-
-.footerA {
-          margin-left: 7%;
-
+footer p{
+    font-size: 17px;
 }
-.footerA p{
-           font-size: 20px;
+
+.footerAbout {
+    margin-top: 2%;
+    margin-left: -10%;
 }
+
+.footerAbout p{
+    margin-top: -2%;
+}
+
 
 .footerC {
-          margin-left: 14%;
-
+    margin-top: 2.5%;
 }
 
-.footerC p{
-           font-size: 20px;
-}
 
 .con {
       display: flex;
@@ -241,18 +394,27 @@ footer {
        margin-top: 0.5%;
 }
 
-.innoviSilver {
-               width: 25%;
-               height: 30%;
-               float: right;
-               margin-right: -4%;
-               margin-top: -30%;
+.soials {
+    width: 1000px;
+    margin-left: 60%;
+}
+
+.soc1{
+    width: 6%;
+    height: 15%;
+    padding-left: 17%;
+}
+
+.soc2{
+    width: 8%;
+    height: 19%;
+    padding-left: 20%;
 }
 
 .copyright {
-         background-color: #565656;
+         background: linear-gradient(to bottom right, #FCFCFC, #FCFCFC);
          height: 30px;
-         color: #FFFFFF;
+         color: Black;
          text-align: center;
          font-family: Philosopher;
          font-size: 22px;
