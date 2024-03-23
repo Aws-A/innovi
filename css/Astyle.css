@@ -394,303 +394,622 @@ footer p{
         }
         .copyright{
             width: 1000px;
-        }
-        .Proto{
-        display: unset;
-        }
-        .ProtoEn{
-            margin-left: 5%;
-        }
-        .card{
-            padding: 15%;
-        }
-        .enVisionImg{
-            width: 170%;
-            margin-left: 48%;
-        }
-        .TravelZImg{
-            width: unset;
-            height: 70%;
-            margin-left: 64%;
-        }
-        .santoImg{
-            width: unset;
-            height: 50%;
-            margin-left: 64%;
-        }
-        .ShareAllImg{
-            width: unset;
-            height: 55%;
-            margin-left: 64%;
-        }
-        .ii{
-            display: none;
-        }
-        .innoviSilver{
-            display: none;
-        }
-        .threeS{
-            margin-left: 17%;
-        }
-        .textIn{
-            text-align: center;
-            margin-left: 83%;
-            width: 100%;
-            margin-top: 105;
-        }
-        .textIn p{
-            font-size: 25px;
-        }
-        .enVisionLogo{
-            width: 100%;
-        }
-        .SantoLogo{
-            width: 70%;
-        }
-        .TravelZLogo{
-            width: 70%;
-        }
-        .shareAllLogo{
-            width: 70%;
-        }
+        }     
 }
 
-@media (min-width: 389px) and (max-width: 400px){
-        .TravelZImg{
-            margin-left: 50%;
-        }
-        .santoImg{
+@media (min-width: 279px) and (max-width: 300px) {
 
-            margin-left: 50%;
-        }
-        .ShareAllImg{
-            margin-left: 50%;
-        }
-}
-
-@media (min-width: 410px) and (max-width: 415px){
-        .enVisionImg{
-            margin-left: 40%;
-        }
-        .TravelZImg{
-            margin-left: 40%;
-        }
-        .santoImg{
-
-            margin-left: 40%;
-        }
-        .ShareAllImg{
-            margin-left: 40%;
-        }
-        .textIn{
-            margin-left: 70%;
-        }
-}
-
-@media (min-width: 890px) and (max-width: 916px){
-       #allTop{
-        width: 1000px;
-       }
-       footer{
-        width: 990px;
-       }
-       .copyright{
-        width: 1000px;
-       }
-       .card{
-        width: 150px;
-       }
-       .enVisionImg{
-        width: 85%;
-        margin-right: -5%;
-       }
-       .TravelZImg{
-        margin-right: -5%;
-       }
-       .santoImg{
-        margin-right: -5%;
-       }
-       .ShareAllImg{
-        margin-right: -5%;
-       }
-       .ii{
-        margin-right: -7%;
-       }
-}
-
-@media (min-width: 279px) and (max-width: 281px){
-        .enVisionImg{
-            margin-left: 90%;
-        }
-        .TravelZImg{
-            margin-left: 90%;
-        }
-        .santoImg{
-
-            margin-left: 90%;
-        }
-        .ShareAllImg{
-            margin-left: 90%;
-        }
-        .textIn{
-            margin-left: 130%;
-        }
-}
-
-@media (min-width: 500px) and (max-width: 852px){
-        #allTop{
-            width: 1000px;
-        }
-        footer{
-        width: 1000px;
-        padding: 25px;
-        }
-        .copyright{
-            width: 1000px;
-        }
-        .ii{
-            margin-right: -47%;
-        }
-        .card{
-            width: 150px;
-        }
-        .enVisionImg{
-            width: 80%;
-            margin-left: 12%;
-        }
-        .threeS{
-            margin-left: 3%;
-        }
-        .Travel{
-            margin-left: 3%;
-        }
-        .TravelZImg{
-            margin-right: -40%;
-        }
-        .ProtoS{
-            margin-left: 8%;
-        }
-        .santoImg{
-            margin-right: -40%;
-        }
-        .ProtoSh{
-            margin-left: 8%;
-        }
-        .ShareAllImg{
-            margin-right: -40%;
-        }
-        .innoviSilver{
-            margin-top: -36%;
-        }
-}
-
-@media (min-width: 719px) and (max-width: 770px){
-       .ii{
-        margin-right: -32%;
-       }
-       .enVisionImg{
-        margin-right: -27%;
-       }
-       .TravelZImg{
-        margin-right: -27%;
-       }
-       .santoImg{
-        margin-right: -27%;
-       }
-       .ShareAllImg{
-        margin-right: -27%;
-       }
-}
-
-@media (min-width: 719px) and (max-width: 725px){
-       .ii{
-        margin-right: -36%;
-       }
-       .enVisionImg{
-        margin-right: -36%;
-       }
-       .TravelZImg{
-        margin-right: -36%;
-       }
-       .santoImg{
-        margin-right: -36%;
-       }
-       .ShareAllImg{
-        margin-right: -36%;
-       }
-}
-
-@media (min-width: 539px) and (max-width: 541px){
-       .ii{
-        margin-right: -80%;
-       }
-       .enVisionImg{
-        margin-right: -80%;
-       }
-       .TravelZImg{
-        margin-right: -80%;
-       }
-       .santoImg{
-        margin-right: -80%;
-       }
-       .ShareAllImg{
-        margin-right: -80%;
-       }
-}
-
-@media (min-width: 890px) and (max-width: 1025px){
-        .enVisionImg{
-        margin-right: 5%;
-       }
-       .card{
-        width: 150px;
-       }
-    .innoviSilver{
-        margin-top: -36%;
+    #allTop{
+        height: 400px;
+    }
+     h1 {
+        font-size: 28px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    p {
+        font-size: 17px;
+    }
+    nav {
+        margin-top: -10%;
+        margin-left: -40%;
+    }
+    .dropdown {
+        padding: 48px;
+    }
+    #timeline img {
+        width: 33%;
+    }
+    #categoryGrid {
+        margin: 5% -175% 5% 5%;
+        grid-template-rows: 233px 211px 207px 200px 222px;
+    }
+    #designProcessSec {
+        margin-left: 44%;
+        width: 244%;
+    }
+    .footerAbout {
+        margin-left: 5%;
+        width: 90%;
+    }
+    .footerC {
+        margin-left: -5%;
     }
 }
 
-@media (min-width: 1330px) and (max-width: 1370px){
-    .innoviSilver{
-        margin-top: -30%;
-        margin-right: -5%;
+@media (min-width: 300px) and (max-width: 400px) {
+
+    #allTop{
+        height: 400px;
+    }
+    h1 {
+        font-size: 28px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    p {
+        font-size: 17px;
+    }
+    nav {
+        margin-top: -10%;
+        margin-left: -40%;
+    }
+    #timeline img {
+        width: 33%;
+    }
+    #categoryGrid {
+        margin: 5% -100% 5% 5%;
+        grid-template-rows: 211px 195px 195px 190px 222px;
+    }
+    #designProcessSec {
+        margin-left: 22%;
+        width: 222%;
+    }
+    .dropdown {
+        padding: 48px;
+    }
+    .footerAbout {
+        margin-left: 5%;
+        width: 90%;
+    }
+    .footerC {
+        margin-left: -5%;
     }
 }
 
-@media (min-width: 767px) and (max-width: 769px){
-        .ii{
-            margin-right: -28%;
-        }
-        .innoviSilver{
-        margin-top: -36%;
+@media (min-width: 374px) and (max-width: 376px) {
+
+        #categoryGrid {
+        grid-template-rows: 222px 200px 200px 200px 222px;
     }
 }
 
-@media (min-width: 819px) and (max-width: 852px){
-        .ii{
-            margin-right: -19%;
-        }
-        .enVisionImg{
-            margin-left: 10%;
-        }
-        .TravelZImg{
-            margin-right: -17%;
-        }
-        .santoImg{
-            margin-right: -17%;
-        }
-        .ShareAllImg{
-            margin-right: -17%;
-        }
+@media (min-width: 389px) and (max-width: 391px) {
+
+        #categoryGrid {
+        grid-template-rows: 233px 211px 211px 200px 222px;
+    }
 }
 
-@media (min-width: 843px) and (max-width: 845px){
-        .ii{
-            margin-right: -16%;
-        }
+@media (min-width: 400px) and (max-width: 500px) {
+
+    #allTop{
+        height: 400px;
+    }
+    h1 {
+        font-size: 28px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    p {
+        font-size: 17px;
+    }
+    nav {
+        margin-top: -10%;
+        margin-left: -40%;
+    }
+    .dropdown {
+        padding: 48px;
+    }
+    #timeline img {
+        width: 30%;
+    }
+    #categoryGrid {
+        margin: 5% -100% 5% 5%;
+        grid-template-rows: 222px 200px 200px 200px 222px;
+    }
+    #designProcessSec {
+        width: 222%;
+    }
+    .footerAbout {
+        margin-left: 5%;
+        width: 90%;
+    }
+    .footerC {
+        margin-left: -5%;
+    }
 }
 
-@media (min-width: 850px) and (max-width: 852px){
-        .ii{
-            margin-right: -15%;
+@media (min-width: 429px) and (max-width: 431px) {
+
+        #categoryGrid {
+        grid-template-rows: 233px 211px 211px 207px 222px;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 550px) {
+
+    #allTop{
+        width: 100%;
+        height: 250px;
+    }
+    .logo img {
+        height: 95%;
+    }
+    #heroContent {
+       margin-top: -5%;
+       width: 150%;
+    }
+    #heroContent h2{
+       margin-top: -7%;
+       width: 140%;
+    }
+    #heroLine {
+        width: 50%;
+        height: 80%;
+    }
+    nav {
+        margin-top: -15%;
+        margin-left: -60%;
+    }
+    nav a {
+        font-size: 15px;
+        padding: 2px;
+    }
+    #PT {
+        font-size: 15px;
+    }
+    .dropdown {
+        padding: 30px;
+    }
+    h1 {
+        font-size: 22px;
+    }
+    h2 {
+        font-size: 15px;
+    }
+    h3 {
+        white-space: nowrap;
+        font-size: 20px;
+    }
+    h4 {
+        font-size: 17px;
+    }
+    h5 {
+        font-size: 20px;
+    }
+    p {
+        font-size: 15px;
+    }
+    #timeline img {
+        width: 27%;
+    }
+    #categoryGrid {
+        margin: 5% 5%;
+        grid-template-rows: 111px 111px 105px 105px 111px;
+    }
+    #categoryGrid h4 {
+        margin-bottom: -2%;
+    }
+    #con1 {
+        margin-top: -5%;
+    }
+    footer{
+        width: 100%;
+    }
+    .footerAbout {
+        width: 50%;
+        margin-left: 7%;
+    }
+    .socials {
+        margin-top: 1%;
+    }
+    .soc1 {
+        height: 12%;
+        margin-bottom: -1%;
+    }
+    .soc2 {
+        height: 15%;
+        margin-bottom: -2%;
+    }
+    .copyright{
+        width: 100%;
+    }
+
+}
+
+@media (min-width: 550px) and (max-width: 800px) {
+
+    #allTop{
+        width: 100%;
+        height: 350px;
+    }
+    .logo img {
+        height: 122%;
+    }
+    #heroContent {
+       margin-top: -3%;
+       width: 100%;
+    }
+    #heroContent h2 {
+        margin-top: -6%;
+        width: 140%;
+    }
+    #heroLine {
+        width: 55%;
+        height: 85%;
+    }
+    nav {
+        margin-top: -12%;
+        margin-left: -60%;
+    }
+    nav a {
+        font-size: 17px;
+        padding: 3px;
+    }
+    #PT {
+        font-size: 17px;
+    }
+    h1 {
+        font-size: 25px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    h3 {
+        white-space: nowrap;
+        font-size: 22px;
+    }
+    h4 {
+        font-size: 19px;
+    }
+    h5 {
+        font-size: 22px;
+    }
+    p {
+        font-size: 17px;
+    }
+    #categoryGrid {
+        margin: 5% 5%;
+        grid-template-rows: 110px 109px 109px 109px 125px;
+    }
+    #categoryGrid h4 {
+        margin-bottom: -2%;
+    }
+    #con1 {
+        margin-top: -2%;
+    }
+    footer{
+        width: 100%;
+    }
+    footer p {
+        font-size: 16px;
+    }
+    .footerAbout {
+        width: 50%;
+        margin-left: 2%;
+    }
+    .socials {
+        margin-top: 1%;
+    }
+    .soc1 {
+        height: 12%;
+        margin-bottom: -1%;
+    }
+    .soc2 {
+        height: 15%;
+        margin-bottom: -2%;
+    }
+    .copyright{
+        width: 100%;
+    }
+}
+
+@media (min-width: 719px) and (max-width: 721px) {
+
+    #categoryGrid {
+        grid-template-rows: 107px 107px 107px 107px 125px;
+    }
+}
+
+@media (min-width: 767px) and (max-width: 769px) {
+
+    #categoryGrid {
+        grid-template-rows: 118px 111px 115px 115px 125px;
+    }
+
+}
+
+@media (min-width: 550px) and (max-width: 700px) {
+
+    #allTop {
+        height: 300px;
+    }
+    #allTop a{
+        font-size: 17px;
+    }
+    #heroContent {
+        width: 120%;
+        width: 110%;
+    }
+    h2 {
+        font-size: 16px;
+    }
+    h4 {
+        font-size: 17px;
+    }
+    p {
+        font-size: 15px;
+    }
+    nav {
+        margin-top: -13%;
+        margin-left: -62%;
+    }
+    .dropdown {
+        padding: 42px;
+    }
+    #PT {
+        font-size: 17px;
+    }
+    #categoryGrid {
+        margin: 5% 5%;
+        grid-template-rows: 100px 99px 99px 99px 125px;
+    }
+    #categoryGrid h4 {
+        margin-bottom: -2%;
+    }
+    #con1 {
+        margin-top: -3%;
+    }
+    footer p {
+        font-size: 16px;
+    }
+    .footerAbout {
+        margin-left: 5%;
+    }
+}
+
+
+@media (min-width: 800px) and (max-width: 895px) {
+
+    #allTop{
+        width: 100%;
+        height: 400px;
+    }
+    #heroContent {
+       margin-top: -3%;
+       width: 120%; 
+    }
+    #heroContent h2 {
+        font-size: 20px;
+        margin-top: -9%;
+        width: 110%;
+    }
+    #heroLine {
+        width: 55%;
+        height: 85%;
+    }
+    .dropdown {
+        padding: 44px;
+    }
+    nav {
+        margin-top: -8%;
+        margin-left: -55%;
+    }
+    nav a {
+        padding: 3px;
+    }
+    h3 {
+        white-space: nowrap;
+    }
+    h4 {
+        font-size: 20px;
+    }
+    p {
+        font-size: 18px;
+    }
+    #categoryGrid {
+        margin: 5% 5%;
+        grid-template-rows: 130px 125px 125px 125px 125px;
+    }
+    #categoryGrid h4 {
+        margin-bottom: -2%;
+    }
+    #con1 {
+        margin-top: -1%;
+    }
+    footer{
+        width: 100%;
+    }
+    .footerAbout {
+        width: 50%;
+        margin-left: 2%;
+    }
+    .socials {
+        margin-top: 1%;
+    }
+    .soc1 {
+        height: 12%;
+        margin-bottom: -1%;
+    }
+    .soc2 {
+        height: 15%;
+        margin-bottom: -2%;
+    }
+    .copyright{
+        width: 100%;
+    }
+}
+
+@media (min-width: 895px) and (max-width: 1000px) {
+
+    #allTop{
+        width: 100%;
+        height: 400px;
+    }
+    #heroContent {
+        width: 100%;
+        margin-top: -1%;
+    }
+    #heroContent h2 {
+        font-size: 20px;
+        margin-top: -4%;
+    }
+    #heroLine {
+        height: 95%;
+    }
+    nav {
+        margin-top: -7%;
+        margin-left: -44%;
+    }
+    nav a {
+        padding: 9px;
+    }
+    h3 {
+        white-space: nowrap;
+    }
+    h4 {
+        font-size: 20px;
+    }
+    p {
+        font-size: 18px;
+    }
+    #categoryGrid {
+        margin: 5% 5%;
+        grid-template-rows: 140px 140px 140px 130px 140px;
+    }
+    #categoryGrid h4 {
+        margin-bottom: -2%;
+    }
+    #con1 {
+        margin-top: -1%;
+    }
+    footer{
+        width: 100%;
+    }
+    .footerAbout {
+        width: 50%;
+        margin-left: 2%;
+    }
+    .socials {
+        margin-top: 1%;
+    }
+    .soc1 {
+        height: 12%;
+        margin-bottom: -1%;
+    }
+    .soc2 {
+        height: 15%;
+        margin-bottom: -2%;
+    }
+    .copyright{
+        width: 100%;
+    }
+}
+
+@media (min-width: 895px) and (max-width: 897px) {
+
+    #categoryGrid {
+        grid-template-rows: 140px 135px 135px 135px 140px;
+    }
+
+}
+
+@media (min-width: 930px) and (max-width: 933px) {
+    #categoryGrid {
+        grid-template-rows: 140px 140px 140px 140px 140px;
+    }
+
+}
+
+@media (min-width: 1000px) and (max-width: 1025px) {
+
+    #allTop {
+        height: 500px;
+    }
+    #heroContent {
+        width: 100%;
+        margin-top: -1%;
+    }
+    #heroContent h2 {
+        font-size: 22px;
+    }
+    #heroLine {
+        height: 85%;
+    }
+    nav {
+        margin-top: -7%;
+        margin-left: -44%;
+    }
+    nav a {
+        padding: 10px;
+    }
+    #categoryGrid {
+        margin: 5% 5%;
+        grid-template-rows: 160px 150px 150px 150px 150px;
+    }
+    #categoryGrid h4 {
+        margin-bottom: -2%;
+    }
+    #con1 {
+        margin-top: -1%;
+    }
+    .footerAbout {
+    width: 50%;
+    margin-left: 2%;
+    }
+}
+
+@media (min-width: 1100px) and (max-width: 1200px) {
+
+    #heroContent {
+        width: 100%;
+    }
+    #heroLine {
+        height: 85%;
+    }
+    nav {
+        margin-top: -7%;
+        margin-left: -44%;
+    }
+    nav a {
+        padding: 10px;
+    }
+    #categoryGrid {
+        grid-template-rows: 190px 175px 175px 175px 222px;
+    }
+    .footerAbout {
+        margin-left: 0%;
+    }
+}
+
+@media (min-width: 1275px) and (max-width: 1285px) {
+
+    #categoryGrid {
+        grid-template-rows: 206px 190px 190px 190px 222px;
+    }
+    .footerAbout {
+        width: 50%;
+        margin-left: 2%;
+    }
+}
+
+@media (min-width: 1360px) and (max-width: 1370px) {
+
+#categoryGrid {
+    grid-template-rows: 222px 190px 190px 190px 222px;
+    }
 }
