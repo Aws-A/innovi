@@ -258,10 +258,12 @@ p {
 
 #con2 {
   grid-area: con2;
+  margin-top: 4.5%;
 }
 
 #con3 {
   grid-area: con3;
+  margin-top: 3%;
 }
 
 #con4 {
