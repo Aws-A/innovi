@@ -272,6 +272,7 @@ p {
 
 #con5 {
   grid-area: con5;
+  margin-top: 3%;
 }
 
 .categoryGridArea {
