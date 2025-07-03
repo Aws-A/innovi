@@ -965,6 +965,8 @@ footer p{
     }
     .socials {
         margin-top: 1%;
+        margin-left: 33%;
+        width: 300px;
     }
     .soc1 {
         height: 12%;
