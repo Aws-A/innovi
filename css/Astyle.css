@@ -482,6 +482,12 @@ footer p{
     }
 }
 
+@media (min-width: 340px) and (max-width: 350px) {
+        #contact {
+            margin-top: 88%;
+    }
+}
+
 @media (min-width: 374px) and (max-width: 376px) {
 
         #categoryGrid {
@@ -1003,6 +1009,9 @@ footer p{
 
     #categoryGrid {
         grid-template-rows: 206px 190px 190px 190px 222px;
+    }
+    #contact {
+        margin-top: -5%;
     }
     .footerAbout {
         width: 50%;

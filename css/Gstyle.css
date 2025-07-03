@@ -905,9 +905,11 @@ footer p{
 }
 
 @media (min-width: 840px) and (max-width: 845px) {
-
     .gardengateImg {
         margin-top: -39%;
+    }
+    .socials {
+        margin-top: 1%;
     }
 }
 
