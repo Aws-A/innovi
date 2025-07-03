@@ -87,6 +87,7 @@ a{
 #CT {
     margin-right: -120%;
     animation: floatAnimation4 5s infinite;
+    padding: -50px 20px 20px 5px;
 }
 
 @keyframes floatAnimation1 {
@@ -137,9 +138,8 @@ a{
     }
 }
 
-
 .dropdown {
-    padding: 50px;
+    padding: 50px 50px 75px 50px;
     font-size: 20px;
     color: #575757;
 }

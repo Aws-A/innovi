@@ -1,0 +1,979 @@
+body {
+  margin: 0px;
+  max-width: 100%;
+  overflow-x: hidden;
+  font-family: optima;
+}
+
+body a:hover{
+   color: #FF8A66;
+}
+
+body a:click{
+   color: black;
+}
+
+#allTop{
+    background-image: url("../images/heroNet.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-right: -0.5%;
+    height: 626px;
+}
+
+
+.logo {
+width: 23%;
+height: 50px;
+padding: 1%;
+text-align: left;
+margin-top: -0.5%;
+margin-left: 0.5%;
+}
+
+.heroNav {
+display: flex;
+}
+
+header {
+         display: flex;
+         justify-content: space-between;
+}
+
+.navigation {
+display: flex;
+}
+
+#heroLine {
+ margin-left: 17%;
+ width:50%;
+ height: 100%;;
+}
+
+nav {
+ display: grid;
+font-family: Optima;
+ white-space: nowrap;
+ height: 5%;
+ text-align: right;
+ margin-left: -30%;
+}
+
+nav a {
+padding: 20px;
+font-size: 20px;
+color: #575757;
+}
+
+a{
+text-decoration: none;
+}
+
+#HP{
+margin-right: -30%;
+animation: floatAnimation1 5s infinite;
+}
+
+#AU {
+margin-right: -70%;
+animation: floatAnimation2 5s infinite;
+}
+
+#PT {
+margin-right: -100%;
+animation: floatAnimation3 5s infinite;
+}
+
+#CT {
+margin-right: -120%;
+animation: floatAnimation4 5s infinite;
+}
+
+@keyframes floatAnimation1 {
+0% {
+    transform: translate(0, 0);
+}
+50% {
+    transform: translate(2px, 2px);
+}
+100% {
+    transform: translate(0, 0);
+}
+}
+
+@keyframes floatAnimation2 {
+0% {
+    transform: translate(0, 0);
+}
+50% {
+    transform: translate(-2px, 2px);
+}
+100% {
+    transform: translate(0, 0);
+}
+}
+
+@keyframes floatAnimation3 {
+0% {
+    transform: translate(0, 0);
+}
+50% {
+    transform: translate(2px, -2px);
+}
+100% {
+    transform: translate(0, 0);
+}
+}
+
+@keyframes floatAnimation4 {
+0% {
+    transform: translate(0, 0);
+}
+50% {
+    transform: translate(-2px, -2px);
+}
+100% {
+    transform: translate(0, 0);
+}
+}
+
+
+.dropdown {
+padding: 50px;
+font-size: 20px;
+color: #575757;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+position: relative;
+display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+display: none;
+position: absolute;
+min-width: 125px;
+z-index: 1;
+margin-left: -5%;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+color: #575757;
+padding: 5px 7px;
+text-decoration: none;
+display: block;
+font-size: 17px;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: none;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {color: none;}
+
+.dropdown:hover {color: #FF8A66;}
+
+
+#heroContent {
+width: 75%;
+margin-top: 3%;
+margin-left: 7%;
+}
+
+h1 {
+font-family: Philosopher;
+color: #FF8A66;
+font-size: 38px;
+font-weight: 300;
+
+}
+
+h2 {
+font-family: Philosopher;
+font-size: 28px;
+font-weight: 300;
+}
+
+h3{
+font-family: Philosopher;
+font-size: 33px;
+margin-top: 0px;
+margin-bottom: 5%;
+color: #3E3E3E;
+}
+
+h4 {
+font-family: Philosopher;
+color: #575757;
+font-size: 22px;
+}
+
+h5{
+font-family: Philosopher;
+font-size: 25px;
+margin-top: 0px;
+margin-bottom: 5%;
+color: #C0C0C0;
+}
+
+p {
+font-family: optima;
+font-size: 20px;
+}
+
+.projectsLogo {
+  width: 17%;
+}
+
+.Evento {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  text-align: center;
+  margin-bottom: 25%;
+}
+
+.eventoProto {
+  width: 33%;
+}
+
+.TravelZone {
+  position: relative;
+  display: flex;
+  background-image: url("../images/travelzoneBg.png");
+  height: 250;
+}
+
+.travelzoneProto {
+  position: absolute;
+  width: 22%;
+  margin-left: 66%;
+  margin-top: -17%;
+}
+
+.contentTZ {
+  margin-top: 2%;
+  margin-left: 7%;
+}
+
+.ShareAll {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.shareAll-logo {
+  width: 33%;
+}
+
+.shareallProto {
+  width: 44%;
+  margin-left: 7%;
+}
+
+.contentSH {
+  justify-content: right;
+  margin-top: 2%;
+  margin-left: 50%;
+}
+
+.ENviro {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  text-align: center;
+  margin-bottom: 25%;
+}
+
+.enviroProto {
+  width: 55%;
+  margin-top: 2%;
+}
+
+.footerBlack {
+        display: flex;
+        background: linear-gradient(to bottom right, #575757, #000000);
+        color: white;
+        height: 200px;
+        margin: 0px -3.5px 0px -50px;
+        padding: 30px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        justify-content: space-evenly;
+        font-family: optima;
+        clip-path: polygon(0% 0%, 100% 17%, 100% 100%, 0% 100%);
+}
+
+.footerOrange {
+        display: flex;
+        background: linear-gradient(to top right, #FCC8B8, #FD5B29);
+        color: white;
+        height: 222px;
+        margin: 100px -3.5px -227px -50px;
+        padding: 30px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        justify-content: space-evenly;
+        font-family: optima;
+        clip-path: polygon(0% 30%, 100% 0%, 100% 100%, 0% 100%);
+}
+
+footer p{
+font-size: 17px;
+}
+
+.footerAbout {
+margin-top: 2%;
+margin-left: -10%;
+}
+
+.footerAbout p{
+margin-top: -2%;
+}
+
+
+.footerC {
+margin-top: 2.5%;
+}
+
+
+.con {
+  display: flex;
+}
+
+.con p{
+   margin-left: 5%;
+   margin-top: 0.5%;
+}
+
+.soials {
+width: 1000px;
+margin-left: 60%;
+}
+
+.soc1{
+width: 6%;
+height: 15%;
+padding-left: 17%;
+}
+
+.soc2{
+width: 8%;
+height: 19%;
+margin-top: 1%;
+padding-left: 20%;
+margin-top: 1%;
+margin-bottom: -1%;
+}
+
+.copyright {
+     background: linear-gradient(to bottom right, #FCFCFC, #FCFCFC);
+     height: 30px;
+     color: Black;
+     text-align: center;
+     font-family: Philosopher;
+     font-size: 22px;
+     padding: 30px 0px 0px 0px;
+     margin-right: -0.3%;
+}
+
+.copyright p{
+         margin-top: -0.7%;
+}
+
+@media only screen and (max-width: 500px){
+    #allTop{
+        width: 1000px;
+        height: 500px;
+    }
+
+    .sec {
+      width: 242%;
+    }
+
+    footer{
+        width: 990px;
+    }
+    .copyright{
+        width: 1000px;
+    }
+
+    .ProtoEn{
+        margin-left: 5%;
+    }        
+}
+
+@media (min-width: 279px) and (max-width: 300px) {
+ h1 {
+    font-size: 28px;
+}
+h2 {
+    font-size: 20px;
+}
+p {
+    font-size: 17px;
+}
+nav {
+    margin-top: -10%;
+    margin-left: -40%;
+}
+.dropdown {
+    padding: 48px;
+}
+.footerAbout {
+    margin-left: 5%;
+    width: 90%;
+}
+.footerC {
+    margin-left: -5%;
+}
+}
+
+@media (min-width: 300px) and (max-width: 400px) {
+
+h1 {
+    font-size: 28px;
+}
+h2 {
+    font-size: 20px;
+}
+p {
+    font-size: 17px;
+}
+
+nav {
+    margin-top: -10%;
+    margin-left: -40%;
+}
+.dropdown {
+    padding: 48px;
+}
+.sec {
+  width: 266%;
+}
+
+.Evento {
+  margin-top: -44%;
+  margin-bottom: 55%;
+}
+
+.footerAbout {
+    margin-left: 5%;
+    width: 90%;
+}
+.footerC {
+    margin-left: -5%;
+}
+}
+
+@media (min-width: 279px) and (max-width: 300px) {
+  #allTop {
+    height: 626px;
+  }
+  .sec {
+    width: 278%;
+  }
+ }
+
+ @media (min-width: 351px) and (max-width: 366px) {
+  #allTop {
+    height: 626px;
+  }
+  .sec {
+    width: 278%;
+  }
+}
+
+@media (min-width: 340px) and (max-width: 350px) {
+    #allTop {
+      height: 626px;
+    }
+    .sec {
+      width: 291%;
+    }
+} 
+
+@media (min-width: 389px) and (max-width: 391px) {
+  #allTop {
+    height: 626px;
+  }
+  .sec {
+    width: 257%;
+  }
+}
+
+@media (min-width: 374px) and (max-width: 376px) {
+  .Evento {
+    margin-top: 0%;
+  }
+ }
+
+@media (min-width: 400px) and (max-width: 500px) {
+
+h1 {
+    font-size: 28px;
+}
+h2 {
+    font-size: 20px;
+}
+p {
+    font-size: 17px;
+}
+  .Evento {
+    margin-bottom: 50%;
+  }
+nav {
+    margin-top: -10%;
+    margin-left: -40%;
+}
+.dropdown {
+    padding: 48px;
+}
+
+.footerAbout {
+    margin-left: 5%;
+    width: 90%;
+}
+.footerC {
+    margin-left: -5%;
+}
+}
+
+@media (min-width: 429px) and (max-width: 431px) {
+  .sec {
+    width: 233%;
+  }
+  .Evento {
+    margin-bottom: 50%;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 550px) {
+
+#allTop{
+    width: 100%;
+    height: 333px;
+}
+.logo img {
+    height: 111%;
+}
+#heroContent {
+   margin-top: -3%;
+   width: 150%;
+}
+#heroContent h2{
+   margin-top: -5%;
+}
+#heroLine {
+    width: 50%;
+    height: 80%;
+}
+nav {
+    margin-top: -15%;
+    margin-left: -60%;
+}
+nav a {
+    font-size: 15px;
+    padding: 2px;
+}
+#PT {
+    font-size: 15px;
+}
+.dropdown {
+    padding: 30px;
+}
+h1 {
+    font-size: 22px;
+}
+h2 {
+    font-size: 14px;
+}
+h3 {
+    white-space: nowrap;
+    font-size: 20px;
+}
+h4 {
+    font-size: 17px;
+}
+h5 {
+    font-size: 20px;
+}
+p {
+    font-size: 14px;
+}
+.sec {
+  width: 100%;
+}
+.TravelZone {
+  height: 22%;
+}
+.travelzoneProto {
+  margin-left: 75%;
+}
+footer{
+    width: 100%;
+}
+.footerAbout {
+    width: 50%;
+    margin-left: 7%;
+}
+.socials {
+    margin-top: 1%;
+}
+.soc1 {
+    height: 12%;
+    margin-bottom: -1%;
+}
+.soc2 {
+    height: 15%;
+    margin-bottom: -2%;
+}
+.copyright{
+    width: 100%;
+}
+
+}
+
+@media (min-width: 550px) and (max-width: 800px) {
+
+#allTop{
+    width: 100%;
+    height: 500px;
+}
+.logo img {
+    height: 122%;
+}
+#heroContent {
+   margin-top: -2%;
+   width: 100%;
+}
+#heroContent h2 {
+    margin-top: -4%;
+}
+#heroLine {
+    width: 55%;
+    height: 85%;
+}
+nav {
+    margin-top: -12%;
+    margin-left: -60%;
+}
+nav a {
+    font-size: 17px;
+    padding: 3px;
+}
+#PT {
+    font-size: 17px;
+}
+h1 {
+    font-size: 25px;
+}
+h2 {
+    font-size: 20px;
+}
+h3 {
+    white-space: nowrap;
+    font-size: 22px;
+}
+h4 {
+    font-size: 19px;
+}
+h5 {
+    font-size: 22px;
+}
+p {
+    font-size: 17px;
+}
+footer{
+    width: 100%;
+}
+footer p {
+    font-size: 16px;
+}
+.footerAbout {
+    width: 50%;
+    margin-left: 2%;
+}
+.socials {
+    margin-top: 1%;
+}
+.soc1 {
+    height: 12%;
+    margin-bottom: -1%;
+}
+.soc2 {
+    height: 15%;
+    margin-bottom: -2%;
+}
+.copyright{
+    width: 100%;
+}
+}
+
+@media (min-width: 550px) and (max-width: 700px) {
+
+#heroContent {
+    width: 120%;
+}
+h2 {
+    font-size: 17px;
+}
+nav {
+    margin-top: -13%;
+    margin-left: -62%;
+}
+.dropdown {
+    padding: 42px;
+}
+#PT {
+    font-size: 17px;
+}
+#allTop {
+    height: 500px;
+}
+#allTop a{
+    font-size: 17px;
+}
+.ProtoEn {
+    height: 222px;
+}
+.enVisionLogo {
+    width: 33%;
+}
+.threeS {
+    width: 90%;
+    margin-top: -22%;
+}
+.card {
+    width: 120px;
+}
+.envisionImg {
+    margin-top: -41%;
+    margin-left: -44%;
+    width: 44%;
+    height: 77%;
+}
+footer p {
+    font-size: 16px;
+}
+.footerAbout {
+    margin-left: 5%;
+}
+}
+
+@media (min-width: 700px) and (max-width: 750px) {
+    h2 {
+      font-size: 17px;
+    }
+    p {
+      font-size: 16px;
+    }
+ }
+
+ @media (min-width: 760px) and (max-width: 770px) {
+    .Evento {
+      margin-top: -17%;
+    }
+  }
+
+
+@media (min-width: 800px) and (max-width: 895px) {
+
+#allTop{
+    width: 100%;
+}
+#heroContent {
+   margin-top: -2%;
+   width: 80%; 
+}
+#heroContent h2 {
+    font-size: 20px;
+    margin-top: -9%;
+}
+#heroLine {
+    width: 55%;
+    height: 85%;
+}
+nav {
+    margin-top: -8%;
+    margin-left: -55%;
+}
+nav a {
+    padding: 3px;
+}
+.dropdown {
+    padding: 50px;
+}
+.contentSH {
+  margin-left: 42%;
+}
+h3 {
+    white-space: nowrap;
+}
+h4 {
+    font-size: 20px;
+}
+p {
+    font-size: 18px;
+}
+footer{
+    width: 100%;
+}
+.footerAbout {
+    width: 50%;
+    margin-left: 2%;
+}
+.socials {
+    margin-top: 1%;
+}
+.soc1 {
+    height: 12%;
+    margin-bottom: -1%;
+}
+.soc2 {
+    height: 15%;
+    margin-bottom: -2%;
+}
+.copyright{
+    width: 100%;
+}
+}
+
+@media (min-width: 895px) and (max-width: 1000px) {
+
+#allTop{
+    width: 100%;
+}
+#heroContent h2 {
+    font-size: 20px;
+    margin-top: -4%;
+}
+#heroLine {
+    height: 95%;
+}
+nav {
+    margin-top: -7%;
+    margin-left: -44%;
+}
+nav a {
+    padding: 9px;
+}
+h3 {
+    white-space: nowrap;
+}
+h4 {
+    font-size: 20px;
+}
+p {
+    font-size: 18px;
+}
+.contentSH {
+  margin-left: 42%;
+}
+footer{
+    width: 100%;
+}
+.footerAbout {
+    width: 50%;
+    margin-left: 2%;
+}
+.socials {
+    margin-top: 1%;
+}
+.soc1 {
+    height: 12%;
+    margin-bottom: -1%;
+}
+.soc2 {
+    height: 15%;
+    margin-bottom: -2%;
+}
+.copyright{
+    width: 100%;
+}
+}
+
+@media (min-width: 819px) and (max-width: 821px) {
+  #heroContent {
+    width: 91%;
+  }
+  .Evento {
+    margin-top: -22%;
+  }
+ }
+
+@media (min-width: 895px) and (max-width: 897px) {
+
+.envisionImg {
+    margin-top: -32%;
+}
+.threeS {
+    margin-top: -23%;
+}
+
+}
+
+@media (min-width: 1000px) and (max-width: 1025px) {
+
+#heroContent h2 {
+    font-size: 22px;
+}
+#heroLine {
+    height: 85%;
+}
+nav {
+    margin-top: -7%;
+    margin-left: -44%;
+}
+nav a {
+    padding: 10px;
+}
+.sec {
+  width: 100%;
+}
+.contentSH {
+  margin-left: 40%;
+}
+.footerAbout {
+width: 50%;
+margin-left: 2%;
+}
+}
+
+@media (min-width: 1100px) and (max-width: 1200px) {
+#heroLine {
+    height: 85%;
+}
+nav {
+    margin-top: -7%;
+    margin-left: -44%;
+}
+nav a {
+    padding: 10px;
+}
+.envisionImg {
+    margin-top: -16%;
+    margin-left: 5%;
+}
+
+.footerAbout {
+    margin-left: 0%;
+}
+}
+
+@media (min-width: 1275px) and (max-width: 1285px) {
+
+.envisionImg {
+    margin-top: -10%;
+    margin-left: 7%;
+}
+.footerAbout {
+    width: 50%;
+    margin-left: 2%;
+}
+}
