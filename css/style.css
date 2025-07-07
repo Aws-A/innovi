@@ -590,6 +590,16 @@ footer p {
     }
 }
 
+@media (min-width: 340px) and (max-width: 350px) {
+    #identity {
+        margin-top: -93%;
+        width: 290%;
+    }
+    #values {
+        width: 290%;
+    }
+ }
+
 @media (min-width: 359px) and (max-width: 361px) {
     #identity {
         width: 277%;
@@ -803,14 +813,14 @@ footer p {
         margin-left: 7%;
     }
     .socials {
-        margin-top: 1%;
+        margin-top: 2%;
     }
     .soc1 {
-        height: 12%;
+        height: 9%;
         margin-bottom: -1%;
     }
     .soc2 {
-        height: 15%;
+        height: 11%;
         margin-bottom: -2%;
     }
     .copyright{

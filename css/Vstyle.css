@@ -375,7 +375,7 @@ footer p{
        margin-top: 0.5%;
 }
 
-.soials {
+.socials {
     width: 1000px;
     margin-left: 60%;
 }
@@ -938,6 +938,12 @@ footer p{
     }
     .copyright{
         width: 100%;
+    }
+}
+
+@media (min-width: 895px) and (max-width: 1000px) {
+    .envisionImg {
+        margin-top: -37%;
     }
 }
 
