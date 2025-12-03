@@ -139,7 +139,7 @@ a{
 
 
 .dropdown {
-    padding: 50px;
+    padding: 50px 50px 75px 50px;
     font-size: 20px;
     color: #575757;
 }

@@ -139,7 +139,7 @@ a{
 
 
 .dropdown {
-    padding: 50px;
+    padding: 50px 50px 75px 50px;
     font-size: 20px;
     color: #575757;
 }
@@ -513,6 +513,10 @@ footer p{
 }
 
 @media (min-width: 374px) and (max-width: 376px) {
+    .gardengateImg {
+        margin-top: -80%;
+        height: 240%;
+    }
    .purposeGG {
         width: 257%;
     }
