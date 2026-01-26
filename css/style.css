@@ -256,23 +256,23 @@ a{
   }
 }
 
-
-
-
-
 #identity {
     background-image: url("../images/filterId.png");
     background-size: cover;
     height: 50%;
-    margin-top: -25%;
+    margin-top: -24%;
     position: relative;
     z-index: -1;
     padding-top: 14%;
     padding-bottom: 10%;
 }
 
-.con {
-      display: flex;
+.allId {
+    margin-left: 15%;
+}
+
+.pvm {
+    display: flex;
 }
 
 .pvm h4{
@@ -302,6 +302,7 @@ a{
     background-image: url("../images/missionBg.png");
     background-size: cover;
 }
+
 
 #values {
     background-color: #F8F8F8;
