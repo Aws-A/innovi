@@ -14,11 +14,12 @@ body a:click{
 }
 
 #allTop{
-        background-image: url("../images/heroNet.png");
-        background-size: 100%;
+        background-image: url("../images/headerTrans.png");
+        background-size: 101%;
         background-repeat: no-repeat;
-        margin-right: -0.5%;
-        height: 626px;
+        margin-top: -0.5%;
+        margin-left: -1%;
+        height: 1000px;
 }
 
 
@@ -31,36 +32,78 @@ body a:click{
     margin-left: 0.5%;
 }
 
+.Hero-Img {
+    width: 75%;
+    margin-top: 10%;
+}
+
+#Empathy-Circle,
+#Analysis-Circle,
+#Research-Circle,
+#Ideation-Circle,
+#Build-Circle {
+  transform-box: fill-box;
+  transform-origin: center;
+  transform: scale(0.001); /* 👈 critical */
+  opacity: 0;
+}
+
+.observe-section.is-visible #Empathy-Circle {
+  animation: growFromCenter 1.6s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+  animation-delay: 1s;
+}
+
+.observe-section.is-visible #Analysis-Circle {
+  animation: growFromCenter 1.6s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+  animation-delay: 2s;
+}
+
+.observe-section.is-visible #Research-Circle {
+  animation: growFromCenter 1.6s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+  animation-delay: 2s;
+}
+
+.observe-section.is-visible #Ideation-Circle {
+  animation: growFromCenter 1.6s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+  animation-delay: 3s;
+}
+
+.observe-section.is-visible #Build-Circle {
+  animation: growFromCenter 1.6s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+  animation-delay: 3s;
+}
+
+@keyframes growFromCenter {
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+
 .heroNav {
+    position: relative;
     display: flex;
 }
 
 header {
-             display: flex;
-             justify-content: space-between;
-}
-
-.navigation {
     display: flex;
+    justify-content: space-between;
 }
 
-#heroLine {
-     margin-left: 17%;
-     width:50%;
-     height: 89%;
-}
 
 nav {
-     display: grid;
+    display: grid;
     font-family: Optima;
-     white-space: nowrap;
-     height: 5%;
-     text-align: right;
-     margin-left: -30%;
+    white-space: nowrap;
+    height: 5%;
+    text-align: right;
+    margin-top: 25%;
+    margin-left: 88%;
 }
 
 nav a {
-    padding: 20px;
+    padding: 15px;
     font-size: 20px;
     color: #575757;
 }
@@ -70,23 +113,23 @@ a{
 }
 
 #HP{
-    margin-right: -30%;
-    animation: floatAnimation1 5s infinite;
+    margin-bottom: 50%;
+    animation: floatAnimation1 7s infinite;
 }
 
 #AU {
-    margin-right: -70%;
-    animation: floatAnimation2 5s infinite;
+    margin-bottom: 25%;
+    animation: floatAnimation2 7s infinite;
 }
 
 #PT {
-    margin-right: -100%;
-    animation: floatAnimation3 5s infinite;
+    margin-bottom: 25%;
+    animation: floatAnimation3 7s infinite;
 }
 
 #CT {
-    margin-right: -120%;
-    animation: floatAnimation4 5s infinite;
+    margin-right: 0%;
+    animation: floatAnimation4 7s infinite;
 }
 
 @keyframes floatAnimation1 {
@@ -94,7 +137,7 @@ a{
         transform: translate(0, 0);
     }
     50% {
-        transform: translate(2px, 2px);
+        transform: translate(1px, 1px);
     }
     100% {
         transform: translate(0, 0);
@@ -106,7 +149,7 @@ a{
         transform: translate(0, 0);
     }
     50% {
-        transform: translate(-2px, 2px);
+        transform: translate(-1px, 1px);
     }
     100% {
         transform: translate(0, 0);
@@ -118,7 +161,7 @@ a{
         transform: translate(0, 0);
     }
     50% {
-        transform: translate(2px, -2px);
+        transform: translate(1px, -1px);
     }
     100% {
         transform: translate(0, 0);
@@ -130,16 +173,15 @@ a{
         transform: translate(0, 0);
     }
     50% {
-        transform: translate(-2px, -2px);
+        transform: translate(-1px, -1px);
     }
     100% {
         transform: translate(0, 0);
     }
 }
 
-
 .dropdown {
-    padding: 50px 50px 75px 50px;
+    padding: 50px 20px 75px 50px;
     font-size: 20px;
     color: #575757;
 }
@@ -156,7 +198,8 @@ a{
   position: absolute;
   min-width: 125px;
   z-index: 1;
-  margin-left: -5%;
+  margin-top: 3%;
+  margin-left: -111%;
 }
 
 /* Links inside the dropdown */
@@ -181,20 +224,73 @@ a{
 
 
 #heroContent {
-    width: 75%;
+    width: 50%;
     margin-top: 3%;
     margin-left: 7%;
+}
+
+.navigation {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+}
+
+#OP {
+  position: relative;
+  padding-right: 8px;
+}
+
+#OP::before {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: -25%;
+  transform: translateY(-50%);
+  width: 1px;
+  height: 0px;
+  background-color: #FF8A66;
+  transition: height 0.25s ease;
+}
+
+/* 🔥 Trigger line when hovering Projects */
+.dropdown:hover #OP::before {
+  height: 500%;
+}
+
+#CTA {
+    width: 200px;
+    margin-top: 5%;
+    padding: 17px;
+    font-size: 25px;
+    font-weight: 600;
+    color: #575757;
+    font-weight: 500px;
+    font-family: optima;
+    background-color: #FAFBFB;
+    border: #575757 solid 3px;
+    border-radius: 5px;
+    box-shadow:  2px 2px 5px #c1c1c1;;
+}
+
+#CTA:hover {
+    color: #FF8A66;
+    border-color: #FF8A66;
 }
 
 h1 {
     font-family: Philosopher;
     color: #FF8A66;
-    font-size: 38px;
+    font-size: 50px;
     font-weight: 300;
+    text-shadow: 1px 1px 5px #c1c1c1;
 }
 
 h2 {
-    font-family: Philosopher;
+    font-family: Optima;
     font-size: 28px;
     font-weight: 300;
 }
@@ -226,6 +322,237 @@ p {
     font-size: 20px;
 }
 
+
+.About-Identity {
+    background-image: url("../images/About-BG.png");
+    background-size: cover;
+    height: 100%;
+    margin-top: -25%;
+    position: relative;
+    z-index: -1;
+    padding-top: 10%;
+    padding-bottom: 14%;
+    margin-bottom: 10%;
+}
+
+.About-Identity  h3{
+    margin-left: 15%;
+}
+
+#aboutIdentity-Image {
+    width: 92%;
+    margin-top: -15%;
+    margin-left: 5%;
+}
+
+#purpose-text,
+#mission-text,
+#vision-text,
+#diamond-values {
+  transform-box: fill-box;
+  transform: scaleY(0);
+  opacity: 0;
+}
+
+
+.observe-section.is-visible #purpose-text {
+  transform-origin: center bottom;
+  animation: growUp 0.9s ease-out forwards;
+  animation-delay: 1s;
+}
+
+.observe-section.is-visible #mission-text {
+  transform-origin: center right;
+  animation: growUp 0.9s ease-out forwards;
+  animation-delay: 1.5s;
+}
+
+.observe-section.is-visible #vision-text {
+  transform-origin: center left;
+  animation: growUp 0.9s ease-out forwards;
+  animation-delay: 2s;
+}
+
+.observe-section.is-visible #diamond-values {
+  transform-origin: center;
+  animation: growUp 0.9s ease-out forwards;
+  animation-delay: 2.5s;
+}
+
+
+@keyframes growUp {
+  to {
+    transform: scaleY(1);
+    opacity: 1;
+  }
+}
+
+#diamond-positivity,
+#diamond-ambition,
+#diamond-visionary,
+#diamond-creativity,
+#diamond-progress {
+  transform-origin: right;   /* 👈 anchor at bottom */
+  transform: scaleY(0.9);
+  opacity: 0;
+}
+
+.observe-section.is-visible #diamond-positivity {
+  transform-origin: top right;
+  animation: growUp 0.9s ease-out forwards;
+  animation-delay: 3s;
+}
+
+.observe-section.is-visible #diamond-ambition {
+  transform-origin: top;
+  animation: growUp 0.9s ease-out forwards;
+  animation-delay: 3.5s;
+}
+
+.observe-section.is-visible #diamond-visionary {
+  transform-origin: top; 
+  animation: growUp 0.9s ease-out forwards;
+  animation-delay: 4s;
+}
+
+.observe-section.is-visible #diamond-creativity {
+  transform-origin: top left;
+  animation: growUp 0.9s ease-out forwards;
+  animation-delay: 4.5s;
+}
+
+.observe-section.is-visible #diamond-progress {
+  transform-origin: left; 
+  animation: growUp 0.9s ease-out forwards;
+  animation-delay: 5s;
+}
+
+@keyframes growUp {
+  to {
+    transform: scaleY(1);
+    opacity: 1;
+  }
+}
+
+#positivity-text,
+#ambition-text,
+#visionary-text,
+#creativity-text,
+#progress-text {
+  opacity: 0;
+}
+
+.observe-section.is-visible #positivity-text {
+  animation: fadeIn 0.9s ease-out forwards;
+  animation-delay: 5.5s; /* delay before appearing */
+}
+
+.observe-section.is-visible #ambition-text {
+  animation: fadeIn 0.9s ease-out forwards;
+  animation-delay: 6s; /* delay before appearing */
+}
+
+.observe-section.is-visible #visionary-text {
+  animation: fadeIn 0.9s ease-out forwards;
+  animation-delay: 6.5s; /* delay before appearing */
+}
+
+.observe-section.is-visible #creativity-text {
+  animation: fadeIn 0.9s ease-out forwards;
+  animation-delay: 7s; /* delay before appearing */
+}
+
+.observe-section.is-visible #progress-text{
+  animation: fadeIn 0.9s ease-out forwards;
+  animation-delay: 7.5s; /* delay before appearing */
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+#Feb2022,
+#Oct2022,
+#Jan2023,
+#Dec2023,
+#Feb2024,
+#Aug2024,
+#Nov2025 {
+  transform-box: fill-box;        /* 👈 use element’s own bounds */
+  transform-origin: center;       /* 👈 grow from its center */
+  transform: scale(0.0);         /* start smaller from center */
+  opacity: 0;
+}
+
+.observe-section.is-visible #Feb2022{
+  animation: growFromCenter 1.6s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+  animation-delay: 1s; /* delay before appearing */
+}
+
+.observe-section.is-visible #Oct2022{
+  animation: growFromCenter 1.6s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+  animation-delay: 2s; /* delay before appearing */
+}
+
+.observe-section.is-visible #Jan2023{
+  animation: growFromCenter 1.6s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+  animation-delay: 3s; /* delay before appearing */
+}
+
+.observe-section.is-visible #Dec2023{
+  animation: growFromCenter 1.6s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+  animation-delay: 4s; /* delay before appearing */
+}
+
+.observe-section.is-visible #Feb2024{
+  animation: growFromCenter 1.6s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+  animation-delay: 5s; /* delay before appearing */
+}
+
+.observe-section.is-visible #Aug2024{
+  animation: growFromCenter 1.6s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+  animation-delay: 6s; /* delay before appearing */
+}
+
+.observe-section.is-visible #Nov2025{
+  animation: growFromCenter 1.6s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+  animation-delay: 7s; /* delay before appearing */
+}
+
+@keyframes growFromCenter {
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes growFromCenter {
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+#time-line {
+  stroke-dasharray: 1500;  /* total length of the line, can be estimated */
+  stroke-dashoffset: 1500; /* start fully hidden */
+  opacity: 1;              /* line is visible as it draws */
+}
+
+.observe-section.is-visible #time-line {
+  animation: drawTimeline 9s linear forwards;
+  animation-delay: 1s;
+}
+
+@keyframes drawTimeline {
+  to {
+    stroke-dashoffset: 0;  /* fully drawn */
+  }
+}
+
+
 #timelineSec h3{
     margin-left: 15%;
 }
@@ -240,7 +567,9 @@ p {
   "timeline con2"
   "timeline con3"
   "timeline con4"
-  "timeline con5";
+  "timeline con5"
+  "timeline con6"
+  "timeline con7";
 }
 
 #timeline {
@@ -249,30 +578,89 @@ p {
 }
 
 #timeline img{
-  width: 20%;
+  width: 29%;
 }
 
 #con1{
   grid-area: con1;
+  opacity: 0;
 }
 
 #con2 {
   grid-area: con2;
   margin-top: 4.5%;
+  opacity: 0;
 }
 
 #con3 {
   grid-area: con3;
   margin-top: 3%;
+  opacity: 0;
 }
 
 #con4 {
   grid-area: con4;
+  opacity: 0;
 }
 
 #con5 {
   grid-area: con5;
   margin-top: -1%;
+  opacity: 0;
+}
+
+#con6 {
+  grid-area: con6;
+  margin-top: -1%;
+  opacity: 0;
+}
+
+
+#con7 {
+  grid-area: con7;
+  margin-top: -1%;
+  opacity: 0;
+}
+
+.observe-section.is-visible #con1 {
+  animation: showDiv 0.5s ease forwards;
+  animation-delay: 1s;
+}
+
+.observe-section.is-visible #con2 {
+  animation: showDiv 0.5s ease forwards;
+  animation-delay: 2s;
+}
+
+.observe-section.is-visible #con3 {
+  animation: showDiv 0.5s ease forwards;
+  animation-delay: 3s;
+}
+
+.observe-section.is-visible #con4 {
+  animation: showDiv 0.5s ease forwards;
+  animation-delay: 4s;
+}
+
+.observe-section.is-visible #con5 {
+  animation: showDiv 0.5s ease forwards;
+  animation-delay: 5s;
+}
+
+.observe-section.is-visible #con6 {
+  animation: showDiv 0.5s ease forwards;
+  animation-delay: 6s;
+}
+
+.observe-section.is-visible #con7 {
+  animation: showDiv 0.5s ease forwards;
+  animation-delay: 7s;
+}
+
+@keyframes showDiv {
+  to {
+    opacity: 1;
+  }
 }
 
 .categoryGridArea {
@@ -290,12 +678,118 @@ p {
     text-align: center;
 }
 
-.designProcessImg {
-    width: 75%;
+#designProcessImg {
+    width: 90%;
     margin-top: 5%;
 }
 
+#Inter,
+#Infinity,
+#Persona,
+#Insights,
+#Proto,
+#Brainstorming,
+#Test,
+#Release  {
+  transform-box: fill-box;
+  transform-origin: center;
+  transform: scale(0.0);
+  opacity: 0;
+}
 
+.observe-section.is-visible #Inter {
+  animation: showDiv 0.5s ease forwards;
+  animation-delay: 1s;
+}
+
+.observe-section.is-visible #Infinity {
+  animation: showDiv 0.5s ease forwards;
+  animation-delay: 2s;
+}
+
+.observe-section.is-visible #Persona {
+  animation: showDiv 0.5s ease forwards;
+  animation-delay: 3s;
+}
+
+.observe-section.is-visible #Insights {
+  animation: showDiv 0.5s ease forwards;
+  animation-delay: 4s;
+}
+
+.observe-section.is-visible #Proto {
+  animation: showDiv 0.5s ease forwards;
+  animation-delay: 5s;
+}
+
+.observe-section.is-visible #Brainstorming {
+  animation: showDiv 0.5s ease forwards;
+  animation-delay: 6s;
+}
+
+.observe-section.is-visible #Test {
+  animation: showDiv 0.5s ease forwards;
+  animation-delay: 7s;
+}
+
+.observe-section.is-visible #Release {
+  animation: showDiv 0.5s ease forwards;
+  animation-delay: 8s;
+}
+
+@keyframes showDiv {
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.serviceSec {
+    background-color: #F8F8F8;
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 20%;
+    margin-bottom: -10%;
+}
+
+.serviceBlocks {
+    display: flex;
+    margin-left: 7%;
+}
+
+.serviceBlock {
+    text-align: left;
+    width: 40%;
+    margin: 1%;
+    padding: 3% 2%;
+    border-radius: 5px;
+    border: 1px solid #575757;
+    box-shadow: 2px 2px 5px #c1c1c1;
+}
+
+.block1 {
+    background: linear-gradient(to bottom right, #ffffff, #ffffff, #ffffff,#ffffff,#ffffff, #FFDCD1);
+}
+
+.block2 {
+    background: linear-gradient(to bottom right, #ffffff, #ffffff, #ffffff,#ffffff,#ffffff, #FDF6C0);
+}
+
+.block3 {
+    background: linear-gradient(to bottom right, #ffffff, #ffffff, #ffffff,#ffffff,#ffffff, #FFD6D6);
+}
+
+.block4 {
+    background: linear-gradient(to bottom right, #ffffff, #ffffff, #ffffff,#ffffff,#ffffff, #FFE2BE);
+}
+
+.block5 {
+    background: linear-gradient(to bottom right, #ffffff, #ffffff, #ffffff,#ffffff,#ffffff, #DDDDDD);
+}
+
+.block6 {
+    background: linear-gradient(to bottom right, #ffffff, #ffffff, #ffffff,#ffffff,#ffffff, #EBF0FF);
+}
 
 .footerBlack {
             display: flex;
@@ -374,9 +868,10 @@ footer p{
 }
 
 .copyright {
-         background: linear-gradient(to bottom right, #FCFCFC, #FCFCFC);
+         background: linear-gradient(to bottom right, #575757, #000000);
+         border-top: #C0C0C0 1px solid;
+         color: #C0C0C0;
          height: 30px;
-         color: Black;
          text-align: center;
          font-family: Philosopher;
          font-size: 22px;

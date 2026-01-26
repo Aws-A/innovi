@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 658.30995 631.30248">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1, .cls-2, .cls-4, .cls-5, .cls-6 {
+        fill: none;
+      }
+
+      .cls-1, .cls-3 {
+        stroke: #ff8a66;
+      }
+
+      .cls-7 {
+        fill: url(#linear-gradient-7);
+      }
+
+      .cls-8 {
+        fill: url(#linear-gradient-4);
+      }
+
+      .cls-9 {
+        fill: #575757;
+        font-size: 10.60386px;
+      }
+
+      .cls-9, .cls-10, .cls-11 {
+        font-family: Philosopher-Regular, Philosopher;
+      }
+
+      .cls-12 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2 {
+        stroke: #e0e0e0;
+        stroke-width: 2px;
+      }
+
+      .cls-13 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-13, .cls-14, .cls-15 {
+        opacity: .33;
+      }
+
+      .cls-14 {
+        fill: url(#linear-gradient-5);
+      }
+
+      .cls-15 {
+        fill: url(#linear-gradient-8);
+      }
+
+      .cls-3 {
+        fill: #f5f5f5;
+      }
+
+      .cls-4 {
+        filter: url(#drop-shadow-1);
+        stroke: url(#linear-gradient-3);
+      }
+
+      .cls-4, .cls-5, .cls-6 {
+        stroke-width: 3px;
+      }
+
+      .cls-5 {
+        filter: url(#drop-shadow-3);
+        stroke: url(#linear-gradient-9);
+      }
+
+      .cls-6 {
+        filter: url(#drop-shadow-2);
+        stroke: url(#linear-gradient-6);
+      }
+
+      .cls-16 {
+        letter-spacing: -.08699em;
+      }
+
+      .cls-17 {
+        letter-spacing: -.07999em;
+      }
+
+      .cls-10 {
+        font-size: 33px;
+      }
+
+      .cls-11 {
+        fill: #ff8a66;
+        font-size: 22px;
+      }
+
+      .cls-18 {
+        letter-spacing: -.01004em;
+      }
+
+      .cls-19 {
+        letter-spacing: -.00903em;
+      }
+
+      .cls-20 {
+        letter-spacing: .014em;
+      }
+
+      .cls-21 {
+        letter-spacing: .007em;
+      }
+
+      .cls-22 {
+        letter-spacing: .00799em;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="17.47144" y1="429.4972" x2="454.32512" y2="429.4972" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f5f5f5"/>
+      <stop offset="1" stop-color="#000"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="17.47144" y1="424.84237" x2="454.32512" y2="424.84237" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ddd"/>
+      <stop offset="1" stop-color="#f0f0f0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="-22.06444" y1="490.77214" x2="465.59981" y2="490.77214" gradientTransform="translate(-184.5042 150.63397) rotate(-27.00002)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff8a66"/>
+      <stop offset=".0717" stop-color="#fff"/>
+      <stop offset=".18949" stop-color="#ff8a66"/>
+      <stop offset=".29396" stop-color="#ff8a66"/>
+      <stop offset=".50482" stop-color="#ff8a66"/>
+      <stop offset=".70085" stop-color="#ff8a66"/>
+      <stop offset=".77395" stop-color="#ff8b67"/>
+      <stop offset=".80028" stop-color="#ff906e"/>
+      <stop offset=".81904" stop-color="#ff997a"/>
+      <stop offset=".83422" stop-color="#ffa68b"/>
+      <stop offset=".84721" stop-color="#ffb7a1"/>
+      <stop offset=".85873" stop-color="#ffccbc"/>
+      <stop offset=".86888" stop-color="#ffe4dc"/>
+      <stop offset=".87788" stop-color="#fff"/>
+      <stop offset=".88691" stop-color="#ffece6"/>
+      <stop offset=".90374" stop-color="#ffcebf"/>
+      <stop offset=".92116" stop-color="#ffb59f"/>
+      <stop offset=".93906" stop-color="#ffa285"/>
+      <stop offset=".95764" stop-color="#ff9474"/>
+      <stop offset=".97732" stop-color="#ff8c69"/>
+      <stop offset="1" stop-color="#ff8a66"/>
+    </linearGradient>
+    <filter id="drop-shadow-1" x="5.37885" y="358.34631" width="471" height="267" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="5"/>
+      <feGaussianBlur result="blur" stdDeviation="5"/>
+      <feFlood flood-color="#ff8a66" flood-opacity=".33"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-4" x1="165.60087" y1="184.33222" x2="346.06604" y2="184.33222" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#000"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-5" x1="165.60085" y1="181.11078" x2="344.72622" y2="181.11078" xlink:href="#linear-gradient-2"/>
+    <linearGradient id="linear-gradient-6" x1="143.99745" y1="311.26791" x2="380.71831" y2="311.26791" gradientTransform="translate(-119.74062 67.51901) rotate(-27.00002)" xlink:href="#linear-gradient-3"/>
+    <filter id="drop-shadow-2" x="152.41727" y="123.52009" width="216" height="215" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="5"/>
+      <feGaussianBlur result="blur-2" stdDeviation="5"/>
+      <feFlood flood-color="#ff8a66" flood-opacity=".33"/>
+      <feComposite in2="blur-2" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-7" x1="487.26797" y1="235.6748" x2="633.88955" y2="235.6748" xlink:href="#linear-gradient-4"/>
+    <linearGradient id="linear-gradient-8" x1="487.26797" y1="219.80676" x2="633.88955" y2="219.80676" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ddd"/>
+      <stop offset="1" stop-color="#f0f0f0" stop-opacity=".33"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-9" x1="419.09108" y1="614.54849" x2="690.2182" y2="614.54849" gradientTransform="translate(-212.62143 28.59731) rotate(-27.00002)" xlink:href="#linear-gradient-3"/>
+    <filter id="drop-shadow-3" x="475.37885" y="149.34631" width="181" height="360" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="5"/>
+      <feGaussianBlur result="blur-3" stdDeviation="5"/>
+      <feFlood flood-color="#ff8a66" flood-opacity=".33"/>
+      <feComposite in2="blur-3" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="HeroProjects-Image">
+    <g id="lines">
+      <line class="cls-2" x1="133.21567" x2="133.21567" y2="427.76948"/>
+      <line class="cls-2" x1="1" y1="156.85533" x2="1" y2="584.62481"/>
+      <line class="cls-2" x1="404.7227" y1="57.24205" x2="404.7227" y2="485.01153"/>
+      <line class="cls-2" x1="470.79655" y1="203.53299" x2="470.79655" y2="631.30248"/>
+      <line class="cls-2" x1="657.30995" y1="120.52986" x2="657.30995" y2="548.29934"/>
+    </g>
+    <g id="ipad">
+      <path class="cls-12" d="M454.32512,470.74008c-63.27853,17.99274-114.1922,19.02112-149.37762,16.49451-66.8927-4.80347-99.00946-24.04083-173.06937-26.68506-48.36235-1.72675-88.2011,4.56525-114.40669,10.19055v-85c0-8.2843,6.71573-15,15-15h406.85368c8.28427,0,15,6.7157,15,15v85Z"/>
+      <path class="cls-13" d="M454.32512,470.74008c-62.57373,10.7207-112.01086,8.94202-144.25021,5.75848-80.26282-7.92578-118.37074-30.92236-193.22917-26.578-43.72838,2.53778-78.48442,13.15656-99.3743,20.81952v-85c0-8.2843,6.71573-15,15-15h406.85368c8.28427,0,15,6.7157,15,15v85Z"/>
+      <rect class="cls-4" x="17.47326" y="370.7405" width="436.85003" height="232.98811" rx="15" ry="15"/>
+      <circle class="cls-3" cx="87.04177" cy="522.5051" r="25"/>
+      <path class="cls-1" d="M67.61471,538.23459c13.13166-10.34424,26.26332-20.68842,39.39498-31.03265"/>
+      <path class="cls-1" d="M107.00969,538.02143c-13.13166-10.34424-26.26332-20.68842-39.39498-31.03265"/>
+      <circle class="cls-3" cx="235.89827" cy="522.5051" r="25"/>
+      <path class="cls-1" d="M216.47121,538.23459c13.13166-10.34424,26.26332-20.68842,39.39498-31.03265"/>
+      <path class="cls-1" d="M255.86619,538.02143c-13.13166-10.34424-26.26332-20.68842-39.39498-31.03265"/>
+      <circle class="cls-3" cx="384.75478" cy="522.71826" r="25"/>
+      <path class="cls-1" d="M365.32772,538.44774c13.13166-10.34424,26.26332-20.68842,39.39498-31.03265"/>
+      <path class="cls-1" d="M404.7227,538.23459c-13.13166-10.34424-26.26332-20.68842-39.39498-31.03265"/>
+      <text class="cls-9" transform="translate(67.7056 566.86848)"><tspan x="0" y="0">N</tspan><tspan class="cls-18" x="7.26367" y="0">a</tspan><tspan x="12.25781" y="0">vigate</tspan></text>
+      <text class="cls-9" transform="translate(215.17337 566.86897)"><tspan class="cls-21" x="0" y="0">P</tspan><tspan x="5.92773" y="0">u</tspan><tspan class="cls-19" x="11.60059" y="0">r</tspan><tspan x="15.71484" y="0">chase</tspan></text>
+      <text class="cls-9" transform="translate(357.09403 566.86897)"><tspan x="0" y="0">Do Business</tspan></text>
+    </g>
+    <g id="watch">
+      <path class="cls-8" d="M346.06604,219.80676c-27.5694,14.25854-48.5285,14.96191-62.42261,13.07928-28.00516-3.79465-40.19867-19.84204-72.10617-23.20413-19.35425-2.03934-35.62042,1.67831-45.9364,4.91632v-67.64032c0-6.59238,2.75366-11.93652,6.15051-11.93652,54.67975.25467,109.35953.50934,164.03928.76401,1.151.39514,3.71759,1.45035,5.88739,4.03076,2.4173,2.87479,2.91669,5.94751,3.04816,7.14175.44659,24.28296.89325,48.56589,1.33984,72.84885Z"/>
+      <path class="cls-14" d="M344.72622,212.44583c-25.94642,13.67032-46.82282,14.45165-61.25008,12.53201-27.42836-3.64952-40.59736-18.26548-70.96453-20.27448-19.83026-1.31193-36.16555,3.46853-46.91077,7.74246v-64.58036c0-6.29415,2.75368-11.39653,6.15053-11.39653h166.82432c3.39684,0,6.15053,5.10238,6.15053,11.39653v64.58036Z"/>
+      <rect class="cls-6" x="164.60405" y="135.02137" width="181.46132" height="181.46247" rx="15" ry="15"/>
+      <text class="cls-10" transform="translate(181.1954 187.49674)"><tspan x="0" y="0">12 : 22 </tspan><tspan class="cls-16" x="95.2373" y="0">P</tspan><tspan x="110.58203" y="0">.M</tspan></text>
+      <rect class="cls-3" x="185.07044" y="227.64601" width="25" height="25" rx="5" ry="5"/>
+      <path class="cls-3" d="M186.50427,251.14782c7.35486-7.35703,14.7097-14.71408,22.06456-22.07111"/>
+      <path class="cls-3" d="M208.60272,251.18156c-7.35486-7.35703-14.7097-14.71408-22.06456-22.07111"/>
+      <rect class="cls-3" x="185.03655" y="262.28713" width="25" height="25" rx="5" ry="5"/>
+      <path class="cls-3" d="M186.47038,285.78894c7.35486-7.35703,14.7097-14.71408,22.06456-22.07111"/>
+      <path class="cls-3" d="M208.56883,285.82268c-7.35486-7.35703-14.7097-14.71408-22.06456-22.07111"/>
+      <text class="cls-11" transform="translate(220.60788 247.40556)"><tspan x="0" y="0">Ema</tspan><tspan class="cls-22" x="40.83105" y="0">i</tspan><tspan x="46.41846" y="0">l</tspan></text>
+      <text class="cls-11" transform="translate(220.60788 282.01294)"><tspan class="cls-17" x="0" y="0">T</tspan><tspan x="11.06592" y="0">asks</tspan></text>
+    </g>
+    <g id="mobile">
+      <path class="cls-7" d="M632.39792,246.74027c-48.37665,20.66961-96.7533,41.33917-145.12994,62.00877v-135.83912c0-5.64131,6.71576-10.21451,15-10.21451h116.62158c.88763-.1083,6.18433-.66928,10.60663,2.99174,3.22491,2.66976,4.13599,6.05405,4.39337,7.22277-.49719,24.61012-.99445,49.22023-1.49164,73.83035Z"/>
+      <path class="cls-15" d="M632.39792,246.00754c-48.37665,10.7207-96.7533,21.44135-145.12994,32.16204v-107.36412c0-5.12267,6.71576-9.27538,15-9.27538h116.62158c.88763-.09839,6.18433-.60775,10.60663,2.71667,3.22491,2.4243,4.13599,5.49744,4.39337,6.55871-.49719,25.06736-.99445,50.13472-1.49164,75.20208Z"/>
+      <rect class="cls-5" x="487.26857" y="161.54216" width="146.6204" height="325.62721" rx="15" ry="15"/>
+      <rect class="cls-3" x="507.90681" y="337.5238" width="25" height="25" rx="5" ry="5" transform="translate(1135.89415 229.5446) rotate(134.99998)"/>
+      <path class="cls-3" d="M520.45231,334.41938c.00154,10.40287.0031,20.80576.00464,31.20863"/>
+      <path class="cls-3" d="M504.80249,350.02149c10.40287.00153,20.80576.00309,31.20863.00462"/>
+      <rect class="cls-3" x="551.66444" y="389.31113" width="25" height="25" rx="5" ry="5" transform="translate(1247.21228 287.00977) rotate(134.99998)"/>
+      <path class="cls-3" d="M564.20994,386.20671c.00154,10.40287.0031,20.80576.00464,31.20863"/>
+      <path class="cls-3" d="M548.56013,401.80883c10.40287.00153,20.80576.00309,31.20863.00462"/>
+      <rect class="cls-3" x="559.59244" y="296.25135" width="25" height="25" rx="5" ry="5" transform="translate(1194.94299 122.54086) rotate(134.99998)"/>
+      <path class="cls-3" d="M572.13794,293.14693c.00154,10.40287.0031,20.80576.00464,31.20863"/>
+      <path class="cls-3" d="M556.48813,308.74904c10.40287.00153,20.80576.00309,31.20863.00462"/>
+      <text class="cls-9" transform="translate(510.56693 405.30744)"><tspan x="0" y="0">St</tspan><tspan class="cls-18" x="9.23535" y="0">a</tspan><tspan x="14.22949" y="0">y</tspan></text>
+      <text class="cls-9" transform="translate(512.08377 311.78157)"><tspan x="0" y="0">Budget</tspan></text>
+      <text class="cls-9" transform="translate(554.10843 353.52473)"><tspan class="cls-20" x="0" y="0">F</tspan><tspan x="5.73633" y="0">lights</tspan></text>
+    </g>
+  </g>
+</svg>

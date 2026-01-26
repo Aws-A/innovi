@@ -14,11 +14,12 @@ body a:click{
 }
 
 #allTop{
-        background-image: url("../images/heroNet.png");
-        background-size: 100%;
+        background-image: url("../images/headerTrans.png");
+        background-size: 101%;
         background-repeat: no-repeat;
-        margin-right: -0.5%;
-        height: 626px;
+        margin-top: -0.5%;
+        margin-left: -1%;
+        height: 1000px;
 }
 
 
@@ -31,36 +32,34 @@ body a:click{
     margin-left: 0.5%;
 }
 
+.Hero-Img {
+    width: 40%;
+    margin-top: 44%;
+}
+
 .heroNav {
+    position: relative;
     display: flex;
 }
 
 header {
-             display: flex;
-             justify-content: space-between;
-}
-
-.navigation {
     display: flex;
+    justify-content: space-between;
 }
 
-#heroLine {
-     margin-left: 17%;
-     width:50%;
-     height: 99%;;
-}
 
 nav {
-     display: grid;
+    display: grid;
     font-family: Optima;
-     white-space: nowrap;
-     height: 5%;
-     text-align: right;
-     margin-left: -30%;
+    white-space: nowrap;
+    height: 5%;
+    text-align: right;
+    margin-top: 25%;
+    margin-left: 88%;
 }
 
 nav a {
-    padding: 20px;
+    padding: 15px;
     font-size: 20px;
     color: #575757;
 }
@@ -70,23 +69,23 @@ a{
 }
 
 #HP{
-    margin-right: -30%;
-    animation: floatAnimation1 5s infinite;
+    margin-bottom: 50%;
+    animation: floatAnimation1 7s infinite;
 }
 
 #AU {
-    margin-right: -70%;
-    animation: floatAnimation2 5s infinite;
+    margin-bottom: 25%;
+    animation: floatAnimation2 7s infinite;
 }
 
 #PT {
-    margin-right: -100%;
-    animation: floatAnimation3 5s infinite;
+    margin-bottom: 25%;
+    animation: floatAnimation3 7s infinite;
 }
 
 #CT {
-    margin-right: -120%;
-    animation: floatAnimation4 5s infinite;
+    margin-right: 0%;
+    animation: floatAnimation4 7s infinite;
 }
 
 @keyframes floatAnimation1 {
@@ -94,7 +93,7 @@ a{
         transform: translate(0, 0);
     }
     50% {
-        transform: translate(2px, 2px);
+        transform: translate(1px, 1px);
     }
     100% {
         transform: translate(0, 0);
@@ -106,7 +105,7 @@ a{
         transform: translate(0, 0);
     }
     50% {
-        transform: translate(-2px, 2px);
+        transform: translate(-1px, 1px);
     }
     100% {
         transform: translate(0, 0);
@@ -118,7 +117,7 @@ a{
         transform: translate(0, 0);
     }
     50% {
-        transform: translate(2px, -2px);
+        transform: translate(1px, -1px);
     }
     100% {
         transform: translate(0, 0);
@@ -130,16 +129,15 @@ a{
         transform: translate(0, 0);
     }
     50% {
-        transform: translate(-2px, -2px);
+        transform: translate(-1px, -1px);
     }
     100% {
         transform: translate(0, 0);
     }
 }
 
-
 .dropdown {
-    padding: 50px 50px 75px 50px;
+    padding: 50px 20px 75px 50px;
     font-size: 20px;
     color: #575757;
 }
@@ -156,7 +154,8 @@ a{
   position: absolute;
   min-width: 125px;
   z-index: 1;
-  margin-left: -5%;
+  margin-top: 3%;
+  margin-left: -111%;
 }
 
 /* Links inside the dropdown */
@@ -181,21 +180,73 @@ a{
 
 
 #heroContent {
-    width: 75%;
+    width: 50%;
     margin-top: 3%;
     margin-left: 7%;
+}
+
+.navigation {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+}
+
+#OP {
+  position: relative;
+  padding-right: 8px;
+}
+
+#OP::before {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: -25%;
+  transform: translateY(-50%);
+  width: 1px;
+  height: 0px;
+  background-color: #FF8A66;
+  transition: height 0.25s ease;
+}
+
+/* 🔥 Trigger line when hovering Projects */
+.dropdown:hover #OP::before {
+  height: 500%;
+}
+
+#CTA {
+    width: 200px;
+    margin-top: 5%;
+    padding: 17px;
+    font-size: 25px;
+    font-weight: 600;
+    color: #575757;
+    font-weight: 500px;
+    font-family: optima;
+    background-color: #FAFBFB;
+    border: #575757 solid 3px;
+    border-radius: 5px;
+    box-shadow:  2px 2px 5px #c1c1c1;;
+}
+
+#CTA:hover {
+    color: #FF8A66;
+    border-color: #FF8A66;
 }
 
 h1 {
     font-family: Philosopher;
     color: #FF8A66;
-    font-size: 38px;
+    font-size: 50px;
     font-weight: 300;
 
 }
 
 h2 {
-    font-family: Philosopher;
+    font-family: Optima;
     font-size: 28px;
     font-weight: 300;
 }
@@ -254,7 +305,7 @@ p {
 }
 
 .purposeGG {
-    background-color: #F5F5F5;
+    background-color: #F8F8F8;
     padding: 5%;
 }
 
@@ -293,8 +344,35 @@ p {
 }
 
 .gardengateProtos {
-    margin-left: 25%;
-    width: 40%;
+    margin-left: 10%;
+    margin-top: -5%;
+    margin-bottom: 15%;
+    width: 33%;
+}
+
+.gardengateProtos2 {
+    margin-left: 10%;
+    margin-top: -5%;
+    margin-bottom: 15%;
+    width: 44%;
+}
+
+.gardengateProtos3 {
+    margin-left: 10%;
+    margin-top: -5%;
+    margin-bottom: 15%;
+    width: 17%;
+}
+
+.content {
+    display: flex;
+    margin-left: 2%;
+    margin-left: 15%;
+}
+
+.content p {
+    width: 50%;
+    margin-left: -15%;
 }
 
 .footerBlack {
@@ -372,15 +450,17 @@ footer p{
 }
 
 .copyright {
-         background: linear-gradient(to bottom right, #FCFCFC, #FCFCFC);
+         background: linear-gradient(to bottom right, #575757, #000000);
+         border-top: #C0C0C0 1px solid;
+         color: #C0C0C0;
          height: 30px;
-         color: Black;
          text-align: center;
          font-family: Philosopher;
          font-size: 22px;
          padding: 30px 0px 0px 0px;
          margin-right: -0.3%;
 }
+
 
 .copyright p{
              margin-top: -0.7%;

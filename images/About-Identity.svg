@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 2292.84197 1745.56449">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: -.00002em;
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient-7);
+        filter: url(#drop-shadow-10);
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient-8);
+        filter: url(#drop-shadow-11);
+      }
+
+      .cls-4 {
+        fill: url(#linear-gradient-9);
+        filter: url(#drop-shadow-12);
+      }
+
+      .cls-5 {
+        font-size: 67.68995px;
+      }
+
+      .cls-5, .cls-6 {
+        fill: #575757;
+      }
+
+      .cls-5, .cls-6, .cls-7, .cls-8, .cls-9 {
+        font-family: Philosopher-Regular, Philosopher;
+      }
+
+      .cls-6, .cls-8, .cls-9 {
+        font-size: 47.17144px;
+      }
+
+      .cls-7 {
+        fill: #f8f8f8;
+        font-size: 47.35425px;
+      }
+
+      .cls-8, .cls-10, .cls-11, .cls-12 {
+        fill: #fff;
+      }
+
+      .cls-10 {
+        filter: url(#drop-shadow-1);
+      }
+
+      .cls-10, .cls-11, .cls-12 {
+        opacity: .24;
+      }
+
+      .cls-11 {
+        filter: url(#drop-shadow-2);
+      }
+
+      .cls-12 {
+        filter: url(#drop-shadow-3);
+      }
+
+      .cls-13 {
+        fill: url(#linear-gradient-2);
+        filter: url(#drop-shadow-5);
+      }
+
+      .cls-14 {
+        fill: url(#linear-gradient-3);
+        filter: url(#drop-shadow-6);
+      }
+
+      .cls-15 {
+        fill: url(#linear-gradient-4);
+        filter: url(#drop-shadow-7);
+      }
+
+      .cls-16 {
+        fill: url(#linear-gradient-6);
+        filter: url(#drop-shadow-9);
+      }
+
+      .cls-17 {
+        fill: url(#linear-gradient-5);
+        filter: url(#drop-shadow-8);
+      }
+
+      .cls-18 {
+        letter-spacing: -.09198em;
+      }
+
+      .cls-19 {
+        letter-spacing: -.09199em;
+      }
+
+      .cls-20 {
+        fill: url(#linear-gradient);
+        filter: url(#drop-shadow-4);
+      }
+
+      .cls-21 {
+        letter-spacing: -.06499em;
+      }
+
+      .cls-22 {
+        letter-spacing: -.024em;
+      }
+
+      .cls-23 {
+        letter-spacing: -.02398em;
+      }
+
+      .cls-24 {
+        letter-spacing: -.01801em;
+      }
+
+      .cls-25 {
+        letter-spacing: -.01799em;
+      }
+
+      .cls-26 {
+        letter-spacing: -.018em;
+      }
+
+      .cls-27 {
+        letter-spacing: -.01798em;
+      }
+
+      .cls-28 {
+        letter-spacing: -.03699em;
+      }
+
+      .cls-29 {
+        letter-spacing: -.03698em;
+      }
+
+      .cls-30 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-31 {
+        letter-spacing: -.01098em;
+      }
+
+      .cls-32 {
+        letter-spacing: -.01199em;
+      }
+
+      .cls-33 {
+        letter-spacing: -.01199em;
+      }
+
+      .cls-34 {
+        letter-spacing: -.012em;
+      }
+
+      .cls-35 {
+        letter-spacing: -.01202em;
+      }
+
+      .cls-36 {
+        letter-spacing: -.00898em;
+      }
+
+      .cls-37 {
+        letter-spacing: -.00799em;
+      }
+
+      .cls-38 {
+        font-size: 31.44763px;
+      }
+
+      .cls-38, .cls-39 {
+        font-family: Optima-Regular, Optima;
+      }
+
+      .cls-39 {
+        font-size: 25px;
+      }
+
+      .cls-40 {
+        letter-spacing: .00699em;
+      }
+    </style>
+    <filter id="drop-shadow-1" x="275.61415" y="363" width="1001" height="1001" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="5"/>
+      <feGaussianBlur result="blur" stdDeviation="50"/>
+      <feFlood flood-color="#f58f36" flood-opacity=".33"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="drop-shadow-2" x="1001.61415" y="363" width="1001" height="1001" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="5"/>
+      <feGaussianBlur result="blur-2" stdDeviation="50"/>
+      <feFlood flood-color="#ea4b4a" flood-opacity=".33"/>
+      <feComposite in2="blur-2" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="drop-shadow-3" x="638.61415" y="0" width="1001" height="1001" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="5"/>
+      <feGaussianBlur result="blur-3" stdDeviation="50"/>
+      <feFlood flood-color="#fd774d" flood-opacity=".33"/>
+      <feComposite in2="blur-3" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient" x1="1218.40009" y1="1221.59294" x2="1360.09038" y2="1362.5939" gradientTransform="translate(1287.99189 -531.82594) rotate(45)" gradientUnits="userSpaceOnUse">
+      <stop offset=".02806" stop-color="#9b9b9a"/>
+      <stop offset=".14769" stop-color="#838383"/>
+      <stop offset=".29226" stop-color="#6f6f6f"/>
+      <stop offset=".45736" stop-color="#616161"/>
+      <stop offset=".65881" stop-color="#595959"/>
+      <stop offset="1" stop-color="#575757"/>
+    </linearGradient>
+    <filter id="drop-shadow-4" x="1139.55923" y="1141.81518" width="303" height="304" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="5"/>
+      <feGaussianBlur result="blur-4" stdDeviation="5"/>
+      <feFlood flood-color="#000" flood-opacity=".17"/>
+      <feComposite in2="blur-4" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-2" x1="1066.7857" y1="642.11527" x2="1209.02521" y2="783.66277" gradientTransform="translate(834.09347 -594.45231) rotate(45)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff8661"/>
+      <stop offset=".99712" stop-color="#fd774d"/>
+    </linearGradient>
+    <filter id="drop-shadow-5" x="987.61415" y="562" width="304" height="305" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="5"/>
+      <feGaussianBlur result="blur-5" stdDeviation="5"/>
+      <feFlood flood-color="#000" flood-opacity=".17"/>
+      <feComposite in2="blur-5" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-3" x1="917.9281" y1="790.97364" x2="1060.16761" y2="932.52114" gradientTransform="translate(895.75285 -445.59449) rotate(45)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fbab50"/>
+      <stop offset="1" stop-color="#f58f36"/>
+    </linearGradient>
+    <filter id="drop-shadow-6" x="838.61415" y="711" width="304" height="305" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="5"/>
+      <feGaussianBlur result="blur-6" stdDeviation="5"/>
+      <feFlood flood-color="#000" flood-opacity=".17"/>
+      <feComposite in2="blur-6" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-4" x1="1215.64407" y1="790.97364" x2="1357.88357" y2="932.52114" gradientTransform="translate(982.95184 -656.11147) rotate(45)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f95757"/>
+      <stop offset="1" stop-color="#ea4b4a"/>
+    </linearGradient>
+    <filter id="drop-shadow-7" x="1135.85676" y="711.2426" width="305" height="305" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="5"/>
+      <feGaussianBlur result="blur-7" stdDeviation="5"/>
+      <feFlood flood-color="#000" flood-opacity=".17"/>
+      <feComposite in2="blur-7" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-5" x1="916.01195" y1="1221.59294" x2="1057.70224" y2="1362.5939" gradientTransform="translate(1199.42445 -318.00523) rotate(45)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f5f5f5"/>
+      <stop offset=".15192" stop-color="#eee"/>
+      <stop offset=".59591" stop-color="#e1e1e1"/>
+      <stop offset="1" stop-color="#ddd"/>
+    </linearGradient>
+    <filter id="drop-shadow-8" x="836.55923" y="1141.81518" width="304" height="304" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="5"/>
+      <feGaussianBlur result="blur-8" stdDeviation="5"/>
+      <feFlood flood-color="#000" flood-opacity=".17"/>
+      <feComposite in2="blur-8" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-6" x1="764.21219" y1="1071.88422" x2="905.90248" y2="1212.88518" gradientTransform="translate(1049.10328 -254.51526) rotate(45)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset=".36806" stop-color="#f8f8f8"/>
+      <stop offset=".99898" stop-color="#f5f5f5"/>
+    </linearGradient>
+    <filter id="drop-shadow-9" x="684.55923" y="992.81518" width="304" height="303" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="5"/>
+      <feGaussianBlur result="blur-9" stdDeviation="5"/>
+      <feFlood flood-color="#000" flood-opacity=".17"/>
+      <feComposite in2="blur-9" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-7" x1="1068.66844" y1="1372.38907" x2="1210.35874" y2="1513.39003" gradientTransform="translate(1350.76547 -381.78251) rotate(45)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ddd"/>
+      <stop offset=".20679" stop-color="#c7c7c7"/>
+      <stop offset=".50572" stop-color="#afafae"/>
+      <stop offset=".77874" stop-color="#a0a09f"/>
+      <stop offset="1" stop-color="#9b9b9a"/>
+    </linearGradient>
+    <filter id="drop-shadow-10" x="989.55923" y="1292.81518" width="303" height="304" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="5"/>
+      <feGaussianBlur result="blur-10" stdDeviation="5"/>
+      <feFlood flood-color="#000" flood-opacity=".17"/>
+      <feComposite in2="blur-10" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-8" x1="1370.21881" y1="1070.8387" x2="1511.9091" y2="1211.83966" gradientTransform="translate(1225.85922 -683.33288) rotate(45)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#575757"/>
+      <stop offset=".28942" stop-color="#313131"/>
+      <stop offset=".55924" stop-color="#161616"/>
+      <stop offset=".79729" stop-color="#050505"/>
+      <stop offset=".97827" stop-color="#000"/>
+    </linearGradient>
+    <filter id="drop-shadow-11" x="1290.55923" y="991.81518" width="304" height="303" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="5"/>
+      <feGaussianBlur result="blur-11" stdDeviation="5"/>
+      <feFlood flood-color="#000" flood-opacity=".17"/>
+      <feComposite in2="blur-11" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-9" x1="1037.75371" y1="980.30603" x2="1241.09115" y2="1182.65421" gradientTransform="translate(1093.76216 -486.97953) rotate(45)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fce76d"/>
+      <stop offset=".51992" stop-color="#fddf32"/>
+      <stop offset="1" stop-color="#ffda00"/>
+    </linearGradient>
+    <filter id="drop-shadow-12" x="926.55923" y="868.81518" width="426" height="426" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="5"/>
+      <feGaussianBlur result="blur-12" stdDeviation="5"/>
+      <feFlood flood-color="#000" flood-opacity=".17"/>
+      <feComposite in2="blur-12" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="mission-text">
+    <rect id="mission-text-2" data-name="mission-text" class="cls-10" x="520.25353" y="608.05579" width="500.83261" height="500.83261" rx="10.00001" ry="10.00001" transform="translate(-381.30747 796.38655) rotate(-45)"/>
+    <text class="cls-39" transform="translate(607.4355 718.41231)"><tspan x="0" y="0">Our mission is to </tspan><tspan x="0" y="30">continuously impr</tspan><tspan class="cls-32" x="195.92432" y="30">ov</tspan><tspan x="221.72461" y="30">e and </tspan><tspan x="0" y="60">refine our approa</tspan><tspan class="cls-25" x="186.17432" y="60">c</tspan><tspan x="198.22461" y="60">h through </tspan><tspan x="0" y="90">resea</tspan><tspan class="cls-32" x="55.54932" y="90">r</tspan><tspan class="cls-25" x="63.57422" y="90">c</tspan><tspan x="75.62451" y="90">h, business</tspan><tspan x="0" y="120">analysis, ideation, and</tspan><tspan x="0" y="150">design thinking;</tspan><tspan x="0" y="180">combining st</tspan><tspan class="cls-32" x="138.94971" y="180">r</tspan><tspan x="146.97461" y="180">ateg</tspan><tspan class="cls-19" x="191.4248" y="180">y</tspan><tspan x="201.625" y="180">,</tspan><tspan x="0" y="210">design, and de</tspan><tspan class="cls-32" x="157.0249" y="210">v</tspan><tspan x="169.2251" y="210">elopment</tspan><tspan x="0" y="240">to del</tspan><tspan class="cls-25" x="61.15039" y="240">i</tspan><tspan class="cls-32" x="67.65088" y="240">v</tspan><tspan x="79.85107" y="240">er scalable, </tspan><tspan x="0" y="270">future-rea</tspan><tspan class="cls-23" x="104.17432" y="270">d</tspan><tspan x="117.47461" y="270">y digital products.</tspan></text>
+  </g>
+  <g id="vision-text">
+    <rect id="vision-text-2" data-name="vision-text" class="cls-11" x="1246.27027" y="608.05579" width="500.83261" height="500.83261" rx="10.00001" ry="10.00001" transform="translate(-168.66208 1309.75791) rotate(-45)"/>
+    <text class="cls-39" transform="translate(1433.85353 768.26487)"><tspan x="0" y="0">Our vision is to position</tspan><tspan x="0" y="30">inn</tspan><tspan class="cls-32" x="34.75" y="30">o</tspan><tspan x="48.3501" y="30">vi among leading product</tspan><tspan x="0" y="60">design and de</tspan><tspan class="cls-32" x="150.07471" y="60">v</tspan><tspan x="162.2749" y="60">elopment </tspan><tspan x="0" y="90">studios </tspan><tspan class="cls-25" x="81.99951" y="90">b</tspan><tspan x="95.44971" y="90">y consistently </tspan><tspan x="0" y="120">del</tspan><tspan class="cls-25" x="33.3501" y="120">i</tspan><tspan class="cls-32" x="39.85059" y="120">v</tspan><tspan x="52.05078" y="120">ering best-in-class </tspan><tspan x="0" y="150">p</tspan><tspan class="cls-32" x="13.8999" y="150">r</tspan><tspan x="21.9248" y="150">actices in user experience, </tspan><tspan x="0" y="180">design qualit</tspan><tspan class="cls-19" x="137.5752" y="180">y</tspan><tspan x="147.77539" y="180">, and</tspan><tspan x="0" y="210">te</tspan><tspan class="cls-25" x="19.4502" y="210">c</tspan><tspan x="31.50049" y="210">hnical execution.</tspan></text>
+  </g>
+  <g id="purpose-text">
+    <rect id="purpose-text-2" data-name="purpose-text" class="cls-12" x="883.26189" y="245.04742" width="500.83261" height="500.83261" rx="10.00001" ry="10.00001" transform="translate(-18.2991 946.74953) rotate(-45)"/>
+    <text class="cls-39" transform="translate(1006.02556 372.90567)"><tspan x="0" y="0">Our purpose is to create</tspan><tspan x="-50.37549" y="30">digital products that feel intuit</tspan><tspan class="cls-25" x="272.02637" y="30">i</tspan><tspan class="cls-32" x="278.52686" y="30">v</tspan><tspan x="290.72705" y="30">e, </tspan><tspan x="-39.38818" y="60">useful, and visually refined.</tspan><tspan class="cls-28" x="256.5874" y="60" xml:space="preserve"> W</tspan><tspan x="286.68799" y="60">e </tspan><tspan x="-17.23779" y="90">belie</tspan><tspan class="cls-32" x="35.5625" y="90">v</tspan><tspan x="47.7627" y="90">e strong usability and </tspan><tspan x="-46.5752" y="120">thoughtful design are essential to </tspan><tspan x="-47.23779" y="150">meaningful user experiences and </tspan><tspan x="-14.5874" y="180">long-term product success.</tspan></text>
+  </g>
+  <g id="pdiamond-creativity">
+    <rect class="cls-20" x="1186.70012" y="1189.56426" width="198.53304" height="198.53304" rx="10" ry="10" transform="translate(-534.69007 1286.80553) rotate(-45)"/>
+    <text class="cls-8" transform="translate(1183.55141 1307.73022)"><tspan x="0" y="0">C</tspan><tspan class="cls-36" x="31.36914" y="0">r</tspan><tspan x="49.67188" y="0">eativity</tspan></text>
+  </g>
+  <g id="diamond-purpose">
+    <rect id="pdiamond-purpose" class="cls-13" x="1034.96296" y="609.96253" width="199.3024" height="199.3024" rx="10" ry="10" transform="translate(-169.45189 1010.13441) rotate(-45)"/>
+    <text class="cls-7" transform="translate(1052.60068 721.32276)"><tspan class="cls-40" x="0" y="0">P</tspan><tspan x="26.46973" y="0">urpose</tspan></text>
+  </g>
+  <g id="diamond-mission">
+    <rect id="pdiamond-mission" class="cls-14" x="886.10535" y="758.8209" width="199.3024" height="199.3024" rx="10" ry="10" transform="translate(-318.31003 948.4758) rotate(-45)"/>
+    <text class="cls-7" transform="translate(907.31487 872.71976)"><tspan x="0" y="0">Mission</tspan></text>
+  </g>
+  <g id="diamond-vision">
+    <rect id="pdiamond-vision" class="cls-15" x="1183.82132" y="758.8209" width="199.3024" height="199.3024" rx="10" ry="10" transform="translate(-231.11104 1158.99278) rotate(-45)"/>
+    <text class="cls-7" transform="translate(1220.68204 874.09838)"><tspan x="0" y="0">Vision</tspan></text>
+  </g>
+  <g id="diamond-ambition">
+    <rect class="cls-17" x="884.31198" y="1189.56426" width="198.53304" height="198.53304" rx="10" ry="10" transform="translate(-623.25751 1072.98482) rotate(-45)"/>
+    <text class="cls-9" transform="translate(892.84536 1311.0017)"><tspan x="0" y="0">Ambition</tspan></text>
+  </g>
+  <g id="diamond-positivty">
+    <rect class="cls-16" x="732.51222" y="1039.85553" width="198.53304" height="198.53304" rx="10" ry="10" transform="translate(-561.85858 921.79751) rotate(-45)"/>
+    <text class="cls-6" transform="translate(738.80483 1161.2937)"><tspan class="cls-31" x="0" y="0">P</tspan><tspan x="25.52002" y="0">ositivity</tspan></text>
+  </g>
+  <g id="diamond-visionary">
+    <rect class="cls-2" x="1036.96847" y="1340.36038" width="198.53304" height="198.53304" rx="10" ry="10" transform="translate(-685.17442 1225.09643) rotate(-45)"/>
+    <text class="cls-9" transform="translate(1042.64565 1460.00756)"><tspan x="0" y="0">Visionary</tspan></text>
+  </g>
+  <g id="diamond-kaizen">
+    <rect class="cls-3" x="1338.51884" y="1038.81001" width="198.53304" height="198.53304" rx="10" ry="10" transform="translate(-383.62405 1350.00268) rotate(-45)"/>
+    <text class="cls-8" transform="translate(1369.52895 1150.58081)"><tspan x="0" y="0">Kai</tspan><tspan class="cls-37" x="66.22656" y="0">z</tspan><tspan x="87.83105" y="0">en</tspan></text>
+  </g>
+  <g id="diamond-values">
+    <rect id="pdiamond-values" class="cls-4" x="992.27218" y="934.35275" width="284.8904" height="284.8904" rx="10" ry="10" transform="translate(-429.06011 1117.75317) rotate(-45)"/>
+    <text class="cls-5" transform="translate(1042.05483 1099.13549)"><tspan class="cls-21" x="0" y="0">V</tspan><tspan x="38.92236" y="0">alues</tspan></text>
+  </g>
+  <text id="positivity-text" class="cls-38" transform="translate(.00014 1162.09057)"><tspan class="cls-29" x="0" y="0">W</tspan><tspan x="30.28467" y="0">e foster a posit</tspan><tspan class="cls-26" x="226.04346" y="0">i</tspan><tspan class="cls-33" x="234.21973" y="0">v</tspan><tspan x="249.56641" y="0">e mindset in both life and </tspan><tspan class="cls-34" x="604.41895" y="0">w</tspan><tspan x="628.50781" y="0">ork; </tspan><tspan x="0" y="37.7373">creating an e</tspan><tspan class="cls-33" x="174.75342" y="37.7373">n</tspan><tspan x="191.86133" y="37.7373">vironment that encou</tspan><tspan class="cls-34" x="481.99512" y="37.7373">r</tspan><tspan x="492.08936" y="37.7373">ages </tspan><tspan x="0" y="75.47461">collabo</tspan><tspan class="cls-33" x="101.38623" y="75.47461">r</tspan><tspan x="111.48096" y="75.47461">ation, respect, and gr</tspan><tspan class="cls-34" x="396.36084" y="75.47461">o</tspan><tspan x="413.46826" y="75.47461">wth.</tspan></text>
+  <text id="ambition-text" class="cls-38" transform="translate(296.42739 1377.62475)"><tspan class="cls-29" x="0" y="0">W</tspan><tspan x="30.28467" y="0">e are dr</tspan><tspan class="cls-26" x="133.36865" y="0">i</tspan><tspan class="cls-33" x="141.54541" y="0">v</tspan><tspan x="156.89209" y="0">en </tspan><tspan class="cls-26" x="198.84326" y="0">b</tspan><tspan x="215.76221" y="0">y long-term goals and a </tspan><tspan x="0" y="37.7373">for</tspan><tspan class="cls-26" x="36.69873" y="37.7373">w</tspan><tspan x="60.59912" y="37.7373">ard-looking mindset, constantly str</tspan><tspan class="cls-27" x="527.24756" y="37.7373">i</tspan><tspan x="535.42432" y="37.7373">ving to </tspan><tspan x="0" y="75.47461">impr</tspan><tspan class="cls-33" x="62.89453" y="75.47461">ov</tspan><tspan x="95.34863" y="75.47461">e and rea</tspan><tspan class="cls-27" x="221.16943" y="75.47461">c</tspan><tspan x="236.32764" y="75.47461">h higher standards.</tspan></text>
+  <text id="visionary-text" class="cls-38" transform="translate(869.93422 1630.57788)"><tspan class="cls-29" x="0" y="0">W</tspan><tspan x="30.28467" y="0">e approa</tspan><tspan class="cls-26" x="149.12451" y="0">c</tspan><tspan x="164.28223" y="0">h our </tspan><tspan class="cls-33" x="244.69287" y="0">w</tspan><tspan class="cls-1" x="268.78223" y="0">ork with a visionary </tspan><tspan x="-19.84375" y="37.7373">perspect</tspan><tspan class="cls-26" x="93.74414" y="37.7373">i</tspan><tspan class="cls-33" x="101.92041" y="37.7373">v</tspan><tspan x="117.26709" y="37.7373">e, imagining </tspan><tspan class="cls-27" x="293.78125" y="37.7373">w</tspan><tspan x="317.68164" y="37.7373">hat</tspan><tspan class="cls-18" x="359.63281" y="37.7373">’</tspan><tspan x="365.48242" y="37.7373">s possible and </tspan><tspan x="80.19141" y="75.47461">shaping ideas for the future.</tspan></text>
+  <text id="creativity-text" class="cls-38" transform="translate(1437.78579 1375.01147)"><tspan class="cls-29" x="0" y="0">W</tspan><tspan x="30.28418" y="0">e emb</tspan><tspan class="cls-33" x="114.15332" y="0">r</tspan><tspan x="124.24805" y="0">ace creat</tspan><tspan class="cls-24" x="246.5459" y="0">i</tspan><tspan x="254.72168" y="0">vity as a </tspan><tspan class="cls-27" x="373.55957" y="0">w</tspan><tspan class="cls-30" x="397.45996" y="0">a</tspan><tspan x="412.24023" y="0">y to sol</tspan><tspan class="cls-33" x="510.13477" y="0">v</tspan><tspan x="525.48145" y="0">e </tspan><tspan class="cls-27" x="0" y="37.7373">c</tspan><tspan x="15.1582" y="37.7373">hallenges and unc</tspan><tspan class="cls-35" x="261.60938" y="37.7373">ov</tspan><tspan x="294.06348" y="37.7373">er new opportunities </tspan><tspan x="0" y="75.47461">through thoughtful design and inn</tspan><tspan class="cls-33" x="459.75586" y="75.47461">o</tspan><tspan class="cls-22" x="476.86328" y="75.47461">v</tspan><tspan x="491.83203" y="75.47461">ation.</tspan></text>
+  <text id="kaizen-text" class="cls-38" transform="translate(1605.69106 1162.77123)"><tspan class="cls-29" x="0" y="0">W</tspan><tspan x="30.28418" y="0">e belie</tspan><tspan class="cls-33" x="121.16602" y="0">v</tspan><tspan x="136.5127" y="0">e in continuous impr</tspan><tspan class="cls-33" x="417.93066" y="0">ov</tspan><tspan x="450.38477" y="0">ement—refining </tspan><tspan x="0" y="37.7373">our process, skills, and outcomes with e</tspan><tspan class="cls-33" x="540.07031" y="37.7373">v</tspan><tspan x="555.41699" y="37.7373">ery </tspan><tspan x="0" y="75.47461">project.</tspan></text>
+</svg>

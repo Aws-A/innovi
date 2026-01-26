@@ -11,32 +11,111 @@
 <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
 
 
-<script type="text/javascript" src="js/index.js"></script>
-
-
 </head>
     <body>
-        <section id="allTop">
+        <section id="allTop" class="observe-section">
             <header>
-                <div class="logo">
-                    <img src="images/innovi.svg" height="144%">
-                </div>
-            </header>
+        		<div class="logo">
+        			<img src="images/innovi.svg" height="144%">
+        		</div>
+        	</header>
 
             <div class="heroNav">
                 <div id="heroContent" >
                     <h1> Who We Are </h1>
+                    <h3> From user insight to future-ready solutions </h3>
                     <h2> 
-                        We’re a digital product company focused <br>
-                        on innovation. <br>
-                        <br>
-                        Our creations prioritize smooth user experiences
-                        that blend usability <br>
-                        and aesthetics
+                       We are a digital product design and development studio creating thoughtful, high-quality experiences. Innovation is embedded in everything we do; from research and strategy to design, development, and launch. <br>
+                       <br>
+                       We work at the intersection of user needs, business goals, and technology, delivering scalable digital products designed for usability, performance, and long-term growth
                     </h2>
                 </div>
+                <div>
+                    <svg class="Hero-Img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="490" height="461" viewBox="0 0 490 461">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff8661"/>
+      <stop offset="0.764" stop-color="#ff8661"/>
+      <stop offset="1" stop-color="#fd774d"/>
+    </radialGradient>
+    <filter id="Ellipse_60" x="179" y="0" width="118" height="118" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <pattern id="pattern" preserveAspectRatio="none" width="100%" height="100%" viewBox="0 0 100 100">
+      <image width="100" height="100" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAAHE0lEQVR4nO2dW4hVVRjH15hizlRjVkRCOEKCl0TRzG6UWVBPPXR5yEbroRIvYTZSPiQYEd3swZfCIgilSGc0CgoyqaAo0y46KonlJcvMsSkz7TbWL5bzHT1nnzVzzr6vtff+wQGZs13rW+t/9l5rf+tb31KqoKCgoKCgoKDAAYABwCRgAbAC+BDYDfwC/C0f/e9vgfeBF4D5wHigIQV7G4EbgEeBVcCnwD6x8Z8ye3dLW1ZI23QbBygbAc4AbgZeA7oJThfwinRQbI0FhgL3AR9IhwflZ+BV4CbdB3HZ66dhZwEPAz8QPd8BDwFNEdo7CngZ+CsGe3UfLNJ9EpW9fho2SCrXv5C4OQy06TpD2HsRsBI4kZC9C4GB0fZ63427EugkebYD1/m0tQGYBxxJwd4twNQ4hWiQwUwPdGnxH7C8nrsFOAfoIF30Hbk08vEQOBt4G3v4GLiwH3vHAHuwh7ciG1uAc4FPsI89epA22DtZZmu2sQk4P6wY58mz21YOGmz+DXvZBgwLKsYQeTRYjaq223Y2+p7KywCe9oCYVUE0q/0K8gCOoNwURDOnXjG0T+lPHEG5K4ju43H1PKq0A80ZlLuCaD7q16EKzMQxlNuCaO7sS4yBwF4cQ7kvyG6j38vFuyMjgpjvEnGGOYfKhiBfehsxEUdR1YJsFHf9ZeL2aQamAe3YzfjyRizDUZQPgFagBzt5utzQb8iBIBpZPLKRnSUDL8ZhVLAgDFsdpsNLt7HLtBim73cAb8hyaqfhGh3lYiMztHHP4Dbv6g4HRgKLge8N17R7BBmLnTyljXuT7NPtEaQJO1mnjdtB9ul2RJBt2rgfycYjqwVYolcRDdesceSRdUAbdxS3afF09mBgFrBewn+2AiMcWe85qhIKHrNt2rsDOzmhDTxOvgRpw16OKZmrO4vyJ8Ysi10nmi4loffOoqo7/T1gtjhMh8pnOrAW+9mrG/BFAhXpt+W5wGjZj9Eo0YXzJFYpSkFcZrOK+ZfTI/HADTXW8RcGfZSobAnSrhvwXIwVzPDxfG8NUkHGBHlWyWMjDipexuoUpSPngszRDbgipsKneTqqRTq8Wz4dhhe26TkX5HLdgDNj2vPR7Oko0yafrZ5rhuZYEL3XcXCpEZ/HUEFFlHcf7ztHCkFOsam8s54keqZ4Onud4Zp3wwZbqOzcIU+UN+LqGCpo83TU7YZrZnqumZ1jQa7y7jOP2oWy0bC0ur/s+0Onnpmnr9mQU0EOp7LPXZZYSyxRFkPvrFCvtVSsu6gsIY0sUTHldcDeFpU1JBDBmQaSZUFEjPWeR8BIZTH0LgmXWJyGAfol8QAOoarbEJT1hqXgg55cJoMMccRh0OU3uhpqGbcg93vKudtwzW2ea3S+lzA8WM9d0thH5EbWBZlQxxR8reeaKSHq09E+Q2oKIhXdS/4EafaUY4rG6fJcMyxEfffUJUZZZMZm8i1Ip+GaLWGdocJnvhPSiFv+X/IjyLQaywXtUSwXSNhVhZ/PjyjLciRIe4D+WRtqY07AfCdfkw9BNK0+Q4r8st3rvwsiyuSYchTaKEiPTPsbaoyvbQGCMnTmhomhxCgzYg75EKT8lzxfgrKb5DNOYoJ3RPGeE4UoOh1qXgSJmlWRilE2nugkw1ah7Bdkc033SMh0q+WLTEmxRvaaN8vcf4J+BOiwUcsF2ddfbsioRBkvqbeToMdPsJ3YZws6p/HY+JSozt17LIFGLQhgmw38fjLGKkmAG2PeW9IZJDk/6aN/qNPj6fXajb82xi1xcw2ujE7JOrpB3OOD+1mRTANt2zWJC+HphKkxjSmj64j7/UlW9UaKYOUrkknTHdhHFTXy0hT1bt5GTx1JTSSCcMi7npI6sgEnymMrmjzlhzmXJE505ogxykZ08pQI11FGe8o25bvaL7FeLYY4qqTShw9XNiNLwFEkC5vnKXeE7DnvkvHkVm+uwoQH9dV1L8GmjWxTe1yOlwjKNkunvbpNj6VxXlZogLuAP0I0fmGAOuPkeJ9pXV1B/E67QrhOWn3WFxc7K/IiuoycdqMdhEHpAK4X5+IwCb9Z5I2wl7ri4HV9qI3KGuKhDXNMXRWGOqJE36GPqCwjv+7Ikm6q6vKjYpc1b95xI4tdy0POwk5iKDsKVqZyHmHayAmZoYK7VXWZYV0gt6g8A1zQx4bQujCUF5R39IpoOr1gIZLa9Ve/vWgoxy9HI48IyQr0ukd8HShjKMMPOmjjknRa6wicPlG0ruA8w/+vdzq71IoTnl0BuBT4KgZBdBDcpHRa5Tj0nkq9tL9EnYb/U+sc3XCxtQWqFOWyK4Qge/2eNF1Q3wHJLwUQ5MVcvuQlBb0LU6emx4bvy6ezbrvKXQEYVRrwDd+VBu5kogYLKvbUP6886L/p77x/LygoKCgoKCgoKChQtvA/7CPqnFtSxj4AAAAASUVORK5CYII="/>
+    </pattern>
+    <filter id="Ellipse_57" x="372" y="136" width="118" height="118" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_20" x="312" y="343" width="118" height="118" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_58" x="73" y="343" width="118" height="118" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-4"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_59" x="0" y="136" width="118" height="118" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-5"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="About-Circle" transform="translate(-921 -236)">
+    <g id="Ellipse_23" data-name="Ellipse 23" transform="translate(960 284)" fill="none" stroke="#575757" stroke-width="1">
+      <circle cx="199" cy="199" r="199" stroke="none"/>
+      <circle cx="199" cy="199" r="198.5" fill="none"/>
+    </g>
+    <g id="Empathy-Circle">
+      <g transform="matrix(1, 0, 0, 1, 921, 236)" filter="url(#Ellipse_60)">
+        <circle id="Ellipse_60-2" data-name="Ellipse 60" cx="50" cy="50" r="50" transform="translate(188 6)" fill="url(#radial-gradient)"/>
+      </g>
+      <rect id="icons8-heart-100" width="62" height="63" transform="translate(1128 261)" fill="url(#pattern)"/>
+    </g>
+    <g id="Research-Circle">
+      <g transform="matrix(1, 0, 0, 1, 921, 236)" filter="url(#Ellipse_57)">
+        <circle id="Ellipse_57-2" data-name="Ellipse 57" cx="50" cy="50" r="50" transform="translate(381 142)" fill="url(#radial-gradient)"/>
+      </g>
+      <image id="icons8-focus-100" width="62" height="62" transform="translate(1327 398)" xlink:href="data:image/png;base64,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"/>
+    </g>
+    <g id="Ideation-Circle">
+      <g transform="matrix(1, 0, 0, 1, 921, 236)" filter="url(#Ellipse_20)">
+        <circle id="Ellipse_20-2" data-name="Ellipse 20" cx="50" cy="50" r="50" transform="translate(321 349)" fill="url(#radial-gradient)"/>
+      </g>
+      <image id="icons8-idea-100" width="60" height="60" transform="translate(1262 605)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAADYElEQVR4nO3dyYtdRRQH4INKnG114QRqBCXqQhB147wQBCcwSpxAguifkLgQ4krEDirJTtCV0qILRZSgSHSliBpwI4aILtTEgBNpTTodEz4pvOAq0Tb9Xg23Prib5nXzzv31fX3r1qnqiK7ruq7ruq7ruu6IcBZuxGPYgFm8MByzw9cexQ3ptUf+ad2S4VQ8iJfwraX7Bi/iAZzSI/ifcDNewV7L5w+8jJt6MP89iDvwscn7CLf1YA4fxCV4z/R9iMt7MP8Ecezwh3hRPvvxBI4ZdTDDHVOOq+JwPsC5MUbpYwLfKc8uXBFjguvwq3L9gmtjDHA15pVvHldFy3AxdqvHT1gVLUqjZHylPjvS04JozTBCrtWr0ZLhWVTt7osW4DTsVL8fMRO1wybteDZqhnOwoB0LOC9qhee0ZzYqvs39XXvmcVLUBg9r10NRG7yvXe9GhR9XB7RrESdHLdLUqPbdGrXAM9r3dNQCW7Tv7ajF0AvVuh1RAxyHg9r3Z2rQiNLhTOMxE6XDBcbj/CgdLjUeq6J0/QopDM4wHjNRun6XVSB8rX3boxZ4R/veilqk5zza91TUIj0J1b5bohZpinNYc9GqBZwYNUmzatq1JWqT5p216/6oTbqk8Zv27Kmy6yRJnX7aszEq71zcpx17cXbUDM9rx8ZopPv9B/XbhdOjBWlthfrdEy3Ba+o1F60Zuhm/VJ/tTa4xTHDZsAa8Fj9XMU17NHBlJQPGPbgmxmDYEa7k8cm+9B5jTHDn0GxWmoNYHWOEx5VnfYx8r6zPleOL1KQRYzbsHlqK63OfjyLgk9xJ4NPc56EYeCR3Glib+zyUttXfoYxhHKr+sfpyw7aMgWzLXX9xsDljIJty11+cYSvwXOprWpg0rMwWBxfmrr9I2DoMFKd5bM1dd9d1Xdd1XTc6WD1s1D+NY5wzg0uBi6Y4IFyZu94q+HvT4knbnbvOauDNKQTyRu46q4H1UwhkXe46q2E68+x9/nyJy+EWJxjGgWqXpeWCzyYYSG9oKGwGcfNEfotahrsmGMjtueurDk7A9xMII/3vxONz11clrJlAIPfmrqtqeHIZw9iQu56WFo3uPIog0irgNbnraApW4O5hd4g5vP4vx9zw2vQ9K3K//67ruq7ruq7ruijUX3VqGjvH71dFAAAAAElFTkSuQmCC"/>
+    </g>
+    <g id="Build-Circle">
+      <g transform="matrix(1, 0, 0, 1, 921, 236)" filter="url(#Ellipse_58)">
+        <circle id="Ellipse_58-2" data-name="Ellipse 58" cx="50" cy="50" r="50" transform="translate(82 349)" fill="url(#radial-gradient)"/>
+      </g>
+      <image id="icons8-prototype-100" width="63" height="63" transform="translate(1022 604)" xlink:href="data:image/png;base64,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"/>
+    </g>
+    <g id="Analysis-Circle">
+      <g transform="matrix(1, 0, 0, 1, 921, 236)" filter="url(#Ellipse_59)">
+        <circle id="Ellipse_59-2" data-name="Ellipse 59" cx="50" cy="50" r="50" transform="translate(9 142)" fill="url(#radial-gradient)"/>
+      </g>
+      <image id="icons8-test-100" width="62" height="62" transform="translate(949 397)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAACe0lEQVR4nO3dzWrUUBiH8SyKgmLXiq0bvRJRvBndqXfhXr0CS6AI1vYOFD+gWxUEvQQ/1v3LKWckjjmdJu97mHeS5wfdDEMmztOcpPOmtmkAAAAAAAAAADMi6bKkx5I+SvotrJLeow+SHkm65B3jlqQvK3cBJZ8k3fQ8Mj4XXwpDotiPlLxMwcdDjyDpnNHnQNJ1STuSDg2Pz8l7jyC/Chvf6Txn1/D4nPz0CFJCkBFqBjnMy0/6bj8yPD4rTcUgGIEgwRAkGIJMLQgAAGOt+yQ4NaNDEKQOggRDkGAIEgxBgiFIMAQJhiDBECQYgti9knQtj55fWzdGEJvvkrY7n1rcMG6PIAYnku4ufYxEkDV63vO53lPrRlmyxvnWXapyjNv5qDEhyHDpTb/Xc8P5VzmIEOT0nl7zjhQMuFf4KF8ppa+XZzzvWY2laqGxctiHv7ec1qLz3Su823n+lqQXq66q8nPveCxVCx7/2MkFKUTpu6q6ks8nbhorh304vafXvCMFA+4VTsvU1hlRqi5VC42VpmWvEOVJ7aVqgSD/a5ej9HwTul1VLSPIiChp+VIlBBkYxesHwBKCDIhSc6laIMhq+53f7EoftVdFkGAIEgxBgiFIMASxSyf6q/nEz0x9zZipB8JMPRhm6oEwUw/khJm6gZipb/4IV8zUYwVJmKlXImbqG22PmXo8LTP1eFpm6vG0zNTjaZmpx7PPTH3GGofrfDgiSDAEmWCQ0n/Gj+F+eAR5N+KF0e+tR5AHhY1juPseQS5KOh7x4vhXeg8vmIPkKOkv4xBlvGP330ROddMhl9ZBTvTnki6G3uT3zOfIAAAAAAAAAAA0m+EP+ic0Hx3h/rUAAAAASUVORK5CYII="/>
+    </g>
+  </g>
+</svg>
+                </div>
                 <div class="navigation">
-                    <img src="images/heroLine.png" id="heroLine">
                     <nav>
                         <a href="http://innovi.design/" id="HP">    Home Page </a>
                         <a href="AboutUS.html" id="AU">  About Us </a>
@@ -44,52 +123,552 @@
                         <div class="dropdown-content">
                         <a href="enVision.html"> enVision </a>
                         <a href="gardengate.html"> gardengate </a>
-                        <a href="projects.html"> Other Projects </a>
+                        <a href="projects.html" id="OP"> Other Projects </a>
                         </div>
                         </div>
-                        <a href="#contact" id="CT"> Contact </a>
+                        <a href="#contact" id="CT">      Contact </a>
                     </nav>
                 </div>
             </div>
 
         </section>
 
-        <section id="timelineSec">
+        <section class="About-Identity">
+                <h3> innovi's Identity </h3>
+          <svg id="aboutIdentity-Image" class="observe-section svg-animate"  data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 2292.84197 1745.56449">
+            <defs>
+              <style>
+                .cls-1 {
+                  letter-spacing: -.00002em;
+                }
+
+                .cls-2 {
+                  fill: url(#linear-gradient-7);
+                  filter: url(#drop-shadow-10);
+                }
+
+                .cls-3 {
+                  fill: url(#linear-gradient-8);
+                  filter: url(#drop-shadow-11);
+                }
+
+                .cls-4 {
+                  fill: url(#linear-gradient-9);
+                  filter: url(#drop-shadow-12);
+                }
+
+                .cls-5 {
+                  font-size: 67.68995px;
+                }
+
+                .cls-5, .cls-6 {
+                  fill: #575757;
+                }
+
+                .cls-5, .cls-6, .cls-7, .cls-8, .cls-9 {
+                  font-family: Philosopher-Regular, Philosopher;
+                }
+
+                .cls-6, .cls-8, .cls-9 {
+                  font-size: 47.17144px;
+                }
+
+                .cls-7 {
+                  fill: #f8f8f8;
+                  font-size: 47.35425px;
+                }
+
+                .cls-8, .cls-10, .cls-11, .cls-12 {
+                  fill: #fff;
+                }
+
+                .cls-10 {
+                  filter: url(#drop-shadow-1);
+                }
+
+                .cls-10, .cls-11, .cls-12 {
+                  opacity: .24;
+                }
+
+                .cls-11 {
+                  filter: url(#drop-shadow-2);
+                }
+
+                .cls-12 {
+                  filter: url(#drop-shadow-3);
+                }
+
+                .cls-13 {
+                  fill: url(#linear-gradient-2);
+                  filter: url(#drop-shadow-5);
+                }
+
+                .cls-14 {
+                  fill: url(#linear-gradient-3);
+                  filter: url(#drop-shadow-6);
+                }
+
+                .cls-15 {
+                  fill: url(#linear-gradient-4);
+                  filter: url(#drop-shadow-7);
+                }
+
+                .cls-16 {
+                  fill: url(#linear-gradient-6);
+                  filter: url(#drop-shadow-9);
+                }
+
+                .cls-17 {
+                  fill: url(#linear-gradient-5);
+                  filter: url(#drop-shadow-8);
+                }
+
+                .cls-18 {
+                  letter-spacing: -.09198em;
+                }
+
+                .cls-19 {
+                  letter-spacing: -.09199em;
+                }
+
+                .cls-20 {
+                  fill: url(#linear-gradient);
+                  filter: url(#drop-shadow-4);
+                }
+
+                .cls-21 {
+                  letter-spacing: -.06499em;
+                }
+
+                .cls-22 {
+                  letter-spacing: -.024em;
+                }
+
+                .cls-23 {
+                  letter-spacing: -.02398em;
+                }
+
+                .cls-24 {
+                  letter-spacing: -.01801em;
+                }
+
+                .cls-25 {
+                  letter-spacing: -.01799em;
+                }
+
+                .cls-26 {
+                  letter-spacing: -.018em;
+                }
+
+                .cls-27 {
+                  letter-spacing: -.01798em;
+                }
+
+                .cls-28 {
+                  letter-spacing: -.03699em;
+                }
+
+                .cls-29 {
+                  letter-spacing: -.03698em;
+                }
+
+                .cls-30 {
+                  letter-spacing: -.03em;
+                }
+
+                .cls-31 {
+                  letter-spacing: -.01098em;
+                }
+
+                .cls-32 {
+                  letter-spacing: -.01199em;
+                }
+
+                .cls-33 {
+                  letter-spacing: -.01199em;
+                }
+
+                .cls-34 {
+                  letter-spacing: -.012em;
+                }
+
+                .cls-35 {
+                  letter-spacing: -.01202em;
+                }
+
+                .cls-36 {
+                  letter-spacing: -.00898em;
+                }
+
+                .cls-37 {
+                  letter-spacing: -.00799em;
+                }
+
+                .cls-38 {
+                  font-size: 31.44763px;
+                }
+
+                .cls-38, .cls-39 {
+                  font-family: Optima-Regular, Optima;
+                }
+
+                .cls-39 {
+                  font-size: 25px;
+                }
+
+                .cls-40 {
+                  letter-spacing: .00699em;
+                }
+              </style>
+              <filter id="drop-shadow-1" x="275.61415" y="363" width="1001" height="1001" filterUnits="userSpaceOnUse">
+                <feOffset dx="5" dy="5"/>
+                <feGaussianBlur result="blur" stdDeviation="50"/>
+                <feFlood flood-color="#f58f36" flood-opacity=".33"/>
+                <feComposite in2="blur" operator="in"/>
+                <feComposite in="SourceGraphic"/>
+              </filter>
+              <filter id="drop-shadow-2" x="1001.61415" y="363" width="1001" height="1001" filterUnits="userSpaceOnUse">
+                <feOffset dx="5" dy="5"/>
+                <feGaussianBlur result="blur-2" stdDeviation="50"/>
+                <feFlood flood-color="#ea4b4a" flood-opacity=".33"/>
+                <feComposite in2="blur-2" operator="in"/>
+                <feComposite in="SourceGraphic"/>
+              </filter>
+              <filter id="drop-shadow-3" x="638.61415" y="0" width="1001" height="1001" filterUnits="userSpaceOnUse">
+                <feOffset dx="5" dy="5"/>
+                <feGaussianBlur result="blur-3" stdDeviation="50"/>
+                <feFlood flood-color="#fd774d" flood-opacity=".33"/>
+                <feComposite in2="blur-3" operator="in"/>
+                <feComposite in="SourceGraphic"/>
+              </filter>
+              <linearGradient id="linear-gradient" x1="1218.40009" y1="1221.59294" x2="1360.09038" y2="1362.5939" gradientTransform="translate(1287.99189 -531.82594) rotate(45)" gradientUnits="userSpaceOnUse">
+                <stop offset=".02806" stop-color="#9b9b9a"/>
+                <stop offset=".14769" stop-color="#838383"/>
+                <stop offset=".29226" stop-color="#6f6f6f"/>
+                <stop offset=".45736" stop-color="#616161"/>
+                <stop offset=".65881" stop-color="#595959"/>
+                <stop offset="1" stop-color="#575757"/>
+              </linearGradient>
+              <filter id="drop-shadow-4" x="1139.55923" y="1141.81518" width="303" height="304" filterUnits="userSpaceOnUse">
+                <feOffset dx="5" dy="5"/>
+                <feGaussianBlur result="blur-4" stdDeviation="5"/>
+                <feFlood flood-color="#000" flood-opacity=".17"/>
+                <feComposite in2="blur-4" operator="in"/>
+                <feComposite in="SourceGraphic"/>
+              </filter>
+              <linearGradient id="linear-gradient-2" x1="1066.7857" y1="642.11527" x2="1209.02521" y2="783.66277" gradientTransform="translate(834.09347 -594.45231) rotate(45)" gradientUnits="userSpaceOnUse">
+                <stop offset="0" stop-color="#ff8661"/>
+                <stop offset=".99712" stop-color="#fd774d"/>
+              </linearGradient>
+              <filter id="drop-shadow-5" x="987.61415" y="562" width="304" height="305" filterUnits="userSpaceOnUse">
+                <feOffset dx="5" dy="5"/>
+                <feGaussianBlur result="blur-5" stdDeviation="5"/>
+                <feFlood flood-color="#000" flood-opacity=".17"/>
+                <feComposite in2="blur-5" operator="in"/>
+                <feComposite in="SourceGraphic"/>
+              </filter>
+              <linearGradient id="linear-gradient-3" x1="917.9281" y1="790.97364" x2="1060.16761" y2="932.52114" gradientTransform="translate(895.75285 -445.59449) rotate(45)" gradientUnits="userSpaceOnUse">
+                <stop offset="0" stop-color="#fbab50"/>
+                <stop offset="1" stop-color="#f58f36"/>
+              </linearGradient>
+              <filter id="drop-shadow-6" x="838.61415" y="711" width="304" height="305" filterUnits="userSpaceOnUse">
+                <feOffset dx="5" dy="5"/>
+                <feGaussianBlur result="blur-6" stdDeviation="5"/>
+                <feFlood flood-color="#000" flood-opacity=".17"/>
+                <feComposite in2="blur-6" operator="in"/>
+                <feComposite in="SourceGraphic"/>
+              </filter>
+              <linearGradient id="linear-gradient-4" x1="1215.64407" y1="790.97364" x2="1357.88357" y2="932.52114" gradientTransform="translate(982.95184 -656.11147) rotate(45)" gradientUnits="userSpaceOnUse">
+                <stop offset="0" stop-color="#f95757"/>
+                <stop offset="1" stop-color="#ea4b4a"/>
+              </linearGradient>
+              <filter id="drop-shadow-7" x="1135.85676" y="711.2426" width="305" height="305" filterUnits="userSpaceOnUse">
+                <feOffset dx="5" dy="5"/>
+                <feGaussianBlur result="blur-7" stdDeviation="5"/>
+                <feFlood flood-color="#000" flood-opacity=".17"/>
+                <feComposite in2="blur-7" operator="in"/>
+                <feComposite in="SourceGraphic"/>
+              </filter>
+              <linearGradient id="linear-gradient-5" x1="916.01195" y1="1221.59294" x2="1057.70224" y2="1362.5939" gradientTransform="translate(1199.42445 -318.00523) rotate(45)" gradientUnits="userSpaceOnUse">
+                <stop offset="0" stop-color="#f5f5f5"/>
+                <stop offset=".15192" stop-color="#eee"/>
+                <stop offset=".59591" stop-color="#e1e1e1"/>
+                <stop offset="1" stop-color="#ddd"/>
+              </linearGradient>
+              <filter id="drop-shadow-8" x="836.55923" y="1141.81518" width="304" height="304" filterUnits="userSpaceOnUse">
+                <feOffset dx="5" dy="5"/>
+                <feGaussianBlur result="blur-8" stdDeviation="5"/>
+                <feFlood flood-color="#000" flood-opacity=".17"/>
+                <feComposite in2="blur-8" operator="in"/>
+                <feComposite in="SourceGraphic"/>
+              </filter>
+              <linearGradient id="linear-gradient-6" x1="764.21219" y1="1071.88422" x2="905.90248" y2="1212.88518" gradientTransform="translate(1049.10328 -254.51526) rotate(45)" gradientUnits="userSpaceOnUse">
+                <stop offset="0" stop-color="#fff"/>
+                <stop offset=".36806" stop-color="#f8f8f8"/>
+                <stop offset=".99898" stop-color="#f5f5f5"/>
+              </linearGradient>
+              <filter id="drop-shadow-9" x="684.55923" y="992.81518" width="304" height="303" filterUnits="userSpaceOnUse">
+                <feOffset dx="5" dy="5"/>
+                <feGaussianBlur result="blur-9" stdDeviation="5"/>
+                <feFlood flood-color="#000" flood-opacity=".17"/>
+                <feComposite in2="blur-9" operator="in"/>
+                <feComposite in="SourceGraphic"/>
+              </filter>
+              <linearGradient id="linear-gradient-7" x1="1068.66844" y1="1372.38907" x2="1210.35874" y2="1513.39003" gradientTransform="translate(1350.76547 -381.78251) rotate(45)" gradientUnits="userSpaceOnUse">
+                <stop offset="0" stop-color="#ddd"/>
+                <stop offset=".20679" stop-color="#c7c7c7"/>
+                <stop offset=".50572" stop-color="#afafae"/>
+                <stop offset=".77874" stop-color="#a0a09f"/>
+                <stop offset="1" stop-color="#9b9b9a"/>
+              </linearGradient>
+              <filter id="drop-shadow-10" x="989.55923" y="1292.81518" width="303" height="304" filterUnits="userSpaceOnUse">
+                <feOffset dx="5" dy="5"/>
+                <feGaussianBlur result="blur-10" stdDeviation="5"/>
+                <feFlood flood-color="#000" flood-opacity=".17"/>
+                <feComposite in2="blur-10" operator="in"/>
+                <feComposite in="SourceGraphic"/>
+              </filter>
+              <linearGradient id="linear-gradient-8" x1="1370.21881" y1="1070.8387" x2="1511.9091" y2="1211.83966" gradientTransform="translate(1225.85922 -683.33288) rotate(45)" gradientUnits="userSpaceOnUse">
+                <stop offset="0" stop-color="#575757"/>
+                <stop offset=".28942" stop-color="#313131"/>
+                <stop offset=".55924" stop-color="#161616"/>
+                <stop offset=".79729" stop-color="#050505"/>
+                <stop offset=".97827" stop-color="#000"/>
+              </linearGradient>
+              <filter id="drop-shadow-11" x="1290.55923" y="991.81518" width="304" height="303" filterUnits="userSpaceOnUse">
+                <feOffset dx="5" dy="5"/>
+                <feGaussianBlur result="blur-11" stdDeviation="5"/>
+                <feFlood flood-color="#000" flood-opacity=".17"/>
+                <feComposite in2="blur-11" operator="in"/>
+                <feComposite in="SourceGraphic"/>
+              </filter>
+              <linearGradient id="linear-gradient-9" x1="1037.75371" y1="980.30603" x2="1241.09115" y2="1182.65421" gradientTransform="translate(1093.76216 -486.97953) rotate(45)" gradientUnits="userSpaceOnUse">
+                <stop offset="0" stop-color="#fce76d"/>
+                <stop offset=".51992" stop-color="#fddf32"/>
+                <stop offset="1" stop-color="#ffda00"/>
+              </linearGradient>
+              <filter id="drop-shadow-12" x="926.55923" y="868.81518" width="426" height="426" filterUnits="userSpaceOnUse">
+                <feOffset dx="5" dy="5"/>
+                <feGaussianBlur result="blur-12" stdDeviation="5"/>
+                <feFlood flood-color="#000" flood-opacity=".17"/>
+                <feComposite in2="blur-12" operator="in"/>
+                <feComposite in="SourceGraphic"/>
+              </filter>
+            </defs>
+            <g id="mission-text">
+              <rect id="mission-text-2" data-name="mission-text" class="cls-10" x="520.25353" y="608.05579" width="500.83261" height="500.83261" rx="10.00001" ry="10.00001" transform="translate(-381.30747 796.38655) rotate(-45)"/>
+              <text class="cls-39" transform="translate(607.4355 718.41231)"><tspan x="0" y="0">Our mission is to </tspan><tspan x="0" y="30">continuously impr</tspan><tspan class="cls-32" x="195.92432" y="30">ov</tspan><tspan x="221.72461" y="30">e and </tspan><tspan x="0" y="60">refine our approa</tspan><tspan class="cls-25" x="186.17432" y="60">c</tspan><tspan x="198.22461" y="60">h through </tspan><tspan x="0" y="90">resea</tspan><tspan class="cls-32" x="55.54932" y="90">r</tspan><tspan class="cls-25" x="63.57422" y="90">c</tspan><tspan x="75.62451" y="90">h, business</tspan><tspan x="0" y="120">analysis, ideation, and</tspan><tspan x="0" y="150">design thinking;</tspan><tspan x="0" y="180">combining st</tspan><tspan class="cls-32" x="138.94971" y="180">r</tspan><tspan x="146.97461" y="180">ateg</tspan><tspan class="cls-19" x="191.4248" y="180">y</tspan><tspan x="201.625" y="180">,</tspan><tspan x="0" y="210">design, and de</tspan><tspan class="cls-32" x="157.0249" y="210">v</tspan><tspan x="169.2251" y="210">elopment</tspan><tspan x="0" y="240">to del</tspan><tspan class="cls-25" x="61.15039" y="240">i</tspan><tspan class="cls-32" x="67.65088" y="240">v</tspan><tspan x="79.85107" y="240">er scalable, </tspan><tspan x="0" y="270">future-rea</tspan><tspan class="cls-23" x="104.17432" y="270">d</tspan><tspan x="117.47461" y="270">y digital products.</tspan></text>
+            </g>
+            <g id="vision-text">
+              <rect id="vision-text-2" data-name="vision-text" class="cls-11" x="1246.27027" y="608.05579" width="500.83261" height="500.83261" rx="10.00001" ry="10.00001" transform="translate(-168.66208 1309.75791) rotate(-45)"/>
+              <text class="cls-39" transform="translate(1433.85353 768.26487)"><tspan x="0" y="0">Our vision is to position</tspan><tspan x="0" y="30">inn</tspan><tspan class="cls-32" x="34.75" y="30">o</tspan><tspan x="48.3501" y="30">vi among leading product</tspan><tspan x="0" y="60">design and de</tspan><tspan class="cls-32" x="150.07471" y="60">v</tspan><tspan x="162.2749" y="60">elopment </tspan><tspan x="0" y="90">studios </tspan><tspan class="cls-25" x="81.99951" y="90">b</tspan><tspan x="95.44971" y="90">y consistently </tspan><tspan x="0" y="120">del</tspan><tspan class="cls-25" x="33.3501" y="120">i</tspan><tspan class="cls-32" x="39.85059" y="120">v</tspan><tspan x="52.05078" y="120">ering best-in-class </tspan><tspan x="0" y="150">p</tspan><tspan class="cls-32" x="13.8999" y="150">r</tspan><tspan x="21.9248" y="150">actices in user experience, </tspan><tspan x="0" y="180">design qualit</tspan><tspan class="cls-19" x="137.5752" y="180">y</tspan><tspan x="147.77539" y="180">, and</tspan><tspan x="0" y="210">te</tspan><tspan class="cls-25" x="19.4502" y="210">c</tspan><tspan x="31.50049" y="210">hnical execution.</tspan></text>
+            </g>
+            <g id="purpose-text">
+              <rect id="purpose-text-2" data-name="purpose-text" class="cls-12" x="883.26189" y="245.04742" width="500.83261" height="500.83261" rx="10.00001" ry="10.00001" transform="translate(-18.2991 946.74953) rotate(-45)"/>
+              <text class="cls-39" transform="translate(1006.02556 372.90567)"><tspan x="0" y="0">Our purpose is to create</tspan><tspan x="-50.37549" y="30">digital products that feel intuit</tspan><tspan class="cls-25" x="272.02637" y="30">i</tspan><tspan class="cls-32" x="278.52686" y="30">v</tspan><tspan x="290.72705" y="30">e, </tspan><tspan x="-39.38818" y="60">useful, and visually refined.</tspan><tspan class="cls-28" x="256.5874" y="60" xml:space="preserve"> W</tspan><tspan x="286.68799" y="60">e </tspan><tspan x="-17.23779" y="90">belie</tspan><tspan class="cls-32" x="35.5625" y="90">v</tspan><tspan x="47.7627" y="90">e strong usability and </tspan><tspan x="-46.5752" y="120">thoughtful design are essential to </tspan><tspan x="-47.23779" y="150">meaningful user experiences and </tspan><tspan x="-14.5874" y="180">long-term product success.</tspan></text>
+            </g>
+            <g id="diamond-creativity">
+              <rect class="cls-20" x="1186.70012" y="1189.56426" width="198.53304" height="198.53304" rx="10" ry="10" transform="translate(-534.69007 1286.80553) rotate(-45)"/>
+              <text class="cls-8" transform="translate(1183.55141 1307.73022)"><tspan x="0" y="0">C</tspan><tspan class="cls-36" x="31.36914" y="0">r</tspan><tspan x="49.67188" y="0">eativity</tspan></text>
+            </g>
+            <g id="diamond-purpose">
+              <rect id="pdiamond-purpose" class="cls-13" x="1034.96296" y="609.96253" width="199.3024" height="199.3024" rx="10" ry="10" transform="translate(-169.45189 1010.13441) rotate(-45)"/>
+              <text class="cls-7" transform="translate(1052.60068 721.32276)"><tspan class="cls-40" x="0" y="0">P</tspan><tspan x="26.46973" y="0">urpose</tspan></text>
+            </g>
+            <g id="diamond-mission">
+              <rect id="pdiamond-mission" class="cls-14" x="886.10535" y="758.8209" width="199.3024" height="199.3024" rx="10" ry="10" transform="translate(-318.31003 948.4758) rotate(-45)"/>
+              <text class="cls-7" transform="translate(907.31487 872.71976)"><tspan x="0" y="0">Mission</tspan></text>
+            </g>
+            <g id="diamond-vision">
+              <rect id="pdiamond-vision" class="cls-15" x="1183.82132" y="758.8209" width="199.3024" height="199.3024" rx="10" ry="10" transform="translate(-231.11104 1158.99278) rotate(-45)"/>
+              <text class="cls-7" transform="translate(1220.68204 874.09838)"><tspan x="0" y="0">Vision</tspan></text>
+            </g>
+            <g id="diamond-ambition">
+              <rect class="cls-17" x="884.31198" y="1189.56426" width="198.53304" height="198.53304" rx="10" ry="10" transform="translate(-623.25751 1072.98482) rotate(-45)"/>
+              <text class="cls-9" transform="translate(892.84536 1311.0017)"><tspan x="0" y="0">Ambition</tspan></text>
+            </g>
+            <g id="diamond-positivity">
+              <rect class="cls-16" x="732.51222" y="1039.85553" width="198.53304" height="198.53304" rx="10" ry="10" transform="translate(-561.85858 921.79751) rotate(-45)"/>
+              <text class="cls-6" transform="translate(738.80483 1161.2937)"><tspan class="cls-31" x="0" y="0">P</tspan><tspan x="25.52002" y="0">ositivity</tspan></text>
+            </g>
+            <g id="diamond-visionary">
+              <rect class="cls-2" x="1036.96847" y="1340.36038" width="198.53304" height="198.53304" rx="10" ry="10" transform="translate(-685.17442 1225.09643) rotate(-45)"/>
+              <text class="cls-9" transform="translate(1042.64565 1460.00756)"><tspan x="0" y="0">Visionary</tspan></text>
+            </g>
+            <g id="diamond-progress">
+              <rect class="cls-3" x="1338.51884" y="1038.81001" width="198.53304" height="198.53304" rx="10" ry="10" transform="translate(-383.62405 1350.00268) rotate(-45)"/>
+              <text class="cls-8" transform="translate(1350.52895 1150.58081)">Progress</text>
+            </g>
+            <g id="diamond-values">
+              <rect id="pdiamond-values" class="cls-4" x="992.27218" y="934.35275" width="284.8904" height="284.8904" rx="10" ry="10" transform="translate(-429.06011 1117.75317) rotate(-45)"/>
+              <text class="cls-5" transform="translate(1042.05483 1099.13549)"><tspan class="cls-21" x="0" y="0">V</tspan><tspan x="38.92236" y="0">alues</tspan></text>
+            </g>
+            <text id="positivity-text" class="cls-38" transform="translate(.00014 1162.09057)"><tspan class="cls-29" x="0" y="0">W</tspan><tspan x="30.28467" y="0">e foster a posit</tspan><tspan class="cls-26" x="226.04346" y="0">i</tspan><tspan class="cls-33" x="234.21973" y="0">v</tspan><tspan x="249.56641" y="0">e mindset in both life and </tspan><tspan class="cls-34" x="604.41895" y="0">w</tspan><tspan x="628.50781" y="0">ork; </tspan><tspan x="0" y="37.7373">creating an e</tspan><tspan class="cls-33" x="174.75342" y="37.7373">n</tspan><tspan x="191.86133" y="37.7373">vironment that encou</tspan><tspan class="cls-34" x="481.99512" y="37.7373">r</tspan><tspan x="492.08936" y="37.7373">ages </tspan><tspan x="0" y="75.47461">collabo</tspan><tspan class="cls-33" x="101.38623" y="75.47461">r</tspan><tspan x="111.48096" y="75.47461">ation, respect, and gr</tspan><tspan class="cls-34" x="396.36084" y="75.47461">o</tspan><tspan x="413.46826" y="75.47461">wth.</tspan></text>
+            <text id="ambition-text" class="cls-38" transform="translate(296.42739 1377.62475)"><tspan class="cls-29" x="0" y="0">W</tspan><tspan x="30.28467" y="0">e are dr</tspan><tspan class="cls-26" x="133.36865" y="0">i</tspan><tspan class="cls-33" x="141.54541" y="0">v</tspan><tspan x="156.89209" y="0">en </tspan><tspan class="cls-26" x="198.84326" y="0">b</tspan><tspan x="215.76221" y="0">y long-term goals and a </tspan><tspan x="0" y="37.7373">for</tspan><tspan class="cls-26" x="36.69873" y="37.7373">w</tspan><tspan x="60.59912" y="37.7373">ard-looking mindset, constantly str</tspan><tspan class="cls-27" x="527.24756" y="37.7373">i</tspan><tspan x="535.42432" y="37.7373">ving to </tspan><tspan x="0" y="75.47461">impr</tspan><tspan class="cls-33" x="62.89453" y="75.47461">ov</tspan><tspan x="95.34863" y="75.47461">e and rea</tspan><tspan class="cls-27" x="221.16943" y="75.47461">c</tspan><tspan x="236.32764" y="75.47461">h higher standards.</tspan></text>
+            <text id="visionary-text" class="cls-38" transform="translate(869.93422 1630.57788)"><tspan class="cls-29" x="0" y="0">W</tspan><tspan x="30.28467" y="0">e approa</tspan><tspan class="cls-26" x="149.12451" y="0">c</tspan><tspan x="164.28223" y="0">h our </tspan><tspan class="cls-33" x="244.69287" y="0">w</tspan><tspan class="cls-1" x="268.78223" y="0">ork with a visionary </tspan><tspan x="-19.84375" y="37.7373">perspect</tspan><tspan class="cls-26" x="93.74414" y="37.7373">i</tspan><tspan class="cls-33" x="101.92041" y="37.7373">v</tspan><tspan x="117.26709" y="37.7373">e, imagining </tspan><tspan class="cls-27" x="293.78125" y="37.7373">w</tspan><tspan x="317.68164" y="37.7373">hat</tspan><tspan class="cls-18" x="359.63281" y="37.7373">’</tspan><tspan x="365.48242" y="37.7373">s possible and </tspan><tspan x="80.19141" y="75.47461">shaping ideas for the future.</tspan></text>
+            <text id="creativity-text" class="cls-38" transform="translate(1437.78579 1375.01147)"><tspan class="cls-29" x="0" y="0">W</tspan><tspan x="30.28418" y="0">e emb</tspan><tspan class="cls-33" x="114.15332" y="0">r</tspan><tspan x="124.24805" y="0">ace creat</tspan><tspan class="cls-24" x="246.5459" y="0">i</tspan><tspan x="254.72168" y="0">vity as a </tspan><tspan class="cls-27" x="373.55957" y="0">w</tspan><tspan class="cls-30" x="397.45996" y="0">a</tspan><tspan x="412.24023" y="0">y to sol</tspan><tspan class="cls-33" x="510.13477" y="0">v</tspan><tspan x="525.48145" y="0">e </tspan><tspan class="cls-27" x="0" y="37.7373">c</tspan><tspan x="15.1582" y="37.7373">hallenges and unc</tspan><tspan class="cls-35" x="261.60938" y="37.7373">ov</tspan><tspan x="294.06348" y="37.7373">er new opportunities </tspan><tspan x="0" y="75.47461">through thoughtful design and inn</tspan><tspan class="cls-33" x="459.75586" y="75.47461">o</tspan><tspan class="cls-22" x="476.86328" y="75.47461">v</tspan><tspan x="491.83203" y="75.47461">ation.</tspan></text>
+            <text id="progress-text" class="cls-38" transform="translate(1605.69106 1162.77123)"><tspan class="cls-29" x="0" y="0">W</tspan><tspan x="30.28418" y="0">e belie</tspan><tspan class="cls-33" x="121.16602" y="0">v</tspan><tspan x="136.5127" y="0">e in continuous impr</tspan><tspan class="cls-33" x="417.93066" y="0">ov</tspan><tspan x="450.38477" y="0">ement—refining </tspan><tspan x="0" y="37.7373">our process, skills, and outcomes with e</tspan><tspan class="cls-33" x="540.07031" y="37.7373">v</tspan><tspan x="555.41699" y="37.7373">ery </tspan><tspan x="0" y="75.47461">project.</tspan></text>
+          </svg>
+        </section>
+
+        <section id="timelineSec" class="observe-section svg-animate">
             <h3> innovi's Timeline </h3>
             <div id="categoryGrid">
                 <div id="timeline" class="categoryGridArea">
-                    <img src="images/timeline.png">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="130.742" height="1483.566" viewBox="0 0 130.742 1483.566">
+                        <defs>
+                            <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+                            <stop offset="0" stop-color="#ff8661"/>
+                            <stop offset="0.645" stop-color="#ff8661"/>
+                            <stop offset="1" stop-color="#fd774d"/>
+                            </radialGradient>
+                            <filter id="Ellipse_56" x="1.742" y="0" width="129" height="129" filterUnits="userSpaceOnUse">
+                            <feOffset dy="3" input="SourceAlpha"/>
+                            <feGaussianBlur stdDeviation="3" result="blur"/>
+                            <feFlood flood-opacity="0.161"/>
+                            <feComposite operator="in" in2="blur"/>
+                            <feComposite in="SourceGraphic"/>
+                            </filter>
+                            <filter id="Ellipse_54" x="0" y="421.762" width="129" height="129" filterUnits="userSpaceOnUse">
+                            <feOffset dy="3" input="SourceAlpha"/>
+                            <feGaussianBlur stdDeviation="3" result="blur-2"/>
+                            <feFlood flood-opacity="0.161"/>
+                            <feComposite operator="in" in2="blur-2"/>
+                            <feComposite in="SourceGraphic"/>
+                            </filter>
+                            <filter id="Ellipse_55" x="0" y="210.762" width="129" height="129" filterUnits="userSpaceOnUse">
+                            <feOffset dy="3" input="SourceAlpha"/>
+                            <feGaussianBlur stdDeviation="3" result="blur-3"/>
+                            <feFlood flood-opacity="0.161"/>
+                            <feComposite operator="in" in2="blur-3"/>
+                            <feComposite in="SourceGraphic"/>
+                            </filter>
+                            <filter id="Ellipse_52" x="1.072" y="841.008" width="129" height="129" filterUnits="userSpaceOnUse">
+                            <feOffset dy="3" input="SourceAlpha"/>
+                            <feGaussianBlur stdDeviation="3" result="blur-4"/>
+                            <feFlood flood-opacity="0.161"/>
+                            <feComposite operator="in" in2="blur-4"/>
+                            <feComposite in="SourceGraphic"/>
+                            </filter>
+                            <filter id="Ellipse_53" x="1.072" y="633" width="129" height="129" filterUnits="userSpaceOnUse">
+                            <feOffset dy="3" input="SourceAlpha"/>
+                            <feGaussianBlur stdDeviation="3" result="blur-5"/>
+                            <feFlood flood-opacity="0.161"/>
+                            <feComposite operator="in" in2="blur-5"/>
+                            <feComposite in="SourceGraphic"/>
+                            </filter>
+                            <filter id="Ellipse_51" x="0" y="1058.557" width="129" height="129" filterUnits="userSpaceOnUse">
+                            <feOffset dy="3" input="SourceAlpha"/>
+                            <feGaussianBlur stdDeviation="3" result="blur-6"/>
+                            <feFlood flood-opacity="0.161"/>
+                            <feComposite operator="in" in2="blur-6"/>
+                            <feComposite in="SourceGraphic"/>
+                            </filter>
+                            <filter id="Ellipse_45" x="0.5" y="1266.066" width="129" height="129" filterUnits="userSpaceOnUse">
+                            <feOffset dy="3" input="SourceAlpha"/>
+                            <feGaussianBlur stdDeviation="3" result="blur-7"/>
+                            <feFlood flood-opacity="0.161"/>
+                            <feComposite operator="in" in2="blur-7"/>
+                            <feComposite in="SourceGraphic"/>
+                            </filter>
+                        </defs>
+                        <g id="Group_441" data-name="Group 441" transform="translate(-153 -2408.934)">
+                            <line id="time-line" data-name="Line 39" x1="0.597" y2="1377.073" transform="translate(217.5 2515.426)" fill="none" stroke="#f3f3f4" stroke-width="5"/>
+                            <g id="Feb2022">
+                            <g transform="matrix(1, 0, 0, 1, 153, 2408.93)" filter="url(#Ellipse_56)">
+                                <circle id="Ellipse_56-2" data-name="Ellipse 56" cx="55.5" cy="55.5" r="55.5" transform="translate(10.74 6)" fill="url(#radial-gradient)"/>
+                            </g>
+                            <text id="_22_Feb._2022" data-name="22
+                        Feb.
+                        2022" transform="translate(186.91 2437.07)" fill="#f3f3f4" font-size="20" font-family="Philosopher-Bold, Philosopher" font-weight="700"><tspan x="21.552" y="18">22</tspan><tspan x="14.572" y="40">Feb.</tspan><tspan x="7.602" y="62" xml:space="preserve"> 2022</tspan></text>
+                            </g>
+                            <g id="Jan2023">
+                            <g transform="matrix(1, 0, 0, 1, 153, 2408.93)" filter="url(#Ellipse_54)">
+                                <circle id="Ellipse_54-2" data-name="Ellipse 54" cx="55.5" cy="55.5" r="55.5" transform="translate(9 427.76)" fill="url(#radial-gradient)"/>
+                            </g>
+                            <text id="Jan._2023" data-name="Jan.
+                        2023" transform="translate(186.24 2867.57)" fill="#f3f3f4" font-size="20" font-family="Philosopher-Bold, Philosopher" font-weight="700"><tspan x="16.602" y="18">Jan.</tspan><tspan x="7.562" y="40" xml:space="preserve"> 2023</tspan></text>
+                            </g>
+                            <g id="Oct2022">
+                            <g transform="matrix(1, 0, 0, 1, 153, 2408.93)" filter="url(#Ellipse_55)">
+                                <circle id="Ellipse_55-2" data-name="Ellipse 55" cx="55.5" cy="55.5" r="55.5" transform="translate(9 216.76)" fill="url(#radial-gradient)"/>
+                            </g>
+                            <text id="Oct._2022" data-name="Oct.
+                        2022" transform="translate(185.765 2656.877)" fill="#f3f3f4" font-size="20" font-family="Philosopher-Bold, Philosopher" font-weight="700"><tspan x="14.262" y="18">Oct.</tspan><tspan x="7.602" y="40" xml:space="preserve"> 2022</tspan></text>
+                            </g>
+                            <g id="Feb2024">
+                            <g transform="matrix(1, 0, 0, 1, 153, 2408.93)" filter="url(#Ellipse_52)">
+                                <circle id="Ellipse_52-2" data-name="Ellipse 52" cx="55.5" cy="55.5" r="55.5" transform="translate(10.07 847.01)" fill="url(#radial-gradient)"/>
+                            </g>
+                            <text id="Feb._2024" data-name="Feb.
+                        2024" transform="translate(185.765 3289.57)" fill="#f3f3f4" font-size="20" font-family="Philosopher-Bold, Philosopher" font-weight="700"><tspan x="14.572" y="18">Feb.</tspan><tspan x="7.272" y="40" xml:space="preserve"> 2024</tspan></text>
+                            </g>
+                            <g id="Dec2023">
+                            <g transform="matrix(1, 0, 0, 1, 153, 2408.93)" filter="url(#Ellipse_53)">
+                                <circle id="Ellipse_53-2" data-name="Ellipse 53" cx="55.5" cy="55.5" r="55.5" transform="translate(10.07 639)" fill="url(#radial-gradient)"/>
+                            </g>
+                            <text id="Dec._2023" data-name="Dec.
+                        2023" transform="translate(186.24 3078.57)" fill="#f3f3f4" font-size="20" font-family="Philosopher-Bold, Philosopher" font-weight="700"><tspan x="12.682" y="18">Dec.</tspan><tspan x="7.562" y="40" xml:space="preserve"> 2023</tspan></text>
+                            </g>
+                            <g id="Aug2024">
+                            <g transform="matrix(1, 0, 0, 1, 153, 2408.93)" filter="url(#Ellipse_51)">
+                                <circle id="Ellipse_51-2" data-name="Ellipse 51" cx="55.5" cy="55.5" r="55.5" transform="translate(9 1064.56)" fill="url(#radial-gradient)"/>
+                            </g>
+                            <text id="Aug._2024" data-name="Aug.
+                        2024" transform="translate(185.668 3504.676)" fill="#f3f3f4" font-size="20" font-family="Philosopher-Bold, Philosopher" font-weight="700"><tspan x="12.742" y="18">Aug.</tspan><tspan x="7.272" y="40" xml:space="preserve"> 2024</tspan></text>
+                            </g>
+                            <g id="Nov2025">
+                            <g transform="matrix(1, 0, 0, 1, 153, 2408.93)" filter="url(#Ellipse_45)">
+                                <circle id="Ellipse_45-2" data-name="Ellipse 45" cx="55.5" cy="55.5" r="55.5" transform="translate(9.5 1272.07)" fill="url(#radial-gradient)"/>
+                            </g>
+                            <text id="Nov._2025" data-name="Nov.
+                        2025" transform="translate(185.668 3711.877)" fill="#f3f3f4" font-size="20" font-family="Philosopher-Bold, Philosopher" font-weight="700"><tspan x="13.202" y="18">Nov.</tspan><tspan x="7.532" y="40" xml:space="preserve"> 2025</tspan></text>
+                            </g>
+                        </g>
+                        </svg>
                 </div>
                 <div id="con1" class="categoryGridArea">
                     <h4> Established innovi </h4>
                     <p>
-                        Started the company registration process online, including defining its purpose, vision, and mission
+                         Initiated the online company registration process, clearly defining its purpose, vision, and mission
                     </p>
                 </div>
                 <div id="con2" class="categoryGridArea">
-                    <h4> Designed Website </h4>
+                    <h4> Designed The Website </h4>
                     <p>
-                        Created user flow, wireframes, and developed them to prototypes using Adobe XD, and conducted the required designs using Adobe Illustrator
+                        Led the website design process, defining user flows, translating wireframes into high-fidelity prototypes in Adobe XD, and creating visual assets in Adobe Illustrator
                     </p>
                 </div>
                 <div id="con3" class="categoryGridArea">
                     <h4> Started New Projects </h4>
                     <p>
-                        Worked on new projects (ENviro, gardengate) in addition to the old projects as Santo, ShareAll and TravelZ
+                        Expanded project portfolio by working on new initiatives (Enviro, GardenGate) while continuing development and design on existing projects (Santo, ShareAll, TravelZ).
                     </p>
                 </div>
                 <div id="con4" class="categoryGridArea">
-                    <h4> Finished Initial Projects Prototypes </h4>
+                    <h4> Website Update </h4>
                     <p>
-                        Created wireframes and developed them to prototypes that reflect business purpose, vision and mission
+                        Updated the website to better present our work, improve usability, and reflect the latest projects
                     </p>
                 </div>
                 <div id="con5" class="categoryGridArea">
-                    <h4> Website Update </h4>
+                    <h4> Worked on Projects Design Process Update </h4>
                     <p>
-                        Updated my website with new version
+                         Re-tested projects and refined the design process to improve quality and consistency
                     </p>
-                  </div>
+                </div>
+                <div id="con6" class="categoryGridArea">
+                    <h4> Design Process Completed </h4>
+                    <p>
+                         Successfully accomplished the full design process across projects
+                    </p>
+                </div>
+                <div id="con7" class="categoryGridArea">
+                    <h4> enVision Project Launch </h4>
+                    <p>
+                         Achieved the successful launch of my first project enVision
+                    </p>
+                </div>
                 </div>
             </div>       
         </section>
@@ -100,7 +679,128 @@
                 Following the design process cycle from research to user insights and user solution. <br>
                 Test and iterate to employ the best practices
             </p>
-            <img src="images/designProcess.png" class="designProcessImg">
+          <svg id="designProcessImg" class="observe-section svg-animate" height="659.962" viewBox="0 0 1746 659.962" width="1746" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><linearGradient id="a" gradientUnits="objectBoundingBox" x1=".5" x2=".5" y2="1"><stop offset="0" stop-color="#ff8a66"/><stop offset="1" stop-color="#fd754b"/></linearGradient><filter id="b" filterUnits="userSpaceOnUse" height="500.678" width="500.678" x="901.864" y="159.283"><feOffset dy="5"/><feGaussianBlur result="blur" stdDeviation="12.5"/><feFlood flood-opacity=".22"/><feComposite in2="blur" operator="in"/><feComposite in="SourceGraphic"/></filter><linearGradient id="c" gradientUnits="objectBoundingBox" x1=".5" x2=".5" y2="1"><stop offset="0" stop-color="#ff5c5c"/><stop offset="1" stop-color="#e84949"/></linearGradient><filter id="d" filterUnits="userSpaceOnUse" height="500.722" width="500.722" x="1071.437" y="159.139"><feOffset dy="5"/><feGaussianBlur result="blur-2" stdDeviation="12.5"/><feFlood flood-opacity=".22"/><feComposite in2="blur-2" operator="in"/><feComposite in="SourceGraphic"/></filter><linearGradient id="e" gradientUnits="objectBoundingBox" x1=".5" x2=".5" y2="1"><stop offset="0" stop-color="#ffc466"/><stop offset="1" stop-color="#f58d34"/></linearGradient><filter id="f" filterUnits="userSpaceOnUse" height="340.98" width="670" x="902.159" y="10.709"><feOffset dy="5"/><feGaussianBlur result="blur-3" stdDeviation="12.5"/><feFlood flood-opacity=".22"/><feComposite in2="blur-3" operator="in"/><feComposite in="SourceGraphic"/></filter><linearGradient id="g" gradientUnits="objectBoundingBox" x1=".5" x2=".5" y2="1"><stop offset="0" stop-color="#ffe000"/><stop offset="1" stop-color="#fdec73"/></linearGradient><filter id="h" filterUnits="userSpaceOnUse" height="659.962" width="374.207" x="590.33" y="0"><feOffset dy="5"/><feGaussianBlur result="blur-4" stdDeviation="12.5"/><feFlood flood-opacity=".22"/><feComposite in2="blur-4" operator="in"/><feComposite in="SourceGraphic"/></filter><linearGradient id="i" gradientUnits="objectBoundingBox" x1=".5" x2=".5" y2="1"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#f5f5f5"/></linearGradient><filter id="j" filterUnits="userSpaceOnUse" height="659" width="374.644" x="262.159" y="0"><feOffset dy="5"/><feGaussianBlur result="blur-5" stdDeviation="12.5"/><feFlood flood-opacity=".22"/><feComposite in2="blur-5" operator="in"/><feComposite in="SourceGraphic"/></filter><radialGradient id="k" cx=".5" cy=".5" gradientUnits="objectBoundingBox" r=".5"><stop offset="0" stop-color="#575757"/><stop offset="1"/></radialGradient><filter id="l" filterUnits="userSpaceOnUse" height="92" width="247" x="306" y="400.994"><feOffset dy="3"/><feGaussianBlur result="blur-6" stdDeviation="3"/><feFlood flood-opacity=".161"/><feComposite in2="blur-6" operator="in"/><feComposite in="SourceGraphic"/></filter><filter id="m" filterUnits="userSpaceOnUse" height="73" width="248" x="688.375" y="400.994"><feOffset dy="3"/><feGaussianBlur result="blur-7" stdDeviation="3"/><feFlood flood-opacity=".161"/><feComposite in2="blur-7" operator="in"/><feComposite in="SourceGraphic"/></filter><filter id="n" filterUnits="userSpaceOnUse" height="101" width="248" x="1190.798" y="225.994"><feOffset dy="3"/><feGaussianBlur result="blur-8" stdDeviation="3"/><feFlood flood-opacity=".161"/><feComposite in2="blur-8" operator="in"/><feComposite in="SourceGraphic"/></filter><filter id="o" filterUnits="userSpaceOnUse" height="94" width="256" x="928.508" y="474.994"><feOffset dy="3"/><feGaussianBlur result="blur-9" stdDeviation="3"/><feFlood flood-opacity=".161"/><feComposite in2="blur-9" operator="in"/><feComposite in="SourceGraphic"/></filter><filter id="p" filterUnits="userSpaceOnUse" height="73" width="248" x="1308" y="428.994"><feOffset dy="3"/><feGaussianBlur result="blur-10" stdDeviation="3"/><feFlood flood-opacity=".161"/><feComposite in2="blur-10" operator="in"/><feComposite in="SourceGraphic"/></filter><filter id="q" filterUnits="userSpaceOnUse" height="73" width="168" x="1578" y="286.994"><feOffset dy="3"/><feGaussianBlur result="blur-11" stdDeviation="3"/><feFlood flood-opacity=".161"/><feComposite in2="blur-11" operator="in"/><feComposite in="SourceGraphic"/></filter><filter id="r" filterUnits="userSpaceOnUse" height="120" width="247" x="899" y="208.994"><feOffset dy="3"/><feGaussianBlur result="blur-12" stdDeviation="3"/><feFlood flood-opacity=".161"/><feComposite in2="blur-12" operator="in"/><feComposite in="SourceGraphic"/></filter><g transform="translate(-78.444 -4380.006)"><g filter="url(#b)" transform="translate(78.444 4380.01)"><path d="m193.947 7.018a10 10 0 0 1 14.107 0l176.772 175.893a10 10 0 0 1 -7.054 17.089h-353.544a10 10 0 0 1 -7.053-17.089z" fill="url(#a)" transform="matrix(.70710678 .70710678 -.70710678 .70710678 1080.79 191.78)"/></g><g filter="url(#d)" transform="translate(78.444 4380.01)"><path d="m193.978 7.017a10 10 0 0 1 14.106 0l176.8 175.894a10 10 0 0 1 -7.052 17.089h-353.602a10 10 0 0 1 -7.053-17.089z" fill="url(#c)" transform="matrix(.70710678 -.70710678 .70710678 .70710678 1108.94 475.94)"/></g><g filter="url(#f)" transform="translate(78.444 4380.01)"><path d="m290.835 5.959a10 10 0 0 1 13.33 0l271.312 242.567a10 10 0 0 1 -6.665 17.455h-542.623a10 10 0 0 1 -6.665-17.455z" fill="url(#e)" transform="translate(939.66 43.21)"/></g><g filter="url(#h)" transform="translate(78.444 4380.01)"><path d="m285.33 7.315a10 10 0 0 1 14.3 0l268.722 274.9a10 10 0 0 1 -7.151 16.99h-537.442a10 10 0 0 1 -7.151-16.99z" fill="url(#g)" transform="matrix(0 1 -1 0 927.04 32.5)"/></g><g filter="url(#j)" transform="translate(78.444 4380.01)"><path d="m284.838 7.349a10 10 0 0 1 14.324 0l268.292 275.316a10 10 0 0 1 -7.162 16.979h-536.584a10 10 0 0 1 -7.162-16.979z" fill="url(#i)" transform="matrix(0 -1 1 0 299.66 616.5)"/></g><g font-family="Philosopher-Bold, Philosopher" font-size="33" font-weight="700"><text fill="#3e3e3e" transform="translate(472.883 4680.531)"><tspan x="0" y="30">Empathize</tspan></text><text fill="#3e3e3e" transform="translate(776.091 4680.531)"><tspan x="0" y="30">Define</tspan></text><text fill="#fff" transform="translate(1269.294 4571.789)"><tspan x="0" y="30">Ideate</tspan></text><text fill="#fff" transform="translate(1111.245 4738.688)"><tspan x="0" y="30">Prototype</tspan></text><text fill="#fff" transform="translate(1400.042 4740.188)"><tspan x="0" y="30">Test</tspan></text></g><circle cx="50" cy="50" fill="url(#k)" r="50" transform="translate(965.951 4650.006)"/><circle cx="50" cy="50" fill="url(#k)" r="50" transform="translate(1547.444 4650.006)"/><circle cx="50" cy="50" fill="url(#k)" r="50" transform="translate(332.444 4650.506)"/><text fill="#3e3e3e" font-family="Philosopher-Bold, Philosopher" font-size="33" font-weight="700" transform="translate(243.444 4547.031)"><tspan x="0" y="30">Research</tspan></text><text fill="#3e3e3e" font-family="Philosopher-Bold, Philosopher" font-size="33" font-weight="700" transform="translate(918.611 4547.031)"><tspan x="0" y="30">User Insights</tspan></text><text fill="#3e3e3e" font-family="Philosopher-Bold, Philosopher" font-size="33" font-weight="700" transform="translate(1561.763 4547.031)"><tspan x="0" y="30">User Solution</tspan></text>
+            <g id="Inter" >
+              <rect fill="#fff" stroke="#ff8a66"height="53" rx="10" stroke="none" width="229" x="78.444" y="4674"/>
+              <text fill="#3e3e3e" font-family="Philosopher-Regular, Philosopher" font-size="22" transform="translate(95.4 4686.527)">
+                <tspan x="0" y="20">Interviews &amp; Market</tspan>
+              </text>
+            </g>
+            <g id="Infinity">
+              <rect fill="#fff" stroke="#ff8a66" height="74" rx="10" width="228" x="400" y="4785"/>
+              <text fill="#3e3e3e" font-family="Philosopher-Regular, Philosopher" font-size="22" transform="translate(418.308 4796.527)">
+                <tspan x="0" y="20">Infinity Diagram &amp;</tspan>
+                <tspan x="0" y="45">Empath Map</tspan>
+              </text>
+            </g>
+            <g id="Persona">
+                <rect fill="#fff" stroke="#ff8a66" height="54" rx="9.5" width="229" x="780" y="4785"/>
+                <text fill="#3e3e3e" font-family="Philosopher-Regular, Philosopher" font-size="22" transform="translate(793.661 4800.186)">
+                  <tspan x="0" y="20">Persona &amp; Storyboard</tspan>
+              </text>
+            </g>
+            <g id="Brainstorming">
+                <rect fill="#fff" stroke="#ff8a66" height="80" rx="9.5" width="228" x="1280" y="4620"/>
+                <text fill="#3e3e3e" font-family="Philosopher-Regular, Philosopher" font-size="22" transform="translate(1288.845 4627.686)">
+                  <tspan x="0" y="20">Brainstorming &amp;</tspan>
+                  <tspan x="0" y="45">Features Prioritization</tspan>
+                </text>
+            </g>
+              <g id="Proto">
+                <rect fill="#fff" stroke="#ff8a66" height="80" rx="9.5" width="250" x="1010" y="4865"/>
+                <text fill="#3e3e3e" font-family="Philosopher-Regular, Philosopher" font-size="22" transform="translate(1027.611 4873.186)">
+              <tspan x="0" y="20">User Flow, Wireframes</tspan>
+              <tspan x="0" y="45">&amp; Prototypes</tspan>
+            </text>
+              </g>
+              <g id="Test">
+                <rect fill="#fff" stroke="#ff8a66" height="60" rx="9.5" width="200" x="1412" y="4812"/>
+                <text fill="#3e3e3e" font-family="Philosopher-Regular, Philosopher" font-size="22" transform="translate(1431.245 4829.594)">
+              <tspan x="0" y="20">Usability Testing</tspan>
+                </text>
+              </g>
+            <g id="Release">
+                <rect fill="#fff" stroke="#ff8a66" height="60" rx="9.5" width="150" x="1665" y="4670"/>
+                <text fill="#3e3e3e" font-family="Philosopher-Regular, Philosopher" font-size="22" transform="translate(1703.745 4687.594)">
+              <tspan x="0" y="20">Release</tspan>
+            </text>
+            </g>
+              <g  id="Insights">
+                <rect fill="#fff" stroke="#ff8a66" height="101" rx="9.5" width="228" x="983" y="4600"/>
+                 <text fill="#3e3e3e" font-family="Philosopher-Regular, Philosopher" font-size="22" transform="translate(998.046 4606.592)"><tspan x="0" y="20">User Insights,</tspan><tspan x="0" y="45">Problem Statement &amp;</tspan><tspan x="0" y="70">User Hypothesis</tspan>
+                </text>
+              </g>
+           </g>
+          </svg>
+
+        </section>
+        <section class="serviceSec">
+          <h3> Our Services </h3>
+          <h2> I help businesses and individuals bring ideas to life through  thoughtful design, <br> seamless development, and user-focused digital experiences</h2>
+          <div class="serviceContent">
+            <div class="serviceBlocks">
+              <div class="serviceBlock block1">
+                <h2> Product Design (UX/UI) </h2>
+                <p> Designing intuitive, user-centered digital products from concept to execution. I focus on usability, clarity, and business impact: </p>
+                <li> User research & insights </li>
+                <li> User flows & wireframes </li>
+                <li> Design systems & guidelines </li>
+                <li> Interactive prototypes </li>
+                <li> High-fidelity interface design </li>
+              </div>
+              <div class="serviceBlock block2">
+                <h2> Web Design & Development </h2>
+                <p> Building modern, responsive websites that balance
+                    performance, accessibility, and visual storytelling:
+                    User research & analysis, Ideation & user flows, wireframing & Interactive prototyping, Design systems & style guide </p>
+                    <li> Back-End development (React) </li>
+                    <li> Front-end development (HTML, CSS, JavaScript) </li>
+                    <li> WordPress websites & theme customization </li>
+                    <li> Custom website design </li>
+                    <li> Performance optimization & SEO best practices </li>   
+              </div>
+            </div>
+            <div class="serviceBlocks">
+                <div class="serviceBlock block3">
+                    <h2> Application Design & Development </h2>
+                    <p> End-to-end design and development of scalable web
+                        and mobile applications: </p>
+                    <li> App UX/UI design </li>
+                    <li> Flutter & cross-platform app development </li>
+                    <li> Firebase integration (auth, database) </li>
+                    <li> Dashboard & data-driven interfaces </li>
+                    <li> Feature planning & MVP development </li>
+                </div>
+                <div class="serviceBlock block4">
+                    <h2> Branding & Visual Identity </h2>
+                    <p> Creating strong visual identities that communicate
+                        purpose and consistency across digital platforms: </p>
+                        <li> Logo & brand identity design </li>
+                        <li> Color systems & typography </li>
+                        <li> Marketing & digital assets</li>
+                        <li> UI branding alignment  </li>    
+                  </div>
+            </div>
+            <div class="serviceBlocks">
+              <div class="serviceBlock block5">
+                  <h2> Product Strategy & Consulting </h2>
+                  <p> Helping teams define product vision, align stakeholders,
+                      and translate goals into actionable design decisions:</p>
+                  <li> Product discovery & ideation </li>
+                  <li> UX audits & design reviews </li>
+                  <li> KPI-driven design decisions</li>
+                  <li> Stakeholder collaboration & workshops </li> 
+                </div>
+                <div class="serviceBlock block6">
+                  <h2> Ongoing Support & Optimization </h2>
+                  <p> Continuous improvement to keep products relevant,
+                      usable, and scalable: </p>
+                      <li> Design updates & refinements </li>
+                      <li> Feature enhancements </li>
+                      <li> Performance & usability improvements </li>
+                      <li> Long-term product support </li> 
+                </div>
+            </div>
         </section>
 
 <!-- Footer -->
@@ -146,11 +846,11 @@
   <!-- Copyright -->
   <div class="copyright">
 
-  <p> © 2022 - 2025 innovi </p>
+  <p> © 2022 - 2026 innovi </p>
 
   </div>
   <!-- Copyright -->
   <!-- Footer -->
-
+<script type="text/javascript" src="js/index.js"></script>
 	</body>
 </html>

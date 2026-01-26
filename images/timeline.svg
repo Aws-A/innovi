@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="130.742" height="1483.566" viewBox="0 0 130.742 1483.566">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff8661"/>
+      <stop offset="0.645" stop-color="#ff8661"/>
+      <stop offset="1" stop-color="#fd774d"/>
+    </radialGradient>
+    <filter id="Ellipse_56" x="1.742" y="0" width="129" height="129" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_54" x="0" y="421.762" width="129" height="129" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_55" x="0" y="210.762" width="129" height="129" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_52" x="1.072" y="841.008" width="129" height="129" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-4"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_53" x="1.072" y="633" width="129" height="129" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-5"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_51" x="0" y="1058.557" width="129" height="129" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-6"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-6"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_45" x="0.5" y="1266.066" width="129" height="129" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-7"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-7"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_441" data-name="Group 441" transform="translate(-153 -2408.934)">
+    <line id="Line_39" data-name="Line 39" x1="0.597" y2="1377.073" transform="translate(217.5 2515.426)" fill="none" stroke="#f3f3f4" stroke-width="5"/>
+    <g id="Feb2022">
+      <g transform="matrix(1, 0, 0, 1, 153, 2408.93)" filter="url(#Ellipse_56)">
+        <circle id="Ellipse_56-2" data-name="Ellipse 56" cx="55.5" cy="55.5" r="55.5" transform="translate(10.74 6)" fill="url(#radial-gradient)"/>
+      </g>
+      <text id="_22_Feb._2022" data-name="22
+Feb.
+ 2022" transform="translate(186.91 2437.07)" fill="#f3f3f4" font-size="20" font-family="Philosopher-Bold, Philosopher" font-weight="700"><tspan x="21.552" y="18">22</tspan><tspan x="14.572" y="40">Feb.</tspan><tspan x="7.602" y="62" xml:space="preserve"> 2022</tspan></text>
+    </g>
+    <g id="Jan2023">
+      <g transform="matrix(1, 0, 0, 1, 153, 2408.93)" filter="url(#Ellipse_54)">
+        <circle id="Ellipse_54-2" data-name="Ellipse 54" cx="55.5" cy="55.5" r="55.5" transform="translate(9 427.76)" fill="url(#radial-gradient)"/>
+      </g>
+      <text id="Jan._2023" data-name="Jan.
+ 2023" transform="translate(186.24 2867.57)" fill="#f3f3f4" font-size="20" font-family="Philosopher-Bold, Philosopher" font-weight="700"><tspan x="16.602" y="18">Jan.</tspan><tspan x="7.562" y="40" xml:space="preserve"> 2023</tspan></text>
+    </g>
+    <g id="Oct2022">
+      <g transform="matrix(1, 0, 0, 1, 153, 2408.93)" filter="url(#Ellipse_55)">
+        <circle id="Ellipse_55-2" data-name="Ellipse 55" cx="55.5" cy="55.5" r="55.5" transform="translate(9 216.76)" fill="url(#radial-gradient)"/>
+      </g>
+      <text id="Oct._2022" data-name="Oct.
+ 2022" transform="translate(185.765 2656.877)" fill="#f3f3f4" font-size="20" font-family="Philosopher-Bold, Philosopher" font-weight="700"><tspan x="14.262" y="18">Oct.</tspan><tspan x="7.602" y="40" xml:space="preserve"> 2022</tspan></text>
+    </g>
+    <g id="Feb2024">
+      <g transform="matrix(1, 0, 0, 1, 153, 2408.93)" filter="url(#Ellipse_52)">
+        <circle id="Ellipse_52-2" data-name="Ellipse 52" cx="55.5" cy="55.5" r="55.5" transform="translate(10.07 847.01)" fill="url(#radial-gradient)"/>
+      </g>
+      <text id="Feb._2024" data-name="Feb.
+ 2024" transform="translate(185.765 3289.57)" fill="#f3f3f4" font-size="20" font-family="Philosopher-Bold, Philosopher" font-weight="700"><tspan x="14.572" y="18">Feb.</tspan><tspan x="7.272" y="40" xml:space="preserve"> 2024</tspan></text>
+    </g>
+    <g id="Dec2023">
+      <g transform="matrix(1, 0, 0, 1, 153, 2408.93)" filter="url(#Ellipse_53)">
+        <circle id="Ellipse_53-2" data-name="Ellipse 53" cx="55.5" cy="55.5" r="55.5" transform="translate(10.07 639)" fill="url(#radial-gradient)"/>
+      </g>
+      <text id="Dec._2023" data-name="Dec.
+ 2023" transform="translate(186.24 3078.57)" fill="#f3f3f4" font-size="20" font-family="Philosopher-Bold, Philosopher" font-weight="700"><tspan x="12.682" y="18">Dec.</tspan><tspan x="7.562" y="40" xml:space="preserve"> 2023</tspan></text>
+    </g>
+    <g id="Aug2024">
+      <g transform="matrix(1, 0, 0, 1, 153, 2408.93)" filter="url(#Ellipse_51)">
+        <circle id="Ellipse_51-2" data-name="Ellipse 51" cx="55.5" cy="55.5" r="55.5" transform="translate(9 1064.56)" fill="url(#radial-gradient)"/>
+      </g>
+      <text id="Aug._2024" data-name="Aug.
+ 2024" transform="translate(185.668 3504.676)" fill="#f3f3f4" font-size="20" font-family="Philosopher-Bold, Philosopher" font-weight="700"><tspan x="12.742" y="18">Aug.</tspan><tspan x="7.272" y="40" xml:space="preserve"> 2024</tspan></text>
+    </g>
+    <g id="Nov2025">
+      <g transform="matrix(1, 0, 0, 1, 153, 2408.93)" filter="url(#Ellipse_45)">
+        <circle id="Ellipse_45-2" data-name="Ellipse 45" cx="55.5" cy="55.5" r="55.5" transform="translate(9.5 1272.07)" fill="url(#radial-gradient)"/>
+      </g>
+      <text id="Nov._2025" data-name="Nov.
+ 2025" transform="translate(185.668 3711.877)" fill="#f3f3f4" font-size="20" font-family="Philosopher-Bold, Philosopher" font-weight="700"><tspan x="13.202" y="18">Nov.</tspan><tspan x="7.532" y="40" xml:space="preserve"> 2025</tspan></text>
+    </g>
+  </g>
+</svg>
