@@ -32,11 +32,6 @@ body a:click{
     margin-left: 0.5%;
 }
 
-.Hero-Img {
-    width: 60%;
-    margin-top: 25%;
-}
-
 .heroNav {
     position: relative;
     display: flex;
@@ -54,7 +49,7 @@ nav {
     white-space: nowrap;
     height: 5%;
     text-align: right;
-    margin-top: 25%;
+    margin-top: -100%;
     margin-left: 88%;
 }
 
@@ -70,71 +65,16 @@ a{
 
 #HP{
     margin-bottom: 50%;
-    animation: floatAnimation1 7s infinite;
 }
 
 #AU {
     margin-bottom: 25%;
-    animation: floatAnimation2 7s infinite;
 }
 
 #PT {
     margin-bottom: 25%;
-    animation: floatAnimation3 7s infinite;
 }
 
-#CT {
-    margin-right: 0%;
-    animation: floatAnimation4 7s infinite;
-}
-
-@keyframes floatAnimation1 {
-    0% {
-        transform: translate(0, 0);
-    }
-    50% {
-        transform: translate(1px, 1px);
-    }
-    100% {
-        transform: translate(0, 0);
-    }
-}
-
-@keyframes floatAnimation2 {
-    0% {
-        transform: translate(0, 0);
-    }
-    50% {
-        transform: translate(-1px, 1px);
-    }
-    100% {
-        transform: translate(0, 0);
-    }
-}
-
-@keyframes floatAnimation3 {
-    0% {
-        transform: translate(0, 0);
-    }
-    50% {
-        transform: translate(1px, -1px);
-    }
-    100% {
-        transform: translate(0, 0);
-    }
-}
-
-@keyframes floatAnimation4 {
-    0% {
-        transform: translate(0, 0);
-    }
-    50% {
-        transform: translate(-1px, -1px);
-    }
-    100% {
-        transform: translate(0, 0);
-    }
-}
 
 .dropdown {
     padding: 50px 20px 75px 50px;

@@ -48,21 +48,20 @@ header {
     justify-content: space-between;
 }
 
-
 nav {
     display: grid;
     font-family: Optima;
     white-space: nowrap;
     height: 5%;
     text-align: right;
-    margin-top: -70%;
+    margin-top: -100%;
     margin-left: 88%;
 }
 
 nav a {
     padding: 15px;
     font-size: 20px;
-    color: #2FA7D1;
+    color: #575757;
 }
 
 a{
@@ -71,76 +70,37 @@ a{
 
 #HP{
     margin-bottom: 50%;
-    animation: floatAnimation1 7s infinite;
 }
 
 #AU {
     margin-bottom: 25%;
-    animation: floatAnimation2 7s infinite;
 }
 
 #PT {
     margin-bottom: 25%;
-    animation: floatAnimation3 7s infinite;
 }
 
-#CT {
-    margin-right: 0%;
-    animation: floatAnimation4 7s infinite;
-}
-
-@keyframes floatAnimation1 {
-    0% {
-        transform: translate(0, 0);
-    }
-    50% {
-        transform: translate(1px, 1px);
-    }
-    100% {
-        transform: translate(0, 0);
-    }
-}
-
-@keyframes floatAnimation2 {
-    0% {
-        transform: translate(0, 0);
-    }
-    50% {
-        transform: translate(-1px, 1px);
-    }
-    100% {
-        transform: translate(0, 0);
-    }
-}
-
-@keyframes floatAnimation3 {
-    0% {
-        transform: translate(0, 0);
-    }
-    50% {
-        transform: translate(1px, -1px);
-    }
-    100% {
-        transform: translate(0, 0);
-    }
-}
-
-@keyframes floatAnimation4 {
-    0% {
-        transform: translate(0, 0);
-    }
-    50% {
-        transform: translate(-1px, -1px);
-    }
-    100% {
-        transform: translate(0, 0);
-    }
-}
 
 .dropdown {
     padding: 50px 20px 75px 50px;
     font-size: 20px;
     color: #575757;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 125px;
+  z-index: 1;
+  margin-top: 3%;
+  margin-left: -111%;
 }
 
 /* Links inside the dropdown */
