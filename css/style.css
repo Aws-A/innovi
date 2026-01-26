@@ -143,27 +143,6 @@ a{
     color: #575757;
 }
 
-#contact {
-  display: flex;
-  position: relative;
-  background-image: url("../images/footerBg.png");
-  background-size: 1440px;
-  height: 200px;
-  background-repeat: no-repeat;
-  background-position-x: center;
-  overflow: hidden;
-}
-
-#contact::after {
-  content: "";
-  position: absolute;
-  top: 0; left: 0; right: 0; bottom: 0;
-  background-color: rgba(255, 255, 255, 0.95); /* 95% opacity white */
-  z-index: 1;
-  margin-top: 3%;
-  margin-left: -111%;
-}
-
 /* Links inside the dropdown */
 .dropdown-content a {
   color: #575757;
@@ -556,26 +535,21 @@ footer p {
 
 .socials {
     width: 1000px;
-    margin-left: 20%;
-    margin-top: 4%;
+    margin-left: 60%;
+    margin-top: 0.5%;
 }
 
-.soc1 {
-    width: 7%;
-    padding: 20px;
-
+.soc1{
+    width: 6%;
+    height: 15%;
+    padding-left: 17%;
 }
 
-.soc2 {
+.soc2{
     width: 8%;
-    padding: 20px;
-}
-
-.footerLogo {
-    width: 15%;
-    height: 35%;
-    margin-top: 5%;
-    margin-left: 7%;
+    height: 19%;
+    padding-left: 20%;
+    margin-bottom: -1%;
 }
 
 .copyright {
@@ -589,7 +563,6 @@ footer p {
          padding: 30px 0px 0px 0px;
          margin-right: -0.3%;
 }
-
 
 .copyright p{
              margin-top: -0.7%;

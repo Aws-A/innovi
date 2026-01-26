@@ -423,6 +423,7 @@ p {
     box-shadow:  0px -2px 5px #c1c1c1;
 }
 
+
 .footerBlack {
             display: flex;
             background: linear-gradient(to bottom right, #575757, #000000);
@@ -509,7 +510,6 @@ footer p {
          padding: 30px 0px 0px 0px;
          margin-right: -0.3%;
 }
-
 
 .copyright p{
              margin-top: -0.7%;
