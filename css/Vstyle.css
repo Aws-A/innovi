@@ -32,6 +32,11 @@ body a:click{
     margin-left: 0.5%;
 }
 
+.Hero-Img {
+    width: 75%;
+    margin-top: 60%;
+}
+
 .heroNav {
     position: relative;
     display: flex;
