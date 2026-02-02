@@ -21,8 +21,6 @@ body a:click{
         margin-left: -1%;
         height: 1000px;
 }
-
-
 .logo {
     width: 23%;
     height: 50px;
@@ -30,6 +28,13 @@ body a:click{
     text-align: left;
     margin-top: -0.5%;
     margin-left: 0.5%;
+}
+
+.menu {
+    display: none;
+    width: 7%;
+    margin-top: 1%;
+    margin-right: 1%;
 }
 
 .Hero-Img {
@@ -628,6 +633,18 @@ footer p {
 
 @media (min-width: 300px) and (max-width: 400px) {
 
+   #allTop {
+        background-size: 144%;
+    }
+    .menu {
+        display: block;
+    }
+    .navigation {
+        display: none;
+    }
+    .navigation.active {
+        display: block;
+    }
     h1 {
         font-size: 28px;
     }
@@ -638,11 +655,21 @@ footer p {
         font-size: 17px;
     }
     nav {
-        margin-top: -10%;
-        margin-left: -40%;
+        margin-top: -100%;
+        margin-left: -25%;
+        background-color: rgba(255, 255, 255, 0.33);
+        border-radius: 10px;
+        width: 175%;
+        box-shadow: 0 4px 50px rgba(255, 138, 102, 0.2);
+    }
+    .dropdown-content {
+        margin-left: -110%;
     }
     .dropdown {
         padding: 48px;
+    }
+    #PT {
+        margin-left: 55%;
     }
     #identity {
         width: 255%;
@@ -673,14 +700,27 @@ footer p {
         width: 242%;
     }
     .gardengate {
-        width: 242%;
+        width: 250%;
         margin-top: 15%;
+    }
+    .otherProjects {
+        width: 250%;
     }
     .enVisionLogo {
         width: 33%;
     }
     .gardengateLogo {
         width: 33%;
+    }
+    .gardengatePr {
+        height: 50%;
+    }
+    .projectsPr {
+        height: 50%;
+    }
+    .whyUs {
+        width: 250%;
+        margin-bottom: -37%;
     }
     .footerAbout {
         margin-left: 5%;
@@ -698,6 +738,21 @@ footer p {
     }
     #values {
         width: 290%;
+    }
+    .envision {
+        width: 283%;
+    }
+    .gardengate {
+        width: 283%;
+        margin-top: 15%;
+    }
+    .otherProjects {
+        width: 277%;
+        margin-top: 15%;
+    }
+    .whyUs {
+        width: 277%;
+        margin-bottom: -37%;
     }
  }
 
@@ -718,6 +773,21 @@ footer p {
     #values {
         width: 277%;
     }
+    .envision {
+        width: 277%;
+    }
+    .gardengate {
+        width: 277%;
+        margin-top: 15%;
+    }
+    .otherProjects {
+        width: 277%;
+        margin-top: 15%;
+    }
+    .whyUs {
+        width: 266%;
+        margin-bottom: -37%;
+    }
 } 
 
 @media (min-width: 374px) and (max-width: 376px) {
@@ -737,10 +807,34 @@ footer p {
     #values {
         width: 266%;
     }
+    .envision {
+        width: 257%;
+    }
+    .gardengate {
+        width: 257%;
+        margin-top: 15%;
+    }
+    .whyUs {
+        width: 255%;
+        margin-bottom: -37%;
+    }
 } 
 
 
 @media (min-width: 400px) and (max-width: 500px) {
+
+    #allTop {
+        background-size: 144%;
+    }
+    .menu {
+        display: block;
+    }
+    .navigation {
+        display: none;
+    }
+    .navigation.active {
+        display: block;
+    }
 
     h1 {
         font-size: 28px;
@@ -752,11 +846,21 @@ footer p {
         font-size: 17px;
     }
     nav {
-        margin-top: -10%;
-        margin-left: -40%;
+        margin-top: -100%;
+        margin-left: -25%;
+        background-color: rgba(255, 255, 255, 0.33);
+        border-radius: 10px;
+        width: 175%;
+        box-shadow: 0 4px 50px rgba(255, 138, 102, 0.2);
+    }
+    .dropdown-content {
+        margin-left: -110%;
     }
     .dropdown {
         padding: 48px;
+    }
+    #PT {
+        margin-left: 55%;
     }
     #identity {
         width: 242%;
@@ -786,11 +890,18 @@ footer p {
         width: 242%;
         margin-top: 15%;
     }
+    .otherProjects {
+        width: 242%;
+    }
     .enVisionLogo {
         width: 33%;
     }
     .gardengateLogo {
         width: 33%;
+    }
+    .whyUs {
+        width: 242%;
+        margin-bottom: -37%;
     }
     .footerAbout {
         margin-left: 5%;
@@ -801,6 +912,13 @@ footer p {
     }
 }
 
+@media (width: 412px) {
+    .whyUs {
+        width: 232%;
+        margin-bottom: -37%;
+    }
+ }
+
 @media (min-width: 429px) and (max-width: 431px) {
     #identity {
         width: 232%;
@@ -808,41 +926,75 @@ footer p {
     #values {
         width: 232%;
     }
+    .envision {
+        width: 222%;
+    }
+    .gardengate {
+        width: 222%;
+        margin-top: 15%;
+    }
+    .otherProjects {
+        width: 222%;
+    }
+    .whyUs {
+        width: 222%;
+        margin-bottom: -37%;
+    }
 }
 
 @media (min-width: 500px) and (max-width: 550px) {
 
-    #allTop{
-        width: 100%;
+    #allTop {
+        background-size: 144%;
     }
-    .logo img {
-        height: 111%;
+    #allTop a{
+        font-size: 17px;
+    }
+    header img {
+        height: 100%;
     }
     #heroContent {
-       margin-top: -3%;
-       width: 150%;
+        width: 40%;
     }
-    #heroContent h2{
-       margin-top: -5%;
+    .Hero-Img {
+        margin-top: -55%;
     }
-
     nav {
-        margin-top: -15%;
-        margin-left: -60%;
+        margin-top: -250%;
+        margin-left: 35%;
     }
     nav a {
-        font-size: 15px;
-        padding: 2px;
+        padding: 7px;
+        font-size: 17px;
+    }
+    .dropdown-content {
+        margin-left: -122%;
+    }
+    .dropdown-content a {
+        font-size: 11px;
+    }
+    #HP {
+    margin-bottom: 20%;
+    }
+    #AU {
+        margin-bottom: 0%;
     }
     #PT {
-        font-size: 15px;
+        font-size: 17px;
+        margin-left: 14%;
+        margin-bottom: 0%;
     }
-    .dropdown {
-        padding: 30px;
+    #CT {
+        margin-top: -5%;
+    }
+    #CTA {
+        margin-top: 0%;
+        padding: 10px;
+        font-size: 17px;
+        width: 122px;
     }
     #identity {
-        margin-top: -86%;
-        height: 300px;
+        margin-top: -117%;
     }
     .allId {
         margin-left: 8%;
@@ -853,14 +1005,13 @@ footer p {
         height: 222px;
     }
     h1 {
-        font-size: 22px;
+        font-size: 20px;
     }
     h2 {
-        font-size: 15px;
+        font-size: 14px;
     }
     h3 {
-        white-space: nowrap;
-        font-size: 20px;
+        font-size: 17px;
     }
     h4 {
         font-size: 17px;
@@ -901,10 +1052,19 @@ footer p {
         width: 55%;
     }
     .gardengatePr {
-        width: 33%;
+        height: 50%;
+    }
+    .projectsPr {
+        height: 50%;
+    }
+    .whyUs {
+        margin-bottom: -33%;
     }
     footer{
         width: 100%;
+    }
+    footer p{
+        font-size: 15px;
     }
     .footerAbout {
         width: 50%;
@@ -930,36 +1090,64 @@ footer p {
 @media (min-width: 550px) and (max-width: 800px) {
 
     #allTop{
-        width: 100%;
+        width: 101%;
     }
-    .logo img {
-        height: 122%;
+    header img {
+        height: 111%;
     }
     #heroContent {
-       margin-top: -2%;
-       width: 100%;
-    }
-    #heroContent h2 {
-        margin-top: -4%;
-    }
-    #heroLine {
         width: 55%;
-        height: 85%;
+        margin-top: -1%;
+    }
+    #heroContent h3 {
+        font-size: 22px;
+    }
+    .Hero-Img {
+        margin-top: -33%;
     }
     nav {
-        margin-top: -12%;
-        margin-left: -60%;
+        margin-top: -220%;
+        margin-left: 55%;
     }
     nav a {
+        padding: 7px;
         font-size: 17px;
-        padding: 3px;
+    }
+    .dropdown-content a {
+        font-size: 15px;
+    }
+    #CTA {
+        margin-top: 0%;
+        padding: 10px;
+        font-size: 20px;
+        width: 150px;
+    }
+    #HP{
+    margin-bottom: 20%;
+    }
+    #AU {
+        margin-bottom: 0%;
     }
     #PT {
         font-size: 17px;
+        margin-left: 14%;
+        margin-bottom: 0%;
     }
-    #identity {
-        margin-top: -55%;
-        height: 300px;
+    #CT {
+        margin-top: -5%;
+    }
+    #HeroHome-Image {
+        width: 80%;
+    }
+    #OP::before {
+        top: -35;
+    }
+    .dropdown:hover #OP::before {
+        height: 300%;
+    }
+     #identity {
+        margin-top: -80%;
+        height: 400px;
     }
     .allId {
         margin-left: 8%;
@@ -973,11 +1161,10 @@ footer p {
         font-size: 25px;
     }
     h2 {
-        font-size: 20px;
+        font-size: 17px;
     }
     h3 {
-        white-space: nowrap;
-        font-size: 22px;
+        font-size: 20px;
     }
     h4 {
         font-size: 19px;
@@ -1002,11 +1189,14 @@ footer p {
         margin-left: 3%;
         margin-right: 3%;
     }
-    .enVisionLogo {
-        width: 33%;
+    .gardengatePr {
+        height: 50%;
     }
-    .gardengateLogo {
-        width: 33%;
+    .projectsPr {
+        height: 50%;
+    }
+    .whyUs {
+        margin-bottom: -22%;
     }
     footer{
         width: 100%;
@@ -1036,27 +1226,23 @@ footer p {
 
 @media (min-width: 550px) and (max-width: 700px) {
 
-    #heroContent {
-        width: 120%;
-    }
-    h2 {
-        font-size: 17px;
-    }
-    nav {
-        margin-top: -13%;
-        margin-left: -62%;
-    }
-    .dropdown {
-        padding: 42px;
-    }
-    #PT {
-        font-size: 17px;
+    #allTop {
+        background-size: 122%;
     }
     #allTop a{
         font-size: 17px;
     }
+    #heroContent {
+        width: 50%;
+    }
+    h2 {
+        font-size: 17px;
+    }
+    #PT {
+        font-size: 17px;
+    }
     #identity {
-        margin-top: -66%;
+        margin-top: -77%;
     }
     #values h3 {
         margin-left: 31%;
@@ -1070,6 +1256,9 @@ footer p {
     .val p {
         font-size: 15px;
     }
+    .whyUs {
+        margin-bottom: -25%;
+    }
     footer p {
         font-size: 16px;
     }
@@ -1082,33 +1271,65 @@ footer p {
 @media (min-width: 800px) and (max-width: 895px) {
 
     #allTop{
-        width: 100%;
+        width: 101%;
     }
     #heroContent {
-       margin-top: -2%;
-       width: 80%; 
+        width: 55%;
+        margin-top: -1%;
+    }
+    #heroContent h1 {
+        font-size: 35px;
     }
     #heroContent h2 {
-        font-size: 20px;
-        margin-top: -9%;
+        font-size: 19px;
     }
-    #heroLine {
-        width: 55%;
-        height: 85%;
+    #heroContent h3 {
+        font-size: 25px;
+    }
+    .Hero-Img {
+        margin-top: -20%;
     }
     nav {
-        margin-top: -8%;
-        margin-left: -55%;
+        margin-top: -190%;
+        margin-left: 55%;
     }
     nav a {
-        padding: 3px;
+        padding: 7px;
+        font-size: 17px;
     }
-    .dropdown {
-        padding: 50px;
+    .dropdown-content a {
+        font-size: 15px;
     }
-    #identity {
-        margin-top: -40%;
-        height: 300px;
+    #CTA {
+        margin-top: 0%;
+        padding: 12px;
+    }
+    #HP{
+    margin-bottom: 20%;
+    }
+    #AU {
+        margin-bottom: 0%;
+    }
+    #PT {
+        font-size: 17px;
+        margin-left: 14%;
+        margin-bottom: 0%;
+    }
+    #CT {
+        margin-top: -5%;
+    }
+    #HeroHome-Image {
+        width: 80%;
+    }
+    #OP::before {
+        top: -35;
+    }
+    .dropdown:hover #OP::before {
+        height: 300%;
+    }
+     #identity {
+        margin-top: -70%;
+        height: 400px;
     }
     .allId {
         margin-left: 8%;
@@ -1137,6 +1358,15 @@ footer p {
         margin-left: 3%;
         margin-right: 3%;
     }
+    .gardengatePr {
+        height: 50%;
+    }
+    .projectsPr {
+        height: 50%;
+    }
+    .whyUs {
+        margin-bottom: -17%;
+    }
     footer{
         width: 100%;
     }
@@ -1160,28 +1390,54 @@ footer p {
     }
 }
 
+@media (min-width: 819px) and (max-width: 845px) {
+    #identity {
+        margin-top: -75%;
+    }
+}
+
 @media (min-width: 895px) and (max-width: 1000px) {
 
-    #allTop{
-        width: 100%;
+    #heroContent {
+        width: 55%;
+        margin-top: -1%;
+    }
+    #heroContent h1 {
+        font-size: 38px;
     }
     #heroContent h2 {
         font-size: 20px;
-        margin-top: -4%;
     }
-    #heroLine {
-        height: 95%;
+    #heroContent h3 {
+        font-size: 28px;
+    }
+    .Hero-Img {
+        margin-top: -20%;
     }
     nav {
-        margin-top: -7%;
-        margin-left: -44%;
+        margin-top: -230%;
+        margin-left: 60%;
     }
     nav a {
-        padding: 9px;
+        padding: 7px;
+        font-size: 19px;
     }
-    #identity {
-        margin-top: -40%;
-        height: 300px;
+    #CTA {
+        margin-top: 0%;
+        padding: 12px;
+    }
+    #PT {
+        margin-left: 14%;
+    }
+    #OP::before {
+        top: -35;
+    }
+    .dropdown:hover #OP::before {
+        height: 300%;
+    }
+     #identity {
+        margin-top: -65%;
+        height: 400px;
     }
     .pvmCards {
         margin-right: 5%;
@@ -1206,6 +1462,15 @@ footer p {
     .projects {
         margin-left: 3%;
     }
+    .gardengatePr {
+        height: 50%;
+    }
+    .projectsPr {
+        height: 50%;
+    }
+    .whyUs {
+        margin-bottom: -17%;
+    }
     footer{
         width: 100%;
     }
@@ -1229,23 +1494,37 @@ footer p {
     }
 }
 
+
 @media (min-width: 1000px) and (max-width: 1025px) {
 
+    #heroContent {
+        width: 55%;
+        margin-top: -1%;
+    }
+    #heroContent h1 {
+        font-size: 40px;
+    }
     #heroContent h2 {
         font-size: 22px;
     }
-    #heroLine {
-        height: 85%;
+    #heroContent h3 {
+        font-size: 30px;
+    }
+    .Hero-Img {
+        margin-top: -20%;
     }
     nav {
-        margin-top: -7%;
-        margin-left: -44%;
+        margin-top: -150%;
+        margin-left: 70%;
     }
     nav a {
         padding: 10px;
     }
+    #CTA {
+        margin-top: 0%;
+    }
     #identity {
-        margin-top: -31%;
+        margin-top: -51%;
         height: 400px;
     }
     .pvmCards {
@@ -1254,7 +1533,22 @@ footer p {
         height: 250px;
     }
     .projects {
-        margin-left: 10%;
+        margin-left: 0%;
+    }
+    .gardengate::before {
+        width: 105%;
+     }
+    .otherProjects::before {
+        width: 105%;
+    }
+    .gardengatePr {
+        height: 50%;
+    }
+    .projectsPr {
+        height: 50%;
+    }
+    .whyUs {
+        margin-bottom: -17%;
     }
     .footerAbout {
     width: 50%;
@@ -1263,15 +1557,23 @@ footer p {
 }
 
 @media (min-width: 1100px) and (max-width: 1200px) {
-    #heroLine {
-        height: 85%;
-    }
+
     nav {
-        margin-top: -7%;
-        margin-left: -44%;
+        margin-top: -150%;
+        margin-left: 70%;
     }
     nav a {
         padding: 10px;
+    }
+    .heroNav {
+        margin-top: -3%;
+    }
+    .Hero-Img {
+        width: 28%;
+        margin-left: -10%;
+    }
+    #heroContent {
+        width: 60%;
     }
     #identity {
         margin-top: -24%;
@@ -1287,10 +1589,19 @@ footer p {
     }
 }
 
+@media (width: 1280px) and (height: 853px) {
+    .heroNav {
+        margin-top: -3%;
+    }
+}
+
 @media (min-width: 1275px) and (max-width: 1285px) {
+    nav {
+        margin-top: -150%;
+    }
 
     #identity {
-        margin-top: -20%;
+        margin-top: -33%;
     }
     .pvmCards {
         height: 250px;
@@ -1299,11 +1610,23 @@ footer p {
         width: 50%;
         margin-left: 2%;
     }
+    .gardengate::before {
+        width: 105%;
+     }
+    .otherProjects::before {
+        width: 105%;
+    }
 }
 
 @media (min-width: 1285px) and (max-width: 1370px) {
     #identity {
-        margin-top: -16%;
+        margin-top: -27%;
         height: 30%;
+    }
+    .gardengate::before {
+        width: 105%;
+     }
+    .otherProjects::before {
+        width: 105%;
     }
 }

@@ -52,3 +52,12 @@ document.addEventListener("DOMContentLoaded", function() {
       });
   });
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+  const menuBtn = document.querySelector(".menu");
+  const navMenu = document.querySelector(".navigation");
+
+  menuBtn.addEventListener("click", () => {
+    navMenu.classList.toggle("active");
+  });
+});
