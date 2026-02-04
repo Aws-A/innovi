@@ -13,14 +13,62 @@ body a:click{
        color: black;
 }
 
-#allTop{
-        background-image: url("../images/headerTrans.png");
-        background-size: 101%;
-        background-repeat: no-repeat;
-        margin-top: -0.5%;
-        margin-left: -1%;
-        height: 1000px;
+h1 {
+    font-family: Philosopher;
+    color: #FF8A66;
+    font-size: 50px;
+    font-weight: 300;
+    text-shadow: 1px 1px 5px #c1c1c1;
+
 }
+
+h2 {
+    font-family: Optima;
+    font-size: 28px;
+    font-weight: 300;
+}
+
+h3{
+    font-family: Philosopher;
+    font-size: 33px;
+    margin-top: 0px;
+    margin-bottom: 5%;
+    color: #3E3E3E;
+}
+
+h4 {
+    font-family: Philosopher;
+    font-size: 22px;
+}
+
+
+h5{
+    font-family: Philosopher;
+    font-size: 25px;
+    margin-top: 0px;
+    margin-bottom: 5%;
+    color: #C0C0C0;
+}
+
+p {
+    font-family: optima;
+    font-size: 20px;
+}
+
+#allTop{
+    background-image: url("../images/headerTrans.png");
+    background-size: 101%;
+    background-repeat: no-repeat;
+    margin-top: -0.5%;
+    margin-left: -1%;
+    height: 1000px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
 .logo {
     width: 23%;
     height: 50px;
@@ -30,27 +78,15 @@ body a:click{
     margin-left: 0.5%;
 }
 
-.menu {
-    display: none;
-    width: 7%;
-    margin-top: 1%;
-    margin-right: 1%;
-}
-
-.Hero-Img {
-    width: 30%;
-    margin-left: -5%;
-    margin-top: -5%;
-}
-
 .heroNav {
     position: relative;
     display: flex;
 }
 
-header {
-    display: flex;
-    justify-content: space-between;
+#heroContent {
+    width: 50%;
+    margin-top: 3%;
+    margin-left: 7%;
 }
 
 nav {
@@ -129,12 +165,6 @@ a{
 .dropdown:hover {color: #FF8A66;}
 
 
-#heroContent {
-    width: 50%;
-    margin-top: 3%;
-    margin-left: 7%;
-}
-
 .navigation {
     display: flex;
     position: absolute;
@@ -167,6 +197,13 @@ a{
   height: 500%;
 }
 
+.menu {
+    display: none;
+    width: 7%;
+    margin-top: 1%;
+    margin-right: 1%;
+}
+
 #CTA {
     width: 200px;
     margin-top: 5%;
@@ -185,6 +222,12 @@ a{
 #CTA:hover {
     color: #FF8A66;
     border-color: #FF8A66;
+}
+
+.Hero-Img {
+    width: 30%;
+    margin-left: -5%;
+    margin-top: -5%;
 }
 
 #Lines {
@@ -308,7 +351,7 @@ a{
 
 
 .envisionLogo {
-    width: 17%;
+    width: 11%;
     margin-left: 15%;
 }
 
@@ -338,21 +381,6 @@ a{
   box-shadow: 0 -2px 5px #FF8A66;
 }
 
-
-.gardengate img {
-    margin-left: 15%;
-}
-
-.gardengateLogo {
-    width: 22%;
-    margin-left: 15%;
-}
-
-.gardengatePr {
-    width: 15%;
-    margin-left: 2%;
-}
-
 .content {
     display: flex;
     margin-left: 2%;
@@ -363,19 +391,20 @@ a{
     width: 50%;
 }
 
+.gardengateLogo {
+    width: 12%;
+    margin-left: 15%;
+}
+
+.gardengatePr {
+    width: 15%;
+    margin-left: 15%;
+}
+
 .otherProjects {
   margin-top: 10%;
   padding-top: 10%;
   position: relative;
-}
-
-.otherProjects h2 {
-   margin-left: 15%;
-}
-
-.projectsPr {
-    width: 25%;
-    margin-left: 7%;
 }
 
 /* angled top border */
@@ -392,46 +421,13 @@ a{
   box-shadow: 0 -2px 5px  #FF8A66;
 }
 
-h1 {
-    font-family: Philosopher;
-    color: #FF8A66;
-    font-size: 50px;
-    font-weight: 300;
-    text-shadow: 1px 1px 5px #c1c1c1;
-
+.otherProjects h2 {
+   margin-left: 15%;
 }
 
-h2 {
-    font-family: Optima;
-    font-size: 28px;
-    font-weight: 300;
-}
-
-h3{
-    font-family: Philosopher;
-    font-size: 33px;
-    margin-top: 0px;
-    margin-bottom: 5%;
-    color: #3E3E3E;
-}
-
-h4 {
-    font-family: Philosopher;
-    font-size: 22px;
-}
-
-
-h5{
-    font-family: Philosopher;
-    font-size: 25px;
-    margin-top: 0px;
-    margin-bottom: 5%;
-    color: #C0C0C0;
-}
-
-p {
-    font-family: optima;
-    font-size: 20px;
+.projectsPr {
+    width: 25%;
+    margin-left: 7%;
 }
 
 .whyUs {
