@@ -824,6 +824,7 @@ footer p {
 }
 
 @media only screen and (max-width: 500px){
+
         #allTop{
             width: 1000px;
         }
@@ -1512,6 +1513,12 @@ footer p {
 
 @media (min-width: 895px) and (max-width: 1000px) {
 
+    h4 {
+        font-size: 20px;
+    }
+    p {
+        font-size: 18px;
+    }
     #allTop{
         background-size: 133%;
         width: 102%;
@@ -1529,10 +1536,7 @@ footer p {
     #heroContent h3 {
         font-size: 28px;
     }
-    .Hero-Img {
-        margin-top: -20%;
-    }
-    nav {
+     nav {
         margin-top: -30%;
         margin-left: 60%;
     }
@@ -1549,11 +1553,8 @@ footer p {
     .dropdown:hover #OP::before {
         height: 300%;
     }
-    h4 {
-        font-size: 20px;
-    }
-    p {
-        font-size: 18px;
+    .Hero-Img {
+        margin-top: -20%;
     }
     .About-Identity {
         margin-top: -48%;
@@ -1626,6 +1627,13 @@ footer p {
     #allTop {
         background-size: 120%;
     }
+    nav {
+        margin-top: -50%;
+        margin-left: 70%;
+    }
+    nav a {
+        padding: 10px;
+    }
    #heroContent {
         width: 55%;
         margin-top: -1%;
@@ -1641,13 +1649,6 @@ footer p {
     }
     .Hero-Img {
         margin-top: -20%;
-    }
-    nav {
-        margin-top: -50%;
-        margin-left: 70%;
-    }
-    nav a {
-        padding: 10px;
     }
     #categoryGrid {
         margin: 5% 5%;
@@ -1670,12 +1671,14 @@ footer p {
 }
 
 @media (width: 1024px) and (height: 600px) {
+
     .About-Identity {
         height: 100%;
     }
 }
 
 @media (width: 1024px) and (height: 768px) {
+    
     .About-Identity {
         margin-top: -45%;
     }
@@ -1696,12 +1699,12 @@ footer p {
     .heroNav {
         margin-top: -3%;
     }
+    #heroContent {
+        width: 60%;
+    }
     .Hero-Img {
         width: 50%;
         margin-left: 0%;
-    }
-    #heroContent {
-        width: 60%;
     }
     .About-Identity {
         margin-top: -31%;

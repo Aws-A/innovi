@@ -547,12 +547,8 @@ footer p {
 
 }
 
-
-
-
-
 @media (min-width: 279px) and (max-width: 300px) {
-     h1 {
+    h1 {
         font-size: 28px;
     }
     h2 {
@@ -629,18 +625,6 @@ footer p {
 
 @media (min-width: 300px) and (max-width: 400px) {
 
-   #allTop {
-        background-size: 144%;
-    }
-    .menu {
-        display: block;
-    }
-    .navigation {
-        display: none;
-    }
-    .navigation.active {
-        display: block;
-    }
     h1 {
         font-size: 28px;
     }
@@ -649,6 +633,15 @@ footer p {
     }
     p {
         font-size: 17px;
+    }
+   #allTop {
+        background-size: 144%;
+    }
+    .navigation {
+        display: none;
+    }
+    .navigation.active {
+        display: block;
     }
     nav {
         margin-top: -100%;
@@ -666,6 +659,9 @@ footer p {
     }
     #PT {
         margin-left: 55%;
+    }
+    .menu {
+        display: block;
     }
     #identity {
         width: 255%;
@@ -728,6 +724,7 @@ footer p {
 }
 
 @media (min-width: 340px) and (max-width: 350px) {
+
     #identity {
         margin-top: -93%;
         width: 290%;
@@ -753,6 +750,7 @@ footer p {
  }
 
 @media (min-width: 359px) and (max-width: 361px) {
+
     #identity {
         width: 277%;
         margin-top: -87%;
@@ -787,6 +785,7 @@ footer p {
 } 
 
 @media (min-width: 374px) and (max-width: 376px) {
+
     #identity {
         width: 266%;
         margin-top: -87%;
@@ -819,19 +818,6 @@ footer p {
 
 @media (min-width: 400px) and (max-width: 500px) {
 
-    #allTop {
-        background-size: 144%;
-    }
-    .menu {
-        display: block;
-    }
-    .navigation {
-        display: none;
-    }
-    .navigation.active {
-        display: block;
-    }
-
     h1 {
         font-size: 28px;
     }
@@ -840,6 +826,15 @@ footer p {
     }
     p {
         font-size: 17px;
+    }
+    #allTop {
+        background-size: 144%;
+    }
+    .navigation {
+        display: none;
+    }
+    .navigation.active {
+        display: block;
     }
     nav {
         margin-top: -100%;
@@ -857,6 +852,9 @@ footer p {
     }
     #PT {
         margin-left: 55%;
+    }
+    .menu {
+        display: block;
     }
     #identity {
         width: 242%;
@@ -916,6 +914,7 @@ footer p {
  }
 
 @media (min-width: 429px) and (max-width: 431px) {
+
     #identity {
         width: 232%;
     }
@@ -940,6 +939,24 @@ footer p {
 
 @media (min-width: 500px) and (max-width: 550px) {
 
+    h1 {
+        font-size: 20px;
+    }
+    h2 {
+        font-size: 14px;
+    }
+    h3 {
+        font-size: 17px;
+    }
+    h4 {
+        font-size: 17px;
+    }
+    h5 {
+        font-size: 20px;
+    }
+    p {
+        font-size: 15px;
+    }
     #allTop {
         background-size: 144%;
     }
@@ -999,24 +1016,6 @@ footer p {
         margin-right: 5%;
         width: 600px;
         height: 222px;
-    }
-    h1 {
-        font-size: 20px;
-    }
-    h2 {
-        font-size: 14px;
-    }
-    h3 {
-        font-size: 17px;
-    }
-    h4 {
-        font-size: 17px;
-    }
-    h5 {
-        font-size: 20px;
-    }
-    p {
-        font-size: 15px;
     }
     .val {
         margin-left: -6%;
@@ -1080,79 +1079,10 @@ footer p {
     .copyright{
         width: 100%;
     }
-
 }
 
 @media (min-width: 550px) and (max-width: 800px) {
 
-    #allTop{
-        width: 101%;
-    }
-    header img {
-        height: 111%;
-    }
-    #heroContent {
-        width: 55%;
-        margin-top: -1%;
-    }
-    #heroContent h3 {
-        font-size: 22px;
-    }
-    .Hero-Img {
-        margin-top: -33%;
-    }
-    nav {
-        margin-top: -220%;
-        margin-left: 55%;
-    }
-    nav a {
-        padding: 7px;
-        font-size: 17px;
-    }
-    .dropdown-content a {
-        font-size: 15px;
-    }
-    #CTA {
-        margin-top: 0%;
-        padding: 10px;
-        font-size: 20px;
-        width: 150px;
-    }
-    #HP{
-    margin-bottom: 20%;
-    }
-    #AU {
-        margin-bottom: 0%;
-    }
-    #PT {
-        font-size: 17px;
-        margin-left: 14%;
-        margin-bottom: 0%;
-    }
-    #CT {
-        margin-top: -5%;
-    }
-    #HeroHome-Image {
-        width: 80%;
-    }
-    #OP::before {
-        top: -35;
-    }
-    .dropdown:hover #OP::before {
-        height: 300%;
-    }
-     #identity {
-        margin-top: -80%;
-        height: 400px;
-    }
-    .allId {
-        margin-left: 8%;
-    }
-    .pvmCards {
-        margin-right: 5%;
-        width: 600px;
-        height: 222px;
-    }
     h1 {
         font-size: 25px;
     }
@@ -1170,6 +1100,74 @@ footer p {
     }
     p {
         font-size: 17px;
+    }
+    #allTop{
+        width: 101%;
+    }
+    header img {
+        height: 111%;
+    }
+    #heroContent {
+        width: 55%;
+        margin-top: -1%;
+    }
+    #heroContent h3 {
+        font-size: 22px;
+    }
+    nav {
+        margin-top: -220%;
+        margin-left: 55%;
+    }
+    nav a {
+        padding: 7px;
+        font-size: 17px;
+    }
+    .dropdown-content a {
+        font-size: 15px;
+    }
+    #HP{
+    margin-bottom: 20%;
+    }
+    #AU {
+        margin-bottom: 0%;
+    }
+    #PT {
+        font-size: 17px;
+        margin-left: 14%;
+        margin-bottom: 0%;
+    }
+    #CT {
+        margin-top: -5%;
+    }
+    #OP::before {
+        top: -35;
+    }
+    .dropdown:hover #OP::before {
+        height: 300%;
+    }
+    #CTA {
+        margin-top: 0%;
+        padding: 10px;
+        font-size: 20px;
+        width: 150px;
+    }
+    .Hero-Img {
+        margin-top: -33%;
+    }
+    #HeroHome-Image {
+        width: 80%;
+    }
+     #identity {
+        margin-top: -80%;
+        height: 400px;
+    }
+    .allId {
+        margin-left: 8%;
+    }
+    .pvmCards {
+        margin-right: 5%;
+        width: 600px;
+        height: 222px;
     }
     #values {
         width: 100%;
@@ -1222,6 +1220,9 @@ footer p {
 
 @media (min-width: 550px) and (max-width: 700px) {
 
+    h2 {
+        font-size: 17px;
+    }
     #allTop {
         background-size: 122%;
     }
@@ -1230,9 +1231,6 @@ footer p {
     }
     #heroContent {
         width: 50%;
-    }
-    h2 {
-        font-size: 17px;
     }
     #PT {
         font-size: 17px;
@@ -1266,6 +1264,46 @@ footer p {
 
 @media (min-width: 800px) and (max-width: 895px) {
 
+    h3 {
+        white-space: nowrap;
+    }
+    h4 {
+        font-size: 20px;
+    }
+    p {
+        font-size: 18px;
+    }
+       nav {
+        margin-top: -190%;
+        margin-left: 55%;
+    }
+    nav a {
+        padding: 7px;
+        font-size: 17px;
+    }
+    .dropdown-content a {
+        font-size: 15px;
+    }
+    #HP{
+    margin-bottom: 20%;
+    }
+    #AU {
+        margin-bottom: 0%;
+    }
+    #PT {
+        font-size: 17px;
+        margin-left: 14%;
+        margin-bottom: 0%;
+    }
+    #CT {
+        margin-top: -5%;
+    }
+    #OP::before {
+        top: -35;
+    }
+    .dropdown:hover #OP::before {
+        height: 300%;
+    }
     #allTop{
         width: 101%;
     }
@@ -1282,46 +1320,15 @@ footer p {
     #heroContent h3 {
         font-size: 25px;
     }
-    .Hero-Img {
-        margin-top: -20%;
-    }
-    nav {
-        margin-top: -190%;
-        margin-left: 55%;
-    }
-    nav a {
-        padding: 7px;
-        font-size: 17px;
-    }
-    .dropdown-content a {
-        font-size: 15px;
-    }
     #CTA {
         margin-top: 0%;
         padding: 12px;
     }
-    #HP{
-    margin-bottom: 20%;
-    }
-    #AU {
-        margin-bottom: 0%;
-    }
-    #PT {
-        font-size: 17px;
-        margin-left: 14%;
-        margin-bottom: 0%;
-    }
-    #CT {
-        margin-top: -5%;
+    .Hero-Img {
+        margin-top: -20%;
     }
     #HeroHome-Image {
         width: 80%;
-    }
-    #OP::before {
-        top: -35;
-    }
-    .dropdown:hover #OP::before {
-        height: 300%;
     }
      #identity {
         margin-top: -70%;
@@ -1334,15 +1341,6 @@ footer p {
         margin-right: 5%;
         width: 600px;
         height: 222px;
-    }
-    h3 {
-        white-space: nowrap;
-    }
-    h4 {
-        font-size: 20px;
-    }
-    p {
-        font-size: 18px;
     }
     #values {
         width: 100%;
@@ -1394,6 +1392,32 @@ footer p {
 
 @media (min-width: 895px) and (max-width: 1000px) {
 
+    h3 {
+        white-space: nowrap;
+    }
+    h4 {
+        font-size: 20px;
+    }
+    p {
+        font-size: 18px;
+    }
+    nav {
+        margin-top: -230%;
+        margin-left: 60%;
+    }
+    nav a {
+        padding: 7px;
+        font-size: 19px;
+    }
+    #PT {
+        margin-left: 14%;
+    }
+    #OP::before {
+        top: -35;
+    }
+    .dropdown:hover #OP::before {
+        height: 300%;
+    }
     #heroContent {
         width: 55%;
         margin-top: -1%;
@@ -1407,29 +1431,12 @@ footer p {
     #heroContent h3 {
         font-size: 28px;
     }
-    .Hero-Img {
-        margin-top: -20%;
-    }
-    nav {
-        margin-top: -230%;
-        margin-left: 60%;
-    }
-    nav a {
-        padding: 7px;
-        font-size: 19px;
-    }
     #CTA {
         margin-top: 0%;
         padding: 12px;
     }
-    #PT {
-        margin-left: 14%;
-    }
-    #OP::before {
-        top: -35;
-    }
-    .dropdown:hover #OP::before {
-        height: 300%;
+    .Hero-Img {
+        margin-top: -20%;
     }
      #identity {
         margin-top: -65%;
@@ -1439,15 +1446,6 @@ footer p {
         margin-right: 5%;
         width: 600px;
         height: 211px;
-    }
-    h3 {
-        white-space: nowrap;
-    }
-    h4 {
-        font-size: 20px;
-    }
-    p {
-        font-size: 18px;
     }
     #values {
         width: 100%;
@@ -1493,6 +1491,13 @@ footer p {
 
 @media (min-width: 1000px) and (max-width: 1025px) {
 
+    nav {
+        margin-top: -150%;
+        margin-left: 70%;
+    }
+    nav a {
+        padding: 10px;
+    }
     #heroContent {
         width: 55%;
         margin-top: -1%;
@@ -1506,18 +1511,11 @@ footer p {
     #heroContent h3 {
         font-size: 30px;
     }
-    .Hero-Img {
-        margin-top: -20%;
-    }
-    nav {
-        margin-top: -150%;
-        margin-left: 70%;
-    }
-    nav a {
-        padding: 10px;
-    }
     #CTA {
         margin-top: 0%;
+    }
+    .Hero-Img {
+        margin-top: -20%;
     }
     #identity {
         margin-top: -51%;
@@ -1592,19 +1590,15 @@ footer p {
 }
 
 @media (min-width: 1275px) and (max-width: 1285px) {
+
     nav {
         margin-top: -150%;
     }
-
     #identity {
         margin-top: -33%;
     }
     .pvmCards {
         height: 250px;
-    }
-    .footerAbout {
-        width: 50%;
-        margin-left: 2%;
     }
     .gardengate::before {
         width: 105%;
@@ -1612,9 +1606,14 @@ footer p {
     .otherProjects::before {
         width: 105%;
     }
+    .footerAbout {
+        width: 50%;
+        margin-left: 2%;
+    }
 }
 
 @media (min-width: 1285px) and (max-width: 1370px) {
+
     #identity {
         margin-top: -27%;
         height: 30%;

@@ -480,10 +480,6 @@ footer p {
 
 }
 
-
-
-
-
 @media (min-width: 279px) and (max-width: 300px) {
      h1 {
         font-size: 28px;
@@ -501,56 +497,6 @@ footer p {
     .dropdown {
         padding: 48px;
     }
-    #identity {
-        width: 355%;
-        margin-top: -115%;
-    }
-    .allId {
-        margin-top: 7%;
-        margin-left: 12%;
-    }
-    .allId {
-        margin-top: 5%;
-    }
-    .pvm {
-        margin-top: -2%;
-    }
-    .pvm h4 {
-        margin-top: 2%;
-    }
-    .pvm p {
-        margin-top: 3%;
-    }
-    .pvmCards {
-        height: 180px;
-    }
-    #values {
-        width: 355%;
-    }
-    .allValues {
-        margin-left: 8%;
-    }
-    .allValues h3 {
-        margin-top: 2%;
-        margin-left: 33%;
-    }
-    .projects h3 {
-        padding-top: 10%;
-        padding-bottom: 10%;
-    }
-    .envision {
-        width: 355%;
-    }
-    .gardengate {
-        padding-top: 15%;
-        width: 355%;
-    }
-    .enVisionLogo {
-        width: 33%;
-    }
-    .gardengateLogo {
-        width: 33%;
-    }
     .footerAbout {
         margin-left: 5%;
         width: 90%;
@@ -562,18 +508,6 @@ footer p {
 
 @media (min-width: 300px) and (max-width: 400px) {
 
-    #allTop {
-        background-size: 150%;
-    }
-    .menu {
-        display: block;
-    }
-    .navigation {
-        display: none;
-    }
-    .navigation.active {
-        display: block;
-    }
     h1 {
         font-size: 28px;
     }
@@ -582,6 +516,15 @@ footer p {
     }
     p {
         font-size: 17px;
+    }
+    #allTop {
+        background-size: 150%;
+    }
+    .navigation {
+        display: none;
+    }
+    .navigation.active {
+        display: block;
     }
     nav {
         margin-top: -100%;
@@ -599,6 +542,9 @@ footer p {
     }
     #PT {
         margin-left: 55%;
+    }
+    .menu {
+        display: block;
     }
     #brandingStatement {
         margin-top:  -75%;
@@ -629,6 +575,7 @@ footer p {
 }
 
 @media (min-width: 340px) and (max-width: 350px) {
+
     #allTop {
         background-size: 155%;
     }
@@ -652,20 +599,6 @@ footer p {
 
 @media (min-width: 400px) and (max-width: 500px) {
 
-     #allTop {
-        background-size: 144%;
-        width: 266%;
-    }
-    .menu {
-        display: block;
-    }
-    .navigation {
-        display: none;
-    }
-    .navigation.active {
-        display: block;
-    }
-
     h1 {
         font-size: 28px;
     }
@@ -674,6 +607,16 @@ footer p {
     }
     p {
         font-size: 17px;
+    }
+     #allTop {
+        background-size: 144%;
+        width: 266%;
+    }
+    .navigation {
+        display: none;
+    }
+    .navigation.active {
+        display: block;
     }
     nav {
         margin-top: -100%;
@@ -692,22 +635,15 @@ footer p {
     #PT {
         margin-left: 55%;
     }
-
-    h1 {
-        font-size: 28px;
-    }
-    h2 {
-        font-size: 20px;
-    }
-    p {
-        font-size: 17px;
-    }
     nav {
         margin-top: -10%;
         margin-left: -40%;
     }
     .dropdown {
         padding: 48px;
+    }
+    .menu {
+        display: block;
     }
     #brandingStatement {
         margin-top:  -75%;
@@ -755,6 +691,24 @@ footer p {
 
 @media (min-width: 500px) and (max-width: 550px) {
 
+    h1 {
+        font-size: 22px;
+    }
+    h2 {
+        font-size: 15px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    h4 {
+        font-size: 17px;
+    }
+    h5 {
+        font-size: 20px;
+    }
+    p {
+        font-size: 15px;
+    }
     #allTop {
         background-size: 166%;
     }
@@ -766,10 +720,6 @@ footer p {
     }
     #heroContent {
         width: 40%;
-    }
-    .Hero-Img {
-        margin-top: 5%;
-        width: 50%;
     }
     nav {
         margin-top: -50%;
@@ -799,29 +749,9 @@ footer p {
     #CT {
         margin-top: -5%;
     }
-    #CTA {
-        margin-top: 0%;
-        padding: 10px;
-        font-size: 17px;
-        width: 122px;
-    }
-    h1 {
-        font-size: 22px;
-    }
-    h2 {
-        font-size: 15px;
-    }
-    h3 {
-        font-size: 20px;
-    }
-    h4 {
-        font-size: 17px;
-    }
-    h5 {
-        font-size: 20px;
-    }
-    p {
-        font-size: 15px;
+    .Hero-Img {
+        margin-top: 5%;
+        width: 50%;
     }
     #brandingStatement {
         margin-top:  -110%;
@@ -858,6 +788,24 @@ footer p {
 
 @media (min-width: 550px) and (max-width: 800px) {
 
+    h1 {
+        font-size: 25px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    h3 {
+        font-size: 22px;
+    }
+    h4 {
+        font-size: 19px;
+    }
+    h5 {
+        font-size: 22px;
+    }
+    p {
+        font-size: 17px;
+    }
     #allTop{
         width: 101%;
         background-size: 105%;
@@ -871,10 +819,6 @@ footer p {
     }
     #heroContent h3 {
         font-size: 22px;
-    }
-    .Hero-Img {
-        width: 50%;
-        margin-top: 0%;
     }
     nav {
         margin-top: -20%;
@@ -907,23 +851,9 @@ footer p {
     .dropdown:hover #OP::before {
         height: 300%;
     }
-    h1 {
-        font-size: 25px;
-    }
-    h2 {
-        font-size: 20px;
-    }
-    h3 {
-        font-size: 22px;
-    }
-    h4 {
-        font-size: 19px;
-    }
-    h5 {
-        font-size: 22px;
-    }
-    p {
-        font-size: 17px;
+    .Hero-Img {
+        width: 50%;
+        margin-top: 0%;
     }
     #brandingStatement {
         margin-top:  -90%;
@@ -965,6 +895,9 @@ footer p {
 
 @media (min-width: 550px) and (max-width: 700px) {
 
+    h2 {
+        font-size: 17px;
+    }
     #allTop {
         background-size: 130%;
     }
@@ -973,9 +906,6 @@ footer p {
     }
     #heroContent {
         width: 50%;
-    }
-    h2 {
-        font-size: 17px;
     }
     #PT {
         font-size: 17px;
@@ -991,6 +921,12 @@ footer p {
 
 @media (min-width: 800px) and (max-width: 895px) {
 
+    h4 {
+        font-size: 20px;
+    }
+    p {
+        font-size: 18px;
+    }
     #allTop{
         width: 101%;
         background-size: 105%;
@@ -1007,10 +943,6 @@ footer p {
     }
     #heroContent h3 {
         font-size: 25px;
-    }
-    .Hero-Img {
-        width: 75%;
-        margin-top: -10%;
     }
     nav {
         margin-top: 50%;
@@ -1046,11 +978,9 @@ footer p {
     .dropdown:hover #OP::before {
         height: 300%;
     }
-    h4 {
-        font-size: 20px;
-    }
-    p {
-        font-size: 18px;
+    .Hero-Img {
+        width: 75%;
+        margin-top: -10%;
     }
     #brandingStatement {
         margin-top:  -70%;
@@ -1082,6 +1012,7 @@ footer p {
 }
 
 @media (width: 820px) {
+
     #allTop{
         background-size: 109%;
     }
@@ -1093,6 +1024,12 @@ footer p {
 
 @media (min-width: 895px) and (max-width: 1000px) {
 
+    h4 {
+        font-size: 20px;
+    }
+    p {
+        font-size: 18px;
+    }
     #allTop{
         background-size: 108%;
         width: 102%;
@@ -1110,10 +1047,6 @@ footer p {
     #heroContent h3 {
         font-size: 30px;
     }
-    .Hero-Img {
-        width: 75%;
-        margin-top: 5%;
-    }
     nav {
         margin-top: 0%;
         margin-left: 50%;
@@ -1121,11 +1054,9 @@ footer p {
     nav a {
         padding: 10px;
     }
-    h4 {
-        font-size: 20px;
-    }
-    p {
-        font-size: 18px;
+    .Hero-Img {
+        width: 75%;
+        margin-top: 5%;
     }
     #brandingStatement {
         margin-top:  -60%;
@@ -1157,6 +1088,7 @@ footer p {
 }
 
 @media (width: 912px) {
+
     #contactForm {
         height: 70%;
     }
@@ -1164,9 +1096,6 @@ footer p {
 
 @media (min-width: 1000px) and (max-width: 1025px) {
 
-    #heroContent h2 {
-        font-size: 22px;
-    }
     nav {
         margin-top: -50%;
         margin-left: 70%;
@@ -1177,20 +1106,24 @@ footer p {
     .heroNav {
         margin-top: -3%;
     }
+    #heroContent {
+        width: 50%;
+    }
+    #heroContent h2 {
+        font-size: 22px;
+    }
     .Hero-Img {
         width: 75%;
         margin-top: 25%;
     }
-    #heroContent {
-        width: 50%;
-    }
     .footerAbout {
-    width: 50%;
-    margin-left: 2%;
+        width: 50%;
+        margin-left: 2%;
     }
 }
 
 @media (width: 1024px) and (height: 1366px) {
+
     #brandingStatement {
         margin-top:  -50%;
     }

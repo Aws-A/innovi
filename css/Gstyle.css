@@ -384,6 +384,7 @@ footer p {
 }
 
 @media only screen and (max-width: 500px){
+
         #allTop{
             width: 1000px;
         }
@@ -400,6 +401,7 @@ footer p {
 }
 
 @media (min-width: 279px) and (max-width: 300px) {
+    
      h1 {
         font-size: 28px;
     }
@@ -456,21 +458,6 @@ footer p {
 }
 
 @media (min-width: 300px) and (max-width: 400px) {
-     #allTop {
-        background-size: 144%;
-    }
-    .Hero-Img {
-        margin-top: 90%;
-    }
-    .menu {
-        display: block;
-    }
-    .navigation {
-        display: none;
-    }
-    .navigation.active {
-        display: block;
-    }
 
     h1 {
         font-size: 28px;
@@ -480,6 +467,15 @@ footer p {
     }
     p {
         font-size: 17px;
+    }
+     #allTop {
+        background-size: 144%;
+    }
+    .navigation {
+        display: none;
+    }
+    .navigation.active {
+        display: block;
     }
     nav {
         margin-top: -100%;
@@ -498,15 +494,11 @@ footer p {
     #PT {
         margin-left: 55%;
     }
-
-    h1 {
-        font-size: 28px;
+    .menu {
+        display: block;
     }
-    h2 {
-        font-size: 20px;
-    }
-    p {
-        font-size: 17px;
+    .Hero-Img {
+        margin-top: 90%;
     }
     .ProtoGG {
         height: 120px;
@@ -671,6 +663,25 @@ footer p {
 
 @media (min-width: 500px) and (max-width: 550px) {
 
+    h1 {
+        font-size: 22px;
+    }
+    h2 {
+        font-size: 15px;
+    }
+    h3 {
+        white-space: nowrap;
+        font-size: 20px;
+    }
+    h4 {
+        font-size: 17px;
+    }
+    h5 {
+        font-size: 20px;
+    }
+    p {
+        font-size: 15px;
+    }
     #allTop {
         background-size: 144%;
     }
@@ -679,17 +690,6 @@ footer p {
     }
     header img {
         height: 100%;
-    }
-    .Hero-Img {
-        margin-top: 100%;
-    }
-    nav {
-        margin-top: -250%;
-        margin-left: 35%;
-    }
-    nav a {
-        padding: 7px;
-        font-size: 17px;
     }
     #heroContent {
        margin-top: -2%;
@@ -737,24 +737,8 @@ footer p {
     #CT {
         margin-top: -5%;
     }
-    h1 {
-        font-size: 22px;
-    }
-    h2 {
-        font-size: 15px;
-    }
-    h3 {
-        white-space: nowrap;
-        font-size: 20px;
-    }
-    h4 {
-        font-size: 17px;
-    }
-    h5 {
-        font-size: 20px;
-    }
-    p {
-        font-size: 15px;
+    .Hero-Img {
+        margin-top: 100%;
     }
     .ProtoGG {
         height: 100px;
@@ -802,6 +786,25 @@ footer p {
 
 @media (min-width: 550px) and (max-width: 800px) {
 
+    h1 {
+        font-size: 25px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    h3 {
+        white-space: nowrap;
+        font-size: 22px;
+    }
+    h4 {
+        font-size: 19px;
+    }
+    h5 {
+        font-size: 22px;
+    }
+    p {
+        font-size: 17px;
+    }
     #allTop{
         width: 102%;
         height: 500px;
@@ -850,25 +853,6 @@ footer p {
     .dropdown:hover #OP::before {
         height: 300%;
     }
-    h1 {
-        font-size: 25px;
-    }
-    h2 {
-        font-size: 20px;
-    }
-    h3 {
-        white-space: nowrap;
-        font-size: 22px;
-    }
-    h4 {
-        font-size: 19px;
-    }
-    h5 {
-        font-size: 22px;
-    }
-    p {
-        font-size: 17px;
-    }
     .ProtoGG {
         height: 100px;
         margin-top: 20%;
@@ -913,6 +897,9 @@ footer p {
 
 @media (min-width: 550px) and (max-width: 700px) {
 
+    h2 {
+        font-size: 17px;
+    }
     #allTop {
         height: 500px;
     }
@@ -921,9 +908,6 @@ footer p {
     }
     #heroContent {
         width: 120%;
-    }
-    h2 {
-        font-size: 17px;
     }
     nav {
         margin-top: -100%;
@@ -962,29 +946,27 @@ footer p {
 
 @media (min-width: 800px) and (max-width: 895px) {
 
-      #allTop{
-        width: 100%;
+    h3 {
+        white-space: nowrap;
+    }
+    h4 {
+        font-size: 20px;
+    }
+    p {
+        font-size: 18px;
+    }
+    #allTop{
+        width: 102%;
         height: 500px;
     }
     .logo img {
         height: 122%;
     }
     #heroContent {
-       margin-top: -2%;
+       margin-top: -1%;
        width: 100%;
     }
     #heroContent h2 {
-        margin-top: -4%;
-    }
-    #allTop{
-        width: 102%;
-    }
-    #heroContent {
-        width: 100%;
-        margin-top: -1%;
-    }
-    #heroContent h2 {
-        font-size: 20px;
         margin-top: -5%;
     }
     #heroContent h3 {
@@ -1039,15 +1021,6 @@ footer p {
         width: 44%;
         height: 100%;
     }
-    h3 {
-        white-space: nowrap;
-    }
-    h4 {
-        font-size: 20px;
-    }
-    p {
-        font-size: 18px;
-    }
     footer{
         width: 100%;
     }
@@ -1089,6 +1062,15 @@ footer p {
 
 @media (min-width: 895px) and (max-width: 1000px) {
 
+    h3 {
+        white-space: nowrap;
+    }
+    h4 {
+        font-size: 20px;
+    }
+    p {
+        font-size: 18px;
+    }
     #allTop{
         width: 102%;
     }
@@ -1109,15 +1091,6 @@ footer p {
     }
     nav a {
         padding: 10px;
-    }
-    h3 {
-        white-space: nowrap;
-    }
-    h4 {
-        font-size: 20px;
-    }
-    p {
-        font-size: 18px;
     }
     .ProtoGG {
         height: 222px;
@@ -1213,7 +1186,7 @@ footer p {
 
 @media (min-width: 1275px) and (max-width: 1285px) {
 
-      #heroContent {
+    #heroContent {
         width: 90%;
     }
     .ProtoGG {

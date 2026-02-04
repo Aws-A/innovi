@@ -455,12 +455,6 @@ footer p {
     .enVisionLogo {
         width: 33%;
     }
-    .envisionImg {
-        width: 140%;
-        height: 100%;
-        margin-top: -107%;
-        margin-left: -77%;
-    }
    .purposeV {
         width: 348%;
     }
@@ -486,22 +480,6 @@ footer p {
 
 @media (min-width: 300px) and (max-width: 400px) {
 
-    #allTop {
-        background-size: 144%;
-    }
-    .Hero-Img {
-        margin-top: 90%;
-    }
-    .menu {
-        display: block;
-    }
-    .navigation {
-        display: none;
-    }
-    .navigation.active {
-        display: block;
-    }
-
     h1 {
         font-size: 28px;
     }
@@ -511,9 +489,18 @@ footer p {
     p {
         font-size: 17px;
     }
+    #allTop {
+        background-size: 144%;
+    }
+    .navigation {
+        display: none;
+    }
+    .navigation.active {
+        display: block;
+    }
     nav {
-        margin-top: -100%;
-        margin-left: -25%;
+        margin-top: -10%;
+        margin-left: -40%;
         background-color: rgba(255, 255, 255, 0.33);
         border-radius: 10px;
         width: 175%;
@@ -528,6 +515,12 @@ footer p {
     #PT {
         margin-left: 55%;
     }
+    .menu {
+        display: block;
+    }
+    .Hero-Img {
+        margin-top: 90%;
+    }
     .envisionLogo {
         width: 66%;
         height: 10%;
@@ -536,12 +529,6 @@ footer p {
     }
     .threeS {
         margin-top: 0%;
-    }
-    .envisionImg {
-        margin-top: -33%;
-        margin-left: -44%;
-        width: 55%;
-        height: 77%;
     }
     .protoEN {
         margin-left: 5%;
@@ -554,32 +541,6 @@ footer p {
     .protoEN3 {
         margin-left: -5%;
         height: 250px;
-    }
-
-    h1 {
-        font-size: 28px;
-    }
-    h2 {
-        font-size: 20px;
-    }
-    p {
-        font-size: 17px;
-    }
-    nav {
-        margin-top: -10%;
-        margin-left: -40%;
-    }
-    .dropdown {
-        padding: 48px;
-    }
-    .protoEN {
-        height: 250px;
-    }
-    .envisionImg {
-        width: 100%;
-        height: 100%;
-        margin-top: -83%;
-        margin-left: -58%;
     }
     .purposeV {
         width: 268%;
@@ -628,6 +589,15 @@ footer p {
 
 @media (min-width: 400px) and (max-width: 500px) {
 
+    h1 {
+        font-size: 28px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    p {
+        font-size: 17px;
+    }
     #allTop {
         background-size: 144%;
     }
@@ -642,15 +612,6 @@ footer p {
     }
     .navigation.active {
         display: block;
-    }
-    h1 {
-        font-size: 28px;
-    }
-    h2 {
-        font-size: 20px;
-    }
-    p {
-        font-size: 17px;
     }
     nav {
         margin-top: -100%;
@@ -677,12 +638,6 @@ footer p {
     }
     .threeS {
         margin-top: -22%;
-    }
-    .envisionImg {
-        margin-top: -33%;
-        margin-left: -44%;
-        width: 55%;
-        height: 77%;
     }
     .protoEN {
         margin-left: 5%;
@@ -727,6 +682,25 @@ footer p {
 
 @media (min-width: 500px) and (max-width: 550px) {
 
+    h1 {
+        font-size: 25px;
+    }
+    h2 {
+        font-size: 17px;
+    }
+    h3 {
+        white-space: nowrap;
+        font-size: 22px;
+    }
+    h4 {
+        font-size: 19px;
+    }
+    h5 {
+        font-size: 22px;
+    }
+    p {
+        font-size: 17px;
+    }
     #allTop {
         background-size: 144%;
     }
@@ -735,9 +709,6 @@ footer p {
     }
     header img {
         height: 100%;
-    }
-    .Hero-Img {
-        margin-top: -55%;
     }
     nav {
         margin-top: -250%;
@@ -793,24 +764,8 @@ footer p {
     #CT {
         margin-top: -5%;
     }
-    h1 {
-        font-size: 25px;
-    }
-    h2 {
-        font-size: 17px;
-    }
-    h3 {
-        white-space: nowrap;
-        font-size: 22px;
-    }
-    h4 {
-        font-size: 19px;
-    }
-    h5 {
-        font-size: 22px;
-    }
-    p {
-        font-size: 17px;
+    .Hero-Img {
+        margin-top: -55%;
     }
     .introEN {
         margin-top: -100%;
@@ -827,12 +782,6 @@ footer p {
     }
     .card {
         width: 120px;
-    }
-    .envisionImg {
-        margin-top: -33%;
-        margin-left: -44%;
-        width: 44%;
-        height: 77%;
     }
     .protoEN {
         margin-left: 5%;
@@ -872,19 +821,31 @@ footer p {
 
 @media (min-width: 550px) and (max-width: 800px) {
 
+    h1 {
+        font-size: 25px;
+    }
+    h2 {
+        font-size: 17px;
+    }
+    h3 {
+        white-space: nowrap;
+        font-size: 22px;
+    }
+    h4 {
+        font-size: 19px;
+    }
+    h5 {
+        font-size: 22px;
+    }
+    p {
+        font-size: 17px;
+    }
     #allTop{
         width: 100%;
         height: 500px;
     }
     .logo img {
         height: 122%;
-    }
-    #heroContent {
-       margin-top: -2%;
-       width: 100%;
-    }
-    #heroContent h2 {
-        margin-top: -4%;
     }
     #allTop{
         width: 102%;
@@ -934,25 +895,6 @@ footer p {
     .dropdown:hover #OP::before {
         height: 300%;
     }
-    h1 {
-        font-size: 25px;
-    }
-    h2 {
-        font-size: 17px;
-    }
-    h3 {
-        white-space: nowrap;
-        font-size: 22px;
-    }
-    h4 {
-        font-size: 19px;
-    }
-    h5 {
-        font-size: 22px;
-    }
-    p {
-        font-size: 17px;
-    }
     .introEN {
         margin-left: 5%;
     }
@@ -967,12 +909,6 @@ footer p {
     }
     .card {
         width: 120px;
-    }
-    .envisionImg {
-        margin-top: -33%;
-        margin-left: -44%;
-        width: 44%;
-        height: 77%;
     }
     .protoEN {
         margin-left: -2%;
@@ -1042,6 +978,21 @@ footer p {
 
 @media (min-width: 800px) and (max-width: 895px) {
 
+    h1 {
+        font-size: 35px;
+    }
+    h2 {
+        font-size: 19px;
+    }
+    h3 {
+        font-size: 25px;
+    }
+    h4 {
+        font-size: 20px;
+    }
+    p {
+        font-size: 18px;
+    }
     #allTop{
         width: 102%;
     }
@@ -1066,11 +1017,6 @@ footer p {
     .protoEn {
         height: 333px;
     }
-    .envisionImg {
-        height: 66%;
-        margin-left: -10%;
-        margin-top: -25%;
-    }
     .purposeV {
         width: 91%;
     }
@@ -1088,27 +1034,6 @@ footer p {
     }
     .card {
         width: 120px;
-    }
-    .envisionImg {
-        margin-top: -41%;
-        margin-left: -44%;
-        width: 44%;
-        height: 100%;
-    }
-    h1 {
-        font-size: 35px;
-    }
-    h2 {
-        font-size: 19px;
-    }
-    h3 {
-        font-size: 25px;
-    }
-    h4 {
-        font-size: 20px;
-    }
-    p {
-        font-size: 18px;
     }
     .protoEN {
         margin-left: -2%;
@@ -1146,12 +1071,6 @@ footer p {
 }
 
 @media (min-width: 895px) and (max-width: 1000px) {
-    .envisionImg {
-        margin-top: -37%;
-    }
-}
-
-@media (min-width: 895px) and (max-width: 1000px) {
 
     #allTop{
         width: 102%;
@@ -1177,11 +1096,6 @@ footer p {
     .protoEn {
         height: 333px;
     }
-    .envisionImg {
-        height: 66%;
-        margin-left: -10%;
-        margin-top: -25%;
-    }
     .purposeV {
         width: 91%;
     }
@@ -1199,12 +1113,6 @@ footer p {
     }
     .card {
         width: 120px;
-    }
-    .envisionImg {
-        margin-top: -31%;
-        margin-left: -44%;
-        width: 44%;
-        height: 100%;
     }
     .protoEN {
         margin-left: -2%;
@@ -1251,9 +1159,6 @@ footer p {
 
 @media (min-width: 895px) and (max-width: 897px) {
 
-    .envisionImg {
-        margin-top: -32%;
-    }
     .threeS {
         margin-top: -23%;
     }
@@ -1279,11 +1184,6 @@ footer p {
     }
     .protoEn {
         height: 333px;
-    }
-    .envisionImg {
-        height: 66%;
-        margin-left: -10%;
-        margin-top: -25%;
     }
     .threeS {
         margin-top: -17%;
