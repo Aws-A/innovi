@@ -13,6 +13,48 @@ body a:click{
        color: black;
 }
 
+
+h1 {
+    font-family: Philosopher;
+    color: #FF8A66;
+    font-size: 50px;
+    font-weight: 300;
+
+}
+
+h2 {
+    font-family: Optima;
+    font-size: 28px;
+    font-weight: 300;
+}
+
+h3{
+    font-family: Philosopher;
+    font-size: 33px;
+    margin-top: 0px;
+    margin-bottom: 5%;
+    color: #3E3E3E;
+}
+
+h4 {
+    font-family: Philosopher;
+    color: #575757;
+    font-size: 22px;
+}
+
+h5{
+    font-family: Philosopher;
+    font-size: 25px;
+    margin-top: 0px;
+    margin-bottom: 5%;
+    color: #C0C0C0;
+}
+
+p {
+    font-family: optima;
+    font-size: 20px;
+}
+
 #allTop{
         background-image: url("../images/headerTrans.png");
         background-size: 101%;
@@ -23,6 +65,11 @@ body a:click{
 }
 
 
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
 .logo {
     width: 23%;
     height: 50px;
@@ -32,21 +79,17 @@ body a:click{
     margin-left: 0.5%;
 }
 
-.Hero-Img {
-    width: 40%;
-    margin-top: 44%;
-}
 
 .heroNav {
     position: relative;
     display: flex;
 }
 
-header {
-    display: flex;
-    justify-content: space-between;
+#heroContent {
+    width: 50%;
+    margin-top: 3%;
+    margin-left: 7%;
 }
-
 
 nav {
     display: grid;
@@ -123,13 +166,6 @@ a{
 
 .dropdown:hover {color: #FF8A66;}
 
-
-#heroContent {
-    width: 50%;
-    margin-top: 3%;
-    margin-left: 7%;
-}
-
 .navigation {
     display: flex;
     position: absolute;
@@ -168,46 +204,11 @@ a{
     margin-right: 1%;
 }
 
-h1 {
-    font-family: Philosopher;
-    color: #FF8A66;
-    font-size: 50px;
-    font-weight: 300;
-
+.Hero-Img {
+    width: 40%;
+    margin-top: 44%;
 }
 
-h2 {
-    font-family: Optima;
-    font-size: 28px;
-    font-weight: 300;
-}
-
-h3{
-    font-family: Philosopher;
-    font-size: 33px;
-    margin-top: 0px;
-    margin-bottom: 5%;
-    color: #3E3E3E;
-}
-
-h4 {
-    font-family: Philosopher;
-    color: #575757;
-    font-size: 22px;
-}
-
-h5{
-    font-family: Philosopher;
-    font-size: 25px;
-    margin-top: 0px;
-    margin-bottom: 5%;
-    color: #C0C0C0;
-}
-
-p {
-    font-family: optima;
-    font-size: 20px;
-}
 
 .protoGG {
       display: flex;
@@ -218,21 +219,6 @@ p {
 
 .gardengateLogo{
       width: 44%;
-}
-
-.gardengateImg {
-    height: 100%;
-    margin-top: -10%;
-    margin-left: 20%;
-}
-
-
-.card {   
-    display: flex;
-    width: 190px;
-    flex-direction: column;
-    text-align: center;
-    padding: 2%;
 }
 
 .purposeGG {
@@ -274,6 +260,17 @@ p {
     margin-left: 5%;
 }
 
+.content {
+    display: flex;
+    margin-left: 2%;
+    margin-left: 15%;
+}
+
+.content p {
+    width: 50%;
+    margin-left: -15%;
+}
+
 .gardengateProtos {
     margin-left: 10%;
     margin-top: -5%;
@@ -293,17 +290,6 @@ p {
     margin-top: -5%;
     margin-bottom: 15%;
     width: 17%;
-}
-
-.content {
-    display: flex;
-    margin-left: 2%;
-    margin-left: 15%;
-}
-
-.content p {
-    width: 50%;
-    margin-left: -15%;
 }
 
 .footerBlack {
