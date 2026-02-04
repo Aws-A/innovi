@@ -13,6 +13,47 @@ body a:click{
        color: black;
 }
 
+h1 {
+    font-family: Philosopher;
+    color: #FF8A66;
+    font-size: 50px;
+    font-weight: 300;
+    text-shadow: 1px 1px 5px #c1c1c1;
+}
+
+h2 {
+    font-family: Optima;
+    font-size: 28px;
+    font-weight: 300;
+}
+
+h3{
+    font-family: Philosopher;
+    font-size: 33px;
+    margin-top: 0px;
+    margin-bottom: 5%;
+    color: #3E3E3E;
+}
+
+h4 {
+    font-family: Philosopher;
+    color: #575757;
+    font-size: 22px;
+}
+
+h5{
+    font-family: Philosopher;
+    font-size: 25px;
+    margin-top: 0px;
+    margin-bottom: 5%;
+    color: #C0C0C0;
+}
+
+p {
+    font-family: optima;
+    font-size: 20px;
+}
+
 #allTop{
         background-image: url("../images/headerTrans.png");
         background-size: 101%;
@@ -20,6 +61,11 @@ body a:click{
         margin-top: -0.5%;
         margin-left: -1%;
         height: 1000px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
 }
 
 
@@ -32,71 +78,26 @@ body a:click{
     margin-left: 0.5%;
 }
 
-.menu {
-    display: none;
-    width: 7%;
-    margin-top: 1%;
-    margin-right: 1%;
-}
-
-.Hero-Img {
-    width: 75%;
-    margin-top: 10%;
-}
-
-#Empathy-Circle,
-#Analysis-Circle,
-#Research-Circle,
-#Ideation-Circle,
-#Build-Circle {
-  transform-box: fill-box;
-  transform-origin: center;
-  transform: scale(0.001); /* 👈 critical */
-  opacity: 0;
-}
-
-.observe-section.is-visible #Empathy-Circle {
-  animation: growFromCenter 1.6s cubic-bezier(0.22, 1, 0.36, 1) forwards;
-  animation-delay: 1s;
-}
-
-.observe-section.is-visible #Analysis-Circle {
-  animation: growFromCenter 1.6s cubic-bezier(0.22, 1, 0.36, 1) forwards;
-  animation-delay: 2s;
-}
-
-.observe-section.is-visible #Research-Circle {
-  animation: growFromCenter 1.6s cubic-bezier(0.22, 1, 0.36, 1) forwards;
-  animation-delay: 2s;
-}
-
-.observe-section.is-visible #Ideation-Circle {
-  animation: growFromCenter 1.6s cubic-bezier(0.22, 1, 0.36, 1) forwards;
-  animation-delay: 3s;
-}
-
-.observe-section.is-visible #Build-Circle {
-  animation: growFromCenter 1.6s cubic-bezier(0.22, 1, 0.36, 1) forwards;
-  animation-delay: 3s;
-}
-
-@keyframes growFromCenter {
-  to {
-    transform: scale(1);
-    opacity: 1;
-  }
-}
-
 .heroNav {
     position: relative;
     display: flex;
 }
 
-header {
-    display: flex;
-    justify-content: space-between;
+#heroContent {
+    width: 50%;
+    margin-top: 3%;
+    margin-left: 7%;
 }
 
+.navigation {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+}
 
 nav {
     display: grid;
@@ -172,22 +173,6 @@ a{
 
 .dropdown:hover {color: #FF8A66;}
 
-#heroContent {
-    width: 50%;
-    margin-top: 3%;
-    margin-left: 7%;
-}
-
-.navigation {
-    display: flex;
-    position: absolute;
-    top: 50%;
-    right: 10%;
-    transform: translateY(-50%);
-    display: flex;
-    align-items: center;
-}
-
 #OP {
   position: relative;
   padding-right: 8px;
@@ -210,6 +195,13 @@ a{
   height: 500%;
 }
 
+.menu {
+    display: none;
+    width: 7%;
+    margin-top: 1%;
+    margin-right: 1%;
+}
+
 #CTA {
     width: 200px;
     margin-top: 5%;
@@ -230,47 +222,53 @@ a{
     border-color: #FF8A66;
 }
 
-h1 {
-    font-family: Philosopher;
-    color: #FF8A66;
-    font-size: 50px;
-    font-weight: 300;
-    text-shadow: 1px 1px 5px #c1c1c1;
+.Hero-Img {
+    width: 75%;
+    margin-top: 10%;
 }
 
-h2 {
-    font-family: Optima;
-    font-size: 28px;
-    font-weight: 300;
+#Empathy-Circle,
+#Analysis-Circle,
+#Research-Circle,
+#Ideation-Circle,
+#Build-Circle {
+  transform-box: fill-box;
+  transform-origin: center;
+  transform: scale(0.001); /* 👈 critical */
+  opacity: 0;
 }
 
-h3{
-    font-family: Philosopher;
-    font-size: 33px;
-    margin-top: 0px;
-    margin-bottom: 5%;
-    color: #3E3E3E;
+.observe-section.is-visible #Empathy-Circle {
+  animation: growFromCenter 1.6s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+  animation-delay: 1s;
 }
 
-h4 {
-    font-family: Philosopher;
-    color: #575757;
-    font-size: 22px;
+.observe-section.is-visible #Analysis-Circle {
+  animation: growFromCenter 1.6s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+  animation-delay: 2s;
 }
 
-h5{
-    font-family: Philosopher;
-    font-size: 25px;
-    margin-top: 0px;
-    margin-bottom: 5%;
-    color: #C0C0C0;
+.observe-section.is-visible #Research-Circle {
+  animation: growFromCenter 1.6s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+  animation-delay: 2s;
 }
 
-p {
-    font-family: optima;
-    font-size: 20px;
+.observe-section.is-visible #Ideation-Circle {
+  animation: growFromCenter 1.6s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+  animation-delay: 3s;
 }
 
+.observe-section.is-visible #Build-Circle {
+  animation: growFromCenter 1.6s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+  animation-delay: 3s;
+}
+
+@keyframes growFromCenter {
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
 
 .About-Identity {
     background-image: url("../images/About-BG.png");
@@ -302,7 +300,6 @@ p {
   transform: scaleY(0);
   opacity: 0;
 }
-
 
 .observe-section.is-visible #purpose-text {
   transform-origin: center bottom;
@@ -422,6 +419,21 @@ p {
   }
 }
 
+#time-line {
+  stroke-dasharray: 1500;  /* total length of the line, can be estimated */
+  stroke-dashoffset: 1500; /* start fully hidden */
+  opacity: 1;              /* line is visible as it draws */
+}
+
+.observe-section.is-visible #time-line {
+  animation: drawTimeline 9s linear forwards;
+  animation-delay: 1s;
+}
+
+#timelineSec h3{
+    margin-left: 15%;
+}
+
 #Feb2022,
 #Oct2022,
 #Jan2023,
@@ -484,26 +496,10 @@ p {
   }
 }
 
-#time-line {
-  stroke-dasharray: 1500;  /* total length of the line, can be estimated */
-  stroke-dashoffset: 1500; /* start fully hidden */
-  opacity: 1;              /* line is visible as it draws */
-}
-
-.observe-section.is-visible #time-line {
-  animation: drawTimeline 9s linear forwards;
-  animation-delay: 1s;
-}
-
 @keyframes drawTimeline {
   to {
     stroke-dashoffset: 0;  /* fully drawn */
   }
-}
-
-
-#timelineSec h3{
-    margin-left: 15%;
 }
 
 #categoryGrid {
@@ -524,10 +520,6 @@ p {
 #timeline {
   grid-area: timeline;
   margin-left: 25%;
-}
-
-#timeline img{
-  width: 29%;
 }
 
 #con1{
@@ -560,7 +552,7 @@ p {
 
 #con6 {
   grid-area: con6;
-  margin-top: -1%;
+  margin-top: -6%;
   opacity: 0;
 }
 
