@@ -13,6 +13,46 @@ body a:click{
    color: black;
 }
 
+h1 {
+    font-family: Philosopher;
+    color: #FF8A66;
+    font-size: 50px;
+    font-weight: 300;
+}
+
+h2 {
+font-family: Optima;
+font-size: 28px;
+font-weight: 300;
+}
+
+h3{
+font-family: Philosopher;
+font-size: 33px;
+margin-top: 0px;
+margin-bottom: 5%;
+color: #3E3E3E;
+}
+
+h4 {
+font-family: Philosopher;
+color: #575757;
+font-size: 22px;
+}
+
+h5{
+font-family: Philosopher;
+font-size: 25px;
+margin-top: 0px;
+margin-bottom: 5%;
+color: #C0C0C0;
+}
+
+p {
+font-family: optima;
+font-size: 20px;
+}
+
 #allTop{
         background-image: url("../images/headerTrans.png");
         background-size: 101%;
@@ -22,6 +62,10 @@ body a:click{
         height: 1000px;
 }
 
+header {
+    display: flex;
+    justify-content: space-between;
+}
 
 .logo {
     width: 23%;
@@ -32,68 +76,16 @@ body a:click{
     margin-left: 0.5%;
 }
 
-.Hero-Img {
-    width: 25%;
-    margin-left: 3%;
-}
-
-#lines {
-  transform: translate(0px, -40px); /* start: top-right */
-  opacity: 0;
-}
-
-.observe-section.is-visible #lines {
-  animation: moveVertical 0.9s ease-out forwards;
-  animation-delay: 1s;
-}
-
-@keyframes moveVertical {
-  to {
-    transform: translate(0, 0); /* end: bottom-left (natural position) */
-    opacity: 1;
-  }
-}
-
-#mobile,
-#ipad,
-#watch {
-  transform: translate(0px, -40px); /* start: top-right */
-  opacity: 0;
-}
-
-.observe-section.is-visible #mobile {
-  animation: moveVertical 0.9s ease-out forwards;
-  animation-delay: 2s;
-}
-
-.observe-section.is-visible #ipad {
-  animation: moveVertical 0.9s ease-out forwards;
-  animation-delay: 2s;
-}
-
-.observe-section.is-visible #watch {
-  animation: moveVertical 0.9s ease-out forwards;
-  animation-delay: 2s;
-}
-
-@keyframes moveVertical {
-  to {
-    transform: translate(0, 0); /* end: bottom-left (natural position) */
-    opacity: 1;
-  }
-}
-
-
 .heroNav {
     position: relative;
     display: flex;
 }
 
-header {
-    display: flex;
-    justify-content: space-between;
+#heroContent {
+    width: 45%;
+    margin-top: 3%;
+    margin-left: 7%;
 }
-
 
 nav {
     display: grid;
@@ -170,12 +162,6 @@ a{
 
 .dropdown:hover {color: #FF8A66;}
 
-#heroContent {
-    width: 45%;
-    margin-top: 3%;
-    margin-left: 7%;
-}
-
 .navigation {
     display: flex;
     position: absolute;
@@ -208,24 +194,55 @@ a{
   height: 500%;
 }
 
-#CTA {
-    width: 200px;
-    margin-top: 5%;
-    padding: 17px;
-    font-size: 25px;
-    font-weight: 600;
-    color: #575757;
-    font-weight: 500px;
-    font-family: optima;
-    background-color: #FAFBFB;
-    border: #575757 solid 3px;
-    border-radius: 5px;
-    box-shadow:  2px 2px 5px #c1c1c1;;
+.Hero-Img {
+    width: 25%;
+    margin-left: 3%;
 }
 
-#CTA:hover {
-    color: #FF8A66;
-    border-color: #FF8A66;
+#lines {
+  transform: translate(0px, -40px); /* start: top-right */
+  opacity: 0;
+}
+
+.observe-section.is-visible #lines {
+  animation: moveVertical 0.9s ease-out forwards;
+  animation-delay: 1s;
+}
+
+@keyframes moveVertical {
+  to {
+    transform: translate(0, 0); /* end: bottom-left (natural position) */
+    opacity: 1;
+  }
+}
+
+#mobile,
+#ipad,
+#watch {
+  transform: translate(0px, -40px); /* start: top-right */
+  opacity: 0;
+}
+
+.observe-section.is-visible #mobile {
+  animation: moveVertical 0.9s ease-out forwards;
+  animation-delay: 2s;
+}
+
+.observe-section.is-visible #ipad {
+  animation: moveVertical 0.9s ease-out forwards;
+  animation-delay: 2s;
+}
+
+.observe-section.is-visible #watch {
+  animation: moveVertical 0.9s ease-out forwards;
+  animation-delay: 2s;
+}
+
+@keyframes moveVertical {
+  to {
+    transform: translate(0, 0); /* end: bottom-left (natural position) */
+    opacity: 1;
+  }
 }
 
 .menu {
@@ -235,48 +252,12 @@ a{
     margin-right: 1%;
 }
 
-h1 {
-    font-family: Philosopher;
-    color: #FF8A66;
-    font-size: 50px;
-    font-weight: 300;
-}
-
-h2 {
-font-family: Optima;
-font-size: 28px;
-font-weight: 300;
-}
-
-h3{
-font-family: Philosopher;
-font-size: 33px;
-margin-top: 0px;
-margin-bottom: 5%;
-color: #3E3E3E;
-}
-
-h4 {
-font-family: Philosopher;
-color: #575757;
-font-size: 22px;
-}
-
-h5{
-font-family: Philosopher;
-font-size: 25px;
-margin-top: 0px;
-margin-bottom: 5%;
-color: #C0C0C0;
-}
-
-p {
-font-family: optima;
-font-size: 20px;
-}
-
 .projectsLogo {
   width: 17%;
+}
+
+.content {
+    display: flex;
 }
 
 .Evento {
@@ -309,10 +290,6 @@ font-size: 20px;
   margin-left: 5%;
 }
 
-.content {
-    display: flex;
-}
-
 .MindQuota {
   display: flex;
   flex-direction: column; 
@@ -342,6 +319,12 @@ font-size: 20px;
   margin-bottom: 10%;
 }
 
+.contentSH {
+  justify-content: right;
+  margin-top: 2%;
+  margin-left: 50%;
+}
+
 .ShareAll p {
     width: 75%;
 }
@@ -355,14 +338,8 @@ font-size: 20px;
   margin-left: 7%;
 }
 
-
 .ViB {
     display: flex;
-}
-
-.ViB p {
-    width: 75%;
-    margin-left: 10%;
 }
 
 .contentViB {
@@ -370,16 +347,20 @@ font-size: 20px;
     flex-direction: column;
 }
 
+.ViB-logo {
+    margin-left: 9%;
+    width: 10%;
+}
+
+.ViB p {
+    width: 75%;
+    margin-left: 10%;
+}
+
 .ViBProto {
     width: 40%;
     margin-top: 2%;
     margin-left: 5%;
-}
-
-.contentSH {
-  justify-content: right;
-  margin-top: 2%;
-  margin-left: 50%;
 }
 
 
