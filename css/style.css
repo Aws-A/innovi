@@ -95,8 +95,8 @@ nav {
     white-space: nowrap;
     height: 5%;
     text-align: right;
-    margin-top: -100%;
     margin-left: 88%;
+    margin-top: -277%;
 }
 
 nav a {
@@ -523,7 +523,6 @@ footer p {
          font-family: Philosopher;
          font-size: 22px;
          padding: 30px 0px 0px 0px;
-         margin-right: -0.3%;
 }
 
 .copyright p{
@@ -533,9 +532,10 @@ footer p {
 @media only screen and (max-width: 500px){
         #allTop{
             width: 1000px;
+            margin-left: -3%;
         }
         footer{
-            width: 990px;
+            width: 996px;
         }
         .copyright{
             width: 1000px;
@@ -548,11 +548,15 @@ footer p {
 }
 
 @media (min-width: 279px) and (max-width: 300px) {
+
     h1 {
-        font-size: 28px;
+        font-size: 33px;
     }
     h2 {
         font-size: 20px;
+    }
+    h3 {
+        font-size: 28px;
     }
     p {
         font-size: 17px;
@@ -626,10 +630,13 @@ footer p {
 @media (min-width: 300px) and (max-width: 400px) {
 
     h1 {
-        font-size: 28px;
+        font-size: 33px;
     }
     h2 {
         font-size: 20px;
+    }
+    h3 {
+        font-size: 28px;
     }
     p {
         font-size: 17px;
@@ -819,16 +826,20 @@ footer p {
 @media (min-width: 400px) and (max-width: 500px) {
 
     h1 {
-        font-size: 28px;
+        font-size: 33px;
     }
     h2 {
         font-size: 20px;
+    }
+    h3 {
+        font-size: 28px;
     }
     p {
         font-size: 17px;
     }
     #allTop {
         background-size: 144%;
+        width: 1003px;
     }
     .navigation {
         display: none;
@@ -894,7 +905,7 @@ footer p {
         width: 33%;
     }
     .whyUs {
-        width: 242%;
+        width: 232%;
         margin-bottom: -37%;
     }
     .footerAbout {
@@ -987,7 +998,7 @@ footer p {
         font-size: 11px;
     }
     #HP {
-    margin-bottom: 20%;
+    margin-bottom: 30%;
     }
     #AU {
         margin-bottom: 0%;
@@ -1115,7 +1126,7 @@ footer p {
         font-size: 22px;
     }
     nav {
-        margin-top: -220%;
+        margin-top: -310%;
         margin-left: 55%;
     }
     nav a {
@@ -1126,7 +1137,7 @@ footer p {
         font-size: 15px;
     }
     #HP{
-    margin-bottom: 20%;
+    margin-bottom: 30%;
     }
     #AU {
         margin-bottom: 0%;
@@ -1214,7 +1225,7 @@ footer p {
         margin-bottom: -2%;
     }
     .copyright{
-        width: 100%;
+        width: 100.3%;
     }
 }
 
@@ -1273,8 +1284,8 @@ footer p {
     p {
         font-size: 18px;
     }
-       nav {
-        margin-top: -190%;
+    nav {
+        margin-top: -340%;
         margin-left: 55%;
     }
     nav a {
@@ -1285,7 +1296,7 @@ footer p {
         font-size: 15px;
     }
     #HP{
-    margin-bottom: 20%;
+    margin-bottom: 30%;
     }
     #AU {
         margin-bottom: 0%;
@@ -1326,6 +1337,7 @@ footer p {
     }
     .Hero-Img {
         margin-top: -20%;
+        margin-left: -10%;
     }
     #HeroHome-Image {
         width: 80%;
@@ -1355,6 +1367,12 @@ footer p {
     .gardengatePr {
         height: 50%;
     }
+    .gardengate::before {
+        width: 108%;
+    }
+    .otherProjects::before {
+        width: 108%;
+    }
     .projectsPr {
         height: 50%;
     }
@@ -1380,7 +1398,7 @@ footer p {
         margin-bottom: -2%;
     }
     .copyright{
-        width: 100%;
+        width: 100.3%;
     }
 }
 
@@ -1484,7 +1502,7 @@ footer p {
         margin-bottom: -2%;
     }
     .copyright{
-        width: 100%;
+        width: 100.3%;
     }
 }
 
@@ -1492,7 +1510,7 @@ footer p {
 @media (min-width: 1000px) and (max-width: 1025px) {
 
     nav {
-        margin-top: -150%;
+        margin-top: -200%;
         margin-left: 70%;
     }
     nav a {
@@ -1553,7 +1571,7 @@ footer p {
 @media (min-width: 1100px) and (max-width: 1200px) {
 
     nav {
-        margin-top: -150%;
+        margin-top: -250%;
         margin-left: 70%;
     }
     nav a {
@@ -1583,16 +1601,10 @@ footer p {
     }
 }
 
-@media (width: 1280px) and (height: 853px) {
-    .heroNav {
-        margin-top: -3%;
-    }
-}
-
 @media (min-width: 1275px) and (max-width: 1285px) {
 
     nav {
-        margin-top: -150%;
+        margin-top: -280%;
     }
     #identity {
         margin-top: -33%;
@@ -1609,6 +1621,15 @@ footer p {
     .footerAbout {
         width: 50%;
         margin-left: 2%;
+    }
+}
+
+@media (width: 1280px) and (height: 853px) {
+    .heroNav {
+        margin-top: -3%;
+    }
+    nav {
+        margin-top: -230%;
     }
 }
 

@@ -39,6 +39,7 @@ h4 {
     font-family: Philosopher;
     color: #575757;
     font-size: 22px;
+    margin-bottom: 0%;
 }
 
 h5{
@@ -106,6 +107,7 @@ nav {
     height: 5%;
     text-align: right;
     margin-left: 88%;
+    margin-top: -120%;
 }
 
 nav a {
@@ -273,7 +275,7 @@ a{
 .About-Identity {
     background-image: url("../images/About-BG.png");
     background-size: cover;
-    height: 100%;
+    height: 117%;
     margin-top: -25%;
     position: relative;
     z-index: -1;
@@ -284,6 +286,8 @@ a{
 
 .About-Identity  h3{
     margin-left: 15%;
+    margin-top: 10%;
+    margin-bottom: 15%;
 }
 
 #aboutIdentity-Image {
@@ -503,9 +507,9 @@ a{
 }
 
 #categoryGrid {
-  margin: 10% 5%;
+  margin: 2% 5%;
   display: grid;
-  grid-template-rows: 222px 222px 222px 222px 222px;
+  grid-template-rows: 190px 220px 222px 222px 250px 180px 222px;
   grid-template-columns: 0.5fr 0.5fr;
   grid-template-areas:
   "timeline con1"
@@ -690,7 +694,7 @@ a{
     text-align: center;
     padding-top: 10%;
     padding-bottom: 20%;
-    margin-bottom: -10%;
+    margin-bottom: -12%;
 }
 
 .serviceBlocks {
@@ -826,7 +830,11 @@ footer p {
 @media only screen and (max-width: 500px){
 
         #allTop{
-            width: 1000px;
+            width: 260%;
+            margin-left: -4%;
+        }
+        .logo {
+            margin-left: 1%;
         }
         footer{
             width: 990px;
@@ -901,9 +909,9 @@ footer p {
         font-size: 17px;
     }
     nav {
-        margin-top: -100%;
+        margin-top: 40%;
         margin-left: -25%;
-        background-color: rgba(255, 255, 255, 0.33);
+        background-color: rgba(255, 255, 255, 0.77);
         border-radius: 10px;
         width: 175%;
         box-shadow: 0 4px 50px rgba(255, 138, 102, 0.2);
@@ -922,19 +930,12 @@ footer p {
         height: 100%;
         width: 255%;
     }
-
-    .About-Identity h3 {
-        margin-top: 7%;
-    }
-    #aboutIdentity-Image {
-        margin-top: 0%;
-    }
     #timeline img {
         width: 33%;
     }
     #categoryGrid {
         margin: 5% -100% 5% 5%;
-        grid-template-rows: 211px 195px 195px 190px 222px;
+        grid-template-rows: 200px 222px 211px 222px 233px 190px 200px;
     }
     #designProcessSec {
         margin-left: 22%;
@@ -958,20 +959,14 @@ footer p {
 
 @media (min-width: 340px) and (max-width: 350px) {
 
+    #allTop{
+        width: 292%;
+        margin-left: -4%;
+    }
     .About-Identity {
         margin-top: -103%;
-        height: 133%;
+        height: 100%;
         width: 288%;
-    }
-
-    .About-Identity h3 {
-        margin-top: 7%;
-    }
-    #aboutIdentity-Image {
-        margin-top: 0%;
-    }
-    #categoryGrid {
-        grid-template-rows: 222px 200px 200px 200px 222px;
     }
     .serviceSec {
         width: 288%;
@@ -984,20 +979,13 @@ footer p {
 
 @media (min-width: 359px) and (max-width: 361px) {
 
+    #allTop {
+        width: 282%;
+    }
     .About-Identity {
         margin-top: -98%;
-        height: 133%;
+        height: 122%;
         width: 277%;
-    }
-
-    .About-Identity h3 {
-        margin-top: 7%;
-    }
-    #aboutIdentity-Image {
-        margin-top: 0%;
-    }
-    #categoryGrid {
-        grid-template-rows: 222px 200px 200px 200px 222px;
     }
     .serviceSec {
         width: 277%;
@@ -1007,20 +995,13 @@ footer p {
 
 @media (min-width: 374px) and (max-width: 376px) {
 
+    #allTop {
+        width: 270%;
+    }
     .About-Identity {
         margin-top: -95%;
         height: 133%;
         width: 266%;
-    }
-
-    .About-Identity h3 {
-        margin-top: 7%;
-    }
-    #aboutIdentity-Image {
-        margin-top: 0%;
-    }
-    #categoryGrid {
-        grid-template-rows: 222px 200px 200px 200px 222px;
     }
     .serviceSec {
         width: 266%;
@@ -1028,17 +1009,11 @@ footer p {
     }
 }
 
-@media (min-width: 389px) and (max-width: 391px) {
-
-        #categoryGrid {
-        grid-template-rows: 233px 211px 211px 200px 222px;
-    }
-}
-
 @media (min-width: 400px) and (max-width: 500px) {
 
    #allTop {
         background-size: 144%;
+        width: 247%;
     }
     .menu {
         display: block;
@@ -1060,7 +1035,7 @@ footer p {
         font-size: 17px;
     }
     nav {
-        margin-top: -100%;
+        margin-top: 30%;
         margin-left: -25%;
         background-color: rgba(255, 255, 255, 0.33);
         border-radius: 10px;
@@ -1081,19 +1056,12 @@ footer p {
         height: 100%;
         width: 242%;
     }
-
-    .About-Identity h3 {
-        margin-top: 7%;
-    }
-    #aboutIdentity-Image {
-        margin-top: 0%;
-    }
     #timeline img {
         width: 30%;
     }
     #categoryGrid {
         margin: 5% -100% 5% 5%;
-        grid-template-rows: 222px 200px 200px 200px 222px;
+        grid-template-rows: 200px 222px 211px 222px 233px 190px 200px;
     }
     #designProcessSec {
         width: 222%;
@@ -1113,33 +1081,30 @@ footer p {
 
 @media (min-width: 429px) and (max-width: 431px) {
 
-     .About-Identity {
+    #allTop {
+        width: 237%;
+    }
+    .About-Identity {
         margin-top: -82%;
         height: 100%;
         width: 232%;
-    }
-
-    .About-Identity h3 {
-        margin-top: 7%;
-    }
-    #aboutIdentity-Image {
-        margin-top: 5%;
-    }
-    #categoryGrid {
-        grid-template-rows: 233px 211px 211px 207px 222px;
     }
 }
 
 @media (min-width: 500px) and (max-width: 550px) {
 
-     #allTop {
+    #allTop {
         background-size: 155%;
+        margin-left: -2%;
     }
     #allTop a{
         font-size: 17px;
     }
     header img {
         height: 100%;
+    }
+    .logo {
+        margin-left: 2%;
     }
     #heroContent {
         width: 40%;
@@ -1150,7 +1115,7 @@ footer p {
         width: 50%;
     }
     nav {
-        margin-top: -250%;
+        margin-top: -130%;
         margin-left: 35%;
     }
     nav a {
@@ -1164,7 +1129,7 @@ footer p {
         font-size: 11px;
     }
     #HP {
-    margin-bottom: 20%;
+    margin-bottom: 30%;
     }
     #AU {
         margin-bottom: 0%;
@@ -1178,8 +1143,8 @@ footer p {
         margin-top: -5%;
     }
     .About-Identity {
-        margin-top: -114%;
-        height: 50%;
+        margin-top: -115%;
+        height: 60%;
     }
     h1 {
         font-size: 22px;
@@ -1205,9 +1170,6 @@ footer p {
     #categoryGrid {
         margin: 5% 5%;
         grid-template-rows: 200px 210px 220px 220px 220px;
-    }
-    #categoryGrid h4 {
-        margin-bottom: -2%;
     }
     .serviceSec {
         margin-bottom: -30%;
@@ -1239,8 +1201,12 @@ footer p {
 @media (min-width: 550px) and (max-width: 800px) {
 
     #allTop{
-        width: 101%;
+        width: 102%;
         background-size: 120%;
+        margin-left: -2%;
+    }
+    .logo {
+        margin-left: 1%;
     }
     header img {
         height: 111%;
@@ -1252,11 +1218,8 @@ footer p {
     #heroContent h3 {
         font-size: 22px;
     }
-    .Hero-Img {
-        margin-top: -33%;
-    }
     nav {
-        margin-top: -50%;
+        margin-top: -170%;
         margin-left: 55%;
     }
     nav a {
@@ -1267,7 +1230,7 @@ footer p {
         font-size: 15px;
     }
     #HP{
-    margin-bottom: 20%;
+    margin-bottom: 30%;
     }
     #AU {
         margin-bottom: 0%;
@@ -1280,8 +1243,9 @@ footer p {
     #CT {
         margin-top: -5%;
     }
-    #HeroHome-Image {
-        width: 80%;
+    .Hero-Img {
+        margin-top: -15%;
+        width: 55%;
     }
     #OP::before {
         top: -35;
@@ -1294,7 +1258,7 @@ footer p {
     }
     .About-Identity {
         margin-top: -78%;
-        height: 50%;
+        height: 155%;
     }
     h1 {
         font-size: 25px;
@@ -1317,10 +1281,7 @@ footer p {
     }
     #categoryGrid {
         margin: 5% 5%;
-        grid-template-rows: 200px 210px 220px 220px 220px;
-    }
-    #categoryGrid h4 {
-        margin-bottom: -2%;
+        grid-template-rows: 200px 210px 220px 220px 220px 220px 220px;
     }
     #con1 {
         margin-top: -2%;
@@ -1357,13 +1318,21 @@ footer p {
 @media (min-width: 719px) and (max-width: 721px) {
       .About-Identity {
         margin-top: -85%;
-        height: 75%;
-    }
-    
+        height: 100%;
+    }  
+}
+
+@media (min-width: 765px) and (max-width: 770px) {
+      .About-Identity {
+        height: 60%;
+    }  
 }
 
 @media (min-width: 550px) and (max-width: 700px) {
 
+    h2 {
+        font-size: 17px;
+    }
     #allTop {
         background-size: 122%;
     }
@@ -1373,18 +1342,15 @@ footer p {
     #heroContent {
         width: 50%;
     }
-    h2 {
-        font-size: 17px;
-    }
     #PT {
         font-size: 17px;
     }
     .About-Identity {
         margin-top: -95%;
-        height: 130%;
+        height: 135%;
     }
-    #categoryGrid h4 {
-        margin-bottom: -2%;
+    #timeline {
+        margin-left: 15%;
     }
     #con1 {
         margin-top: -3%;
@@ -1400,6 +1366,15 @@ footer p {
 
 @media (min-width: 800px) and (max-width: 895px) {
 
+    h3 {
+        white-space: nowrap;
+    }
+    h4 {
+        font-size: 20px;
+    }
+    p {
+        font-size: 18px;
+    }
     #allTop{
         width: 101%;
     }
@@ -1416,11 +1391,8 @@ footer p {
     #heroContent h3 {
         font-size: 25px;
     }
-    .Hero-Img {
-        margin-top: -20%;
-    }
     nav {
-        margin-top: -50%;
+        margin-top: -177%;
         margin-left: 55%;
     }
     nav a {
@@ -1431,7 +1403,7 @@ footer p {
         font-size: 15px;
     }
     #HP{
-    margin-bottom: 20%;
+    margin-bottom: 30%;
     }
     #AU {
         margin-bottom: 0%;
@@ -1444,8 +1416,9 @@ footer p {
     #CT {
         margin-top: -5%;
     }
-    #HeroHome-Image {
-        width: 80%;
+    .Hero-Img {
+        margin-top: 0%;
+        width: 55%;
     }
     #OP::before {
         top: -35;
@@ -1453,25 +1426,17 @@ footer p {
     .dropdown:hover #OP::before {
         height: 300%;
     }
-    h3 {
-        white-space: nowrap;
-    }
-    h4 {
-        font-size: 20px;
-    }
-    p {
-        font-size: 18px;
-    }
     .About-Identity {
         margin-top: -70%;
-        height: 130%;
+        height: 200%;
+    }
+    .About-Identity h3 {
+        margin-top: 10%;
+        margin-bottom: 15%;
     }
     #categoryGrid {
         margin: 5% 5%;
-        grid-template-rows: 200px 210px 220px 220px 220px;
-    }
-    #categoryGrid h4 {
-        margin-bottom: -2%;
+        grid-template-rows: 200px 210px 220px 220px 240px 190px 220px;
     }
     #con1 {
         margin-top: -1%;
@@ -1502,12 +1467,38 @@ footer p {
     }
 }
 
-@media (min-width: 818px) and (max-width: 855px)  {
+@media (min-width: 818px) and (max-width: 840px)  {
     #allTop {
         background-size: 120%;
     }
      .About-Identity {
-        height: 50%;
+        height: 60%;
+    }
+ }
+
+ @media (min-width: 840px) and (max-width: 850px)  {
+    #allTop {
+        background-size: 120%;
+    }
+     .About-Identity {
+        height: 175%;
+    }
+    .About-Identity h3 {
+        margin-top: 10%;
+        margin-bottom: 15%;
+    }
+ }
+
+  @media (min-width: 850px) and (max-width: 855px)  {
+    #allTop {
+        background-size: 120%;
+    }
+     .About-Identity {
+        height: 60%;
+    }
+    .About-Identity h3 {
+        margin-top: 10%;
+        margin-bottom: 15%;
     }
  }
 
@@ -1521,7 +1512,7 @@ footer p {
     }
     #allTop{
         background-size: 133%;
-        width: 102%;
+        width: 101%;
     }
     #heroContent {
         width: 55%;
@@ -1536,8 +1527,8 @@ footer p {
     #heroContent h3 {
         font-size: 28px;
     }
-     nav {
-        margin-top: -30%;
+    nav {
+        margin-top: -98%;
         margin-left: 60%;
     }
     nav a {
@@ -1554,21 +1545,22 @@ footer p {
         height: 300%;
     }
     .Hero-Img {
-        margin-top: -20%;
+        width: 55%;
+        margin-top: 0%;
     }
     .About-Identity {
-        margin-top: -48%;
-        height: 110%;
+        margin-top: -50%;
+        height: 175%;
     }
     #categoryGrid {
         margin: 5% 5%;
-        grid-template-rows: 200px 210px 220px 220px 220px;
-    }
-    #categoryGrid h4 {
-        margin-bottom: -2%;
+        grid-template-rows: 200px 210px 220px 220px 240px 190px 220px;
     }
     #con1 {
         margin-top: -1%;
+    }
+    .serviceSec {
+        margin-bottom: -20%;
     }
     footer{
         width: 100%;
@@ -1589,37 +1581,22 @@ footer p {
         margin-bottom: -2%;
     }
     .copyright{
-        width: 100%;
+        width: 100.3%;
     }
 }
 
 @media (width: 896px) {
      .About-Identity {
         margin-top: -51%;
-        height: 110%;
+        height: 175%;
     }
  }
 
 @media (width: 912px) {
      .About-Identity {
         margin-top: -50%;
-        height: 45%;
+        height: 55%;
     }
- }
-
-@media (min-width: 895px) and (max-width: 897px) {
-
-    #categoryGrid {
-        grid-template-rows: 140px 135px 135px 135px 140px;
-    }
-
-}
-
-@media (min-width: 930px) and (max-width: 933px) {
-    #categoryGrid {
-        grid-template-rows: 140px 140px 140px 140px 140px;
-    }
-
 }
 
 @media (min-width: 1000px) and (max-width: 1025px) {
@@ -1628,7 +1605,7 @@ footer p {
         background-size: 120%;
     }
     nav {
-        margin-top: -50%;
+        margin-top: -90%;
         margin-left: 70%;
     }
     nav a {
@@ -1648,32 +1625,33 @@ footer p {
         font-size: 30px;
     }
     .Hero-Img {
-        margin-top: -20%;
+        margin-top: 0%;
+        width: 60%;
     }
     #categoryGrid {
         margin: 5% 5%;
-        grid-template-rows: 200px 210px 220px 220px 220px;
-    }
-    #categoryGrid h4 {
-        margin-bottom: -2%;
+        grid-template-rows: 200px 210px 220px 220px 240px 190px 220px;
     }
     .About-Identity {
         margin-top: -45%;
-        height: 50%;
+        height: 60%;
     }
-    #con1 {
-        margin-top: -1%;
+    .serviceSec {
+        margin-bottom: -17%;
     }
     .footerAbout {
     width: 50%;
     margin-left: 2%;
+    }
+    #con1 {
+        margin-top: -1%;
     }
 }
 
 @media (width: 1024px) and (height: 600px) {
 
     .About-Identity {
-        height: 100%;
+        height: 130%;
     }
 }
 
@@ -1681,6 +1659,7 @@ footer p {
     
     .About-Identity {
         margin-top: -45%;
+        height: 100%;
     }
 }
 
@@ -1703,14 +1682,17 @@ footer p {
         width: 60%;
     }
     .Hero-Img {
-        width: 50%;
-        margin-left: 0%;
+        margin-top: 40%;
+        margin-left: -10%;
     }
     .About-Identity {
         margin-top: -31%;
     }
     #categoryGrid {
-        grid-template-rows: 190px 175px 175px 175px 222px;
+        grid-template-rows: 200px 220px 210px 220px 250px 180px 220px;
+    }
+    .serviceSec {
+        margin-bottom: -15%;
     }
     .footerAbout {
         margin-left: 0%;
@@ -1723,8 +1705,17 @@ footer p {
     #allTop {
         background-size: 120%;
     }
+    nav {
+        margin-top: -120%;
+    }
+    .Hero-Img {
+        width: 65%;
+    }
     #categoryGrid {
-        grid-template-rows: 206px 190px 190px 190px 222px;
+        grid-template-rows: 206px 210px 220px 240px 222px;
+    }
+    .serviceSec {
+        margin-bottom: -15%;
     }
     #contact {
         margin-top: -5%;
