@@ -478,7 +478,7 @@ footer p {
         display: block;
     }
     nav {
-        margin-top: -100%;
+        margin-top: -180%;
         margin-left: -25%;
         background-color: rgba(255, 255, 255, 0.33);
         border-radius: 10px;
@@ -518,7 +518,7 @@ footer p {
         height: 260%;
     }
     .purposeGG {
-        width: 268%;
+        width: 280%;
     }
     .divPM{
         width: 268%;
@@ -599,7 +599,7 @@ footer p {
         font-size: 17px;
     }
     nav {
-        margin-top: -100%;
+        margin-top: -180%;
         margin-left: -25%;
         background-color: rgba(255, 255, 255, 0.33);
         border-radius: 10px;
@@ -696,15 +696,8 @@ footer p {
        width: 100%;
     }
     #heroContent h2 {
-        margin-top: -4%;
-    }
-    #heroContent {
-        width: 100%;
-        margin-top: -1%;
-    }
-    #heroContent h2 {
-        font-size: 20px;
-        margin-top: -5%;
+        margin-top: -2%;
+        font-size: 17px;
     }
     #heroContent h3 {
         margin-top: -5%;
@@ -818,20 +811,21 @@ footer p {
     }
     #heroContent h2 {
         margin-top: -4%;
+        font-size: 17px;
     }
     nav {
-        margin-top: -120%;
+        margin-top: -150%;
         margin-left: 55%;
     }
     nav a {
         padding: 7px;
         font-size: 17px;
     }
-  .dropdown-content a {
+   .dropdown-content a {
         font-size: 15px;
     }
     #HP{
-    margin-bottom: 30%;
+        margin-bottom: 30%;
     }
     #AU {
         margin-bottom: 0%;
@@ -956,8 +950,8 @@ footer p {
         font-size: 18px;
     }
     #allTop{
-        width: 102%;
-        height: 500px;
+        width: 101%;
+        margin-bottom: -50%;
     }
     .logo img {
         height: 122%;
@@ -966,14 +960,18 @@ footer p {
        margin-top: -1%;
        width: 100%;
     }
+    #heroContent h1 {
+        font-size: 35px;
+    }
     #heroContent h2 {
-        margin-top: -5%;
+        margin-top: -2%;
+        font-size: 20px;
     }
     #heroContent h3 {
-        margin-top: -5%;
+        font-size: 25px;
      }
     nav {
-        margin-top: -220%;
+        margin-top: -180%;
         margin-left: 55%;
     }
     nav a {
@@ -1005,6 +1003,9 @@ footer p {
     }
     .dropdown:hover #OP::before {
         height: 300%;
+    }
+    .Hero-Img {
+        margin-top: 70%;
     }
     .ProtoGG {
         height: 222px;
@@ -1040,15 +1041,30 @@ footer p {
         margin-bottom: -2%;
     }
     .copyright{
-        width: 100%;
+        width: 100.3%;
+    }
+}
+
+@media (min-width: 818px) and (max-width: 822px) {
+    nav {
+        margin-top: -230%;
     }
 }
 
 @media (min-width: 840px) and (max-width: 845px) {
+    nav {
+        margin-top: -230%;
+    }
     .gardengateImg {
         width: 22%;
         height: 150%;
         margin-left: -33%;
+    }
+}
+
+@media (min-width: 850px) and (max-width: 855px) {
+    nav {
+        margin-top: -230%;
     }
 }
 
@@ -1072,7 +1088,7 @@ footer p {
         font-size: 18px;
     }
     #allTop{
-        width: 102%;
+        width: 101%;
     }
     #heroContent {
         width: 100%;
@@ -1086,11 +1102,16 @@ footer p {
         margin-top: 100%;
     }
     nav {
-        margin-top: -170%;
+        margin-top: -250%;
         margin-left: 70%;
     }
     nav a {
         padding: 10px;
+    }
+    #PT {
+        font-size: 17px;
+        margin-left: 5%;
+        margin-bottom: 0%;
     }
     .ProtoGG {
         height: 222px;
@@ -1126,7 +1147,7 @@ footer p {
         margin-bottom: -2%;
     }
     .copyright{
-        width: 100%;
+        width: 100.3%;
     }
 }
 
@@ -1139,7 +1160,7 @@ footer p {
         font-size: 22px;
     }
     nav {
-        margin-top: -150%;
+        margin-top: -220%;
         margin-left: 70%;
     }
     nav a {
@@ -1167,8 +1188,11 @@ footer p {
 
 @media (min-width: 1100px) and (max-width: 1200px) {
 
+    #heroContent {
+        margin-top: -1%;
+    }
     nav {
-        margin-top: -150%;
+        margin-top: -260%;
         margin-left: 70%;
     }
     nav a {
@@ -1188,6 +1212,12 @@ footer p {
 
     #heroContent {
         width: 90%;
+    }
+    .Hero-Img {
+        margin-top: 100%;
+    }
+    nav {
+        margin-top: -255%;
     }
     .ProtoGG {
         height: 400px;

@@ -491,6 +491,8 @@ footer p {
     }
     #allTop {
         background-size: 144%;
+        width: 1003px;
+        margin-left: -3%;
     }
     .navigation {
         display: none;
@@ -499,9 +501,9 @@ footer p {
         display: block;
     }
     nav {
-        margin-top: -10%;
+        margin-top: -90%;
         margin-left: -40%;
-        background-color: rgba(255, 255, 255, 0.33);
+        background-color: rgba(255, 255, 255, 0.77);
         border-radius: 10px;
         width: 175%;
         box-shadow: 0 4px 50px rgba(255, 138, 102, 0.2);
@@ -600,12 +602,11 @@ footer p {
     }
     #allTop {
         background-size: 144%;
+        width: 1004px;
+        margin-left: -4%;
     }
-    .Hero-Img {
-        margin-top: 90%;
-    }
-    .menu {
-        display: block;
+    .logo {
+        margin-left: 2%;
     }
     .navigation {
         display: none;
@@ -616,7 +617,7 @@ footer p {
     nav {
         margin-top: -100%;
         margin-left: -25%;
-        background-color: rgba(255, 255, 255, 0.33);
+        background-color: rgba(255, 255, 255, 0.77);
         border-radius: 10px;
         width: 175%;
         box-shadow: 0 4px 50px rgba(255, 138, 102, 0.2);
@@ -629,6 +630,12 @@ footer p {
     }
     #PT {
         margin-left: 55%;
+    }
+    .Hero-Img {
+        margin-top: 90%;
+    }
+    .menu {
+        display: block;
     }
     .envisionLogo {
         width: 33%;
@@ -720,24 +727,17 @@ footer p {
     }
     #heroContent {
        margin-top: -2%;
-       width: 100%;
+       width: 150%;
     }
     #heroContent h2 {
         margin-top: -4%;
-    }
-    #heroContent {
-        width: 100%;
-        margin-top: -1%;
-    }
-    #heroContent h2 {
-        font-size: 20px;
-        margin-top: -5%;
+        font-size: 17px;
     }
     #heroContent h3 {
         margin-top: -5%;
      }
     nav {
-        margin-top: -250%;
+        margin-top: -160%;
         margin-left: 35%;
     }
     nav a {
@@ -765,7 +765,7 @@ footer p {
         margin-top: -5%;
     }
     .Hero-Img {
-        margin-top: -55%;
+        margin-top: 90%;
     }
     .introEN {
         margin-top: -100%;
@@ -851,18 +851,18 @@ footer p {
         width: 102%;
     }
     #heroContent {
-        width: 100%;
+        width: 150%;
         margin-top: -1%;
     }
     #heroContent h2 {
-        font-size: 20px;
-        margin-top: -5%;
+        font-size: 17px;
+        margin-top: -3%;
     }
     #heroContent h3 {
         margin-top: -5%;
      }
     nav {
-        margin-top: -220%;
+        margin-top: -155%;
         margin-left: 55%;
     }
     nav a {
@@ -960,6 +960,9 @@ footer p {
  }
 
 @media (min-width: 730px) and (max-width: 750px) {
+    nav {
+        margin-top: -177%;
+    }
     .envisionLogo {
         width: 33%;
         height: 17%;
@@ -1013,6 +1016,10 @@ footer p {
     }
     nav a {
         padding: 10px;
+    }
+    #PT {
+        margin-bottom: 0%;
+        margin-left: 5%;
     }
     .protoEn {
         height: 333px;
@@ -1087,11 +1094,14 @@ footer p {
         margin-top: -5%;
      }
     nav {
-        margin-top: -170%;
+        margin-top: -177%;
         margin-left: 70%;
     }
     nav a {
         padding: 10px;
+    }
+    #PT {
+        margin-bottom: 0%;
     }
     .protoEn {
         height: 333px;
@@ -1176,7 +1186,7 @@ footer p {
         font-size: 22px;
     }
     nav {
-        margin-top: -150%;
+        margin-top: -200%;
         margin-left: 70%;
     }
     nav a {
@@ -1228,7 +1238,7 @@ footer p {
         margin-top: -1%;
     }
     nav {
-        margin-top: -150%;
+        margin-top: -230%;
         margin-left: 70%;
     }
     nav a {
@@ -1266,6 +1276,9 @@ footer p {
 
     #heroContent {
         width: 90%;
+    }
+    nav {
+        margin-top: -250%;
     }
     .introEN {
         margin-left: 5%;
