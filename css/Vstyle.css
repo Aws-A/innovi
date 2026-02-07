@@ -912,15 +912,15 @@ footer p {
     }
     .protoEN {
         margin-left: -2%;
-        height: 222px;
+        height: 255px;
     }
     .protoEN2 {
-        margin-left: 0%;
-        height: 200px;
+        margin-left: 2%;
+        height: 175px;
     }
     .protoEN3 {
-        margin-left: -7%;
-        height: 222px;
+        margin-left: 0%;
+        height: 175px;
     }
     footer{
         width: 100%;
@@ -976,6 +976,9 @@ footer p {
         height: 17%;
         margin-top: 0%;
     }
+    .copyright{
+        width: 100.3%;
+    }
 }
 
 
@@ -998,6 +1001,7 @@ footer p {
     }
     #allTop{
         width: 102%;
+        background-size: 120%;
     }
     #heroContent {
         width: 100%;
@@ -1155,7 +1159,7 @@ footer p {
         margin-bottom: -2%;
     }
     .copyright{
-        width: 100%;
+        width: 100.3%;
     }
 }
 

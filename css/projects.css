@@ -254,7 +254,6 @@ a{
 
 .projectsLogo {
   width: 12%;
-  margin-left: 10%;
 }
 
 .content {
@@ -349,7 +348,7 @@ a{
 }
 
 .ViB-logo {
-    margin-left: 9%;
+    margin-left: 10%;
     width: 10%;
 }
 
@@ -604,7 +603,7 @@ footer p {
 } 
 
 @media (min-width: 389px) and (max-width: 391px) {
-  .sec {
+   .sec {
     width: 257%;
   }
 }
@@ -710,7 +709,7 @@ footer p {
     }
     #allTop {
         background-size: 144%;
-        width: 105%;
+        width: 106%;
     }
     #allTop a{
         font-size: 17px;

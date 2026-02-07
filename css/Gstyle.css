@@ -470,6 +470,8 @@ footer p {
     }
      #allTop {
         background-size: 144%;
+        width: 260%;
+        margin-left: -3%;
     }
     .navigation {
         display: none;
@@ -518,7 +520,7 @@ footer p {
         height: 260%;
     }
     .purposeGG {
-        width: 280%;
+        width: 270%;
     }
     .divPM{
         width: 268%;
@@ -538,6 +540,10 @@ footer p {
 }
 
 @media (min-width: 374px) and (max-width: 376px) {
+
+    #allTop {
+        width: 266%;
+    }
     .gardengateImg {
         margin-top: -80%;
         height: 240%;
@@ -550,6 +556,9 @@ footer p {
     }
     .secFF {
         width: 257%;
+    }
+    .contact {
+        width: 266%;
     }
 } 
 
@@ -703,7 +712,7 @@ footer p {
         margin-top: -5%;
      }
     nav {
-        margin-top: -100%;
+        margin-top: -220%;
         margin-left: 35%;
     }
     nav a {
