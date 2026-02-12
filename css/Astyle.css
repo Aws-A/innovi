@@ -275,8 +275,8 @@ a{
 .About-Identity {
     background-image: url("../images/About-BG.png");
     background-size: cover;
-    height: 117%;
-    margin-top: -25%;
+    height: 125%;
+    margin-top: -26%;
     position: relative;
     z-index: -1;
     padding-top: 10%;
